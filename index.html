@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>NIU PLAY</title>
+    <style>
+        /* ESTO ES EL DISEÑO (CSS) - LA ROPA DE LA APP */
+        body { background-color: #141414; color: white; font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1 { text-align: center; color: #E50914; }
+        .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .tarjeta { width: 200px; cursor: pointer; transition: transform 0.3s; }
+        .tarjeta:hover { transform: scale(1.05); }
+        .tarjeta img { width: 100%; border-radius: 5px; }
+        .titulo { margin-top: 10px; font-size: 14px; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <h1>MI NETFLIX</h1>
+    <div class="galeria" id="contenedor-peliculas">
+        </div>
+
+    <script>
+        // ESTO ES EL CEREBRO (JAVASCRIPT)
+        // 1. Buscamos la caja donde poner las pelis
+        const contenedor = document.getElementById('contenedor-peliculas');
+
+        // 2. Leemos el archivo "peliculas.json"
+        fetch('peliculas.json')
+            .then(respuesta => respuesta.json())
+            .then(datos => {
+                // 3. Por cada película en la lista, creamos un dibujo
+                datos.forEach(peli => {
+                    const elemento = document.createElement('div');
+                    elemento.className = 'tarjeta';
+                    // Al hacer click, nos lleva al reproductor con la dirección del video
+                    elemento.onclick = () => {
+                        window.location.href = `reproductor.html?video=${encodeURIComponent(peli.url)}`;
+                    };
+                    elemento.innerHTML = `
+                        <img src="${peli.foto}" alt="${peli.titulo}">
+                        <div class="titulo">${peli.titulo}</div>
+                    `;
+                    contenedor.appendChild(elemento);
+                });
+            })
+            .catch(error => alert("Error: No pude leer el archivo peliculas.json. Si estás en tu PC, esto es normal. Sube los archivos a GitHub."));
+    </script>
+</body>
+</html>
