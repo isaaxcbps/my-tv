@@ -47,9 +47,20 @@
   {
     "titulo": "HISTORIAS DE ULTRATUMBA 24 HORAS",
     "foto": "https://images.vix.com/prd/videos/video:mcp:3973231/ebb6ad20a08a2ba7834aad823d8dc862",
-    "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/5f4d3696d938c900072679fd/3321280/playlist.m3u8?sid=d70fbd95-005a-11f1-bbb2-36491f12bc38&deviceId=e1040ab0-41fd-43bf-8339-6ce4286da3d6&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6Ijc5NmE5ZWYxLTM2ZjctNGIzZC1hZjI5LWQ0MmU4NTRhNmFmYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkNzBmYmQ5NS0wMDVhLTExZjEtYmJiMi0zNjQ5MWYxMmJjMzgiLCJjbGllbnRJUCI6IjE3OS40OS41MS4yNiIsImNpdHkiOiJCZWxpc2FyaW8gUXVldmVkbyIsInBvc3RhbENvZGUiOiIxNzA1MjEiLCJjb3VudHJ5IjoiRUMiLCJkbWEiOjAsImFjdGl2ZVJlZ2lvbiI6IlZFIiwiZGV2aWNlTGF0IjotMC4xODk5OTk5OTc2MTU4MTQyLCJkZXZpY2VMb24iOi03OC41MTAwMDIxMzYyMzA0NywicHJlZmVycmVkTGFuZ3VhZ2UiOiJlcyIsImRldmljZVR5cGUiOiJ3ZWIiLCJkZXZpY2VWZXJzaW9uIjoiMTQ0LjAuMCIsImRldmljZU1ha2UiOiJjaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiOS4xOS4wLTdhNmMxMTU2MzFkOTQ1YzRmNzMyN2RlM2UwM2I3YzQ3NGI2OTI2NTciLCJjbGllbnRJRCI6ImUxMDQwYWIwLTQxZmQtNDNiZi04MzM5LTZjZTQyODZkYTNkNiIsImNtQXVkaWVuY2VJRCI6IiIsImlzQ2xpZW50RE5UIjpmYWxzZSwidXNlcklEIjoiIiwibG9nTGV2ZWwiOiJERUZBVUxUIiwidGltZVpvbmUiOiJBbWVyaWNhL0d1YXlhcXVpbCIsInNlcnZlclNpZGVBZHMiOmZhbHNlLCJlMmVCZWFjb25zIjpmYWxzZSwiZmVhdHVyZXMiOnsibXVsdGlQb2RBZHMiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVySGxzTmdWb2QiOnsiZW5hYmxlZCI6dHJ1ZX19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6ImUxMDQwYWIwLTQxZmQtNDNiZi04MzM5LTZjZTQyODZkYTNkNiIsImZ3VmNJRDJDb3BwYSI6ImUxMDQwYWIwLTQxZmQtNDNiZi04MzM5LTZjZTQyODZkYTNkNiIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiZTEwNDBhYjAtNDFmZC00M2JmLTgzMzktNmNlNDI4NmRhM2Q2IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAxNCwxMDAxNiwxMDAxNSwxMDAyMCwxMDAyMSwxMDAwMCwxMDAwOSwxMDAxMyJ9fSwiZHJtIjp7Im5hbWUiOiJ3aWRldmluZSIsImxldmVsIjoiTDMifSwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOlZFOlpURXdOREJoWWpBdE5ERm1aQzAwTTJKbUxUZ3pNemt0Tm1ObE5ESTRObVJoTTJRMiIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3NzAxMzg5NTgsImlhdCI6MTc3MDA1MjU1OCwianRpIjoiZDY5MTVjMTctZDE3OC00NmEzLWE0M2YtNTJiMjdjZmEwODRiIn0.Vsp3Kyc-KC_GjOin6yfgw-ZCmNxjU-wXemYxEw666Z0"
+    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3696d938c900072679fd/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId="
+  },
+  {
+    "titulo": "WALKING DEAD 24 HORAS",
+    "foto": "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e82bb378601b80007b4bd78/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "titulo": "RITMO TV TOP LATINO",
+    "foto": "https://co.radio.net/s/toplatino",
+    "url": "https://5ff3d9babae13.streamlock.net/vzzfdajnnf/vzzfdajnnf/playlist.m3u8?PlaylistM3UCL"
   }
 ]
+
 
 
 
