@@ -59,7 +59,70 @@
     "categoria": "PELICULA",
     "foto": "https://filmartgallery.com/cdn/shop/products/Rocky-4-Vintage-Movie-Poster-Original.jpg?v=1738910399",
     "url": "https://vimeos.zip/hls2/03/00000/waeuxp5x2bqo_h/index-v1-a1.m3u8?t=_zDvI9fg5_nB6eF9WCAQ2NpqOZcBsPBg7a9eA80Gd0M&s=1770154150&e=43200&v=107225511&srv=s10&i=0.0&sp=0&r=e"
+  },
+  {
+    "titulo": "HOUSE MUSIC RADIO",
+    "categoria": "RADIO",
+    "foto": "https://static.wikia.nocookie.net/electropedia/images/0/0c/A2c316fc98634d68817848788a40ad2b.jpg/revision/latest?cb=20170525224550&path-prefix=es",
+    "url": "https://stream-156.zeno.fm/ubrbwq17qy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1YnJid3ExN3F5OHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ii0weDlQMTNMVEdhRGZpa0M3eW9KQXciLCJpYXQiOjE3NzAxNTgyNzIsImV4cCI6MTc3MDE1ODMzMn0._a0ptT50R9feYgmvLSlImWGb417l5BVSK20XEmC0O2U"
+
+  },
+  {
+    "titulo": "HOUSE NATION UK",
+    "categoria": "RADIO",
+    "foto": "https://cdn-images.dzcdn.net/images/cover/9e540e305e3f2cd5531a7a19d5d5faed/0x1900-000000-80-0-0.jpg",
+    "url": "https://streaming.radio.co/s06bd9d805/listen"
+
+  },
+  {
+    "titulo": "CLASSIC ROCK",
+    "categoria": "RADIO",
+    "foto": "https://i.scdn.co/image/ab67616d0000b2734afbf8212ec943855d0e8a55",
+    "url": "https://streaming.shoutcast.com/classic-rock-vibes-aac"
+
+  },
+  {
+    "titulo": "ROCK",
+    "categoria": "RADIO",
+    "foto": "https://cdn-p.smehost.net/sites/5b3bac59eb36401694af3a241173447f/wp-content/uploads/2018/07/ab67706c0000da84a39f683673254a00fe491e47-2.jpg",
+    "url": "https://hdradioclassicrock-rfritschka.radioca.st/;"
+
+  },
+  {
+    "titulo": "IROCK",
+    "categoria": "RADIO",
+    "foto": "https://static.mytuner.mobi/media/tvos_radios/ftnjunvfujey.jpg",
+    "url": "https://streamer.radio.co/s493283a7e/listen"
+
+  },
+  {
+    "titulo": "SOFT ROCK",
+    "categoria": "RADIO",
+    "foto": "https://i.scdn.co/image/ab67616d00001e020ad310285839d6137e96a0b1",
+    "url": "https://gold.streamguys1.com/softrock.mp3"
+
+  },
+  {
+    "titulo": "SALSA RADIO",
+    "categoria": "RADIO",
+    "foto": "https://static.mytuner.mobi/media/tvos_radios/411/clasik.8455ddd4.png",
+    "url": "https://stream-155.zeno.fm/bmqfbhqt8mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJibXFmYmhxdDhtcnV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkV2WFdIMWNfVDY2NTVuaXBlY3NBZnciLCJpYXQiOjE3NzAxNTkwODAsImV4cCI6MTc3MDE1OTE0MH0.4zE6aXcuMgGWW02QjWxRmjJZ7WgHAfSP5I_XbqMfEUc"
+
+  },
+  {
+    "titulo": "RADIO MERENGUE",
+    "categoria": "RADIO",
+    "foto": "https://play-lh.googleusercontent.com/xBcmRyObzfjdc10oVYLXnR4XslnGGY56x5OW72OlTf47RYWiLVe5lUrl1rQWE6JnT9OF=w240-h480-rw",
+    "url": "https://stream-160.zeno.fm/twem5wa0k0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0d2VtNXdhMGswaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkZPUWxpaTRaVDhxSm5tOHJERFJNdUEiLCJpYXQiOjE3NzAxNTkxODYsImV4cCI6MTc3MDE1OTI0Nn0.2-b4Ci6G38916uiAMYS1MHypGsDOrq-_1LSRcjxx9-0"
+
+  },
+  {
+    "titulo": "BALADAS",
+    "categoria": "RADIO",
+    "foto": "https://www.radio.es/300/retrobaladas.png?version=ca26d13e2509a3f2e31b5086365b91c499c5557f",
+    "url": "https://stream-154.zeno.fm/5115vsdnnnruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1MTE1dnNkbm5ucnV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImtDZ1pJdERKUjdXbEdnYlp5V2FQYUEiLCJpYXQiOjE3NzAxNTkzNTgsImV4cCI6MTc3MDE1OTQxOH0.1874X_DZQLLZr6SBg2d2f_SM3gMB55kHKHFG0llIAwo"
   }
 ]
+
 
 
