@@ -8,28 +8,42 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     
     <style>
-        body { margin: 0; background-color: black; display: flex; flex-direction: column; height: 100vh; overflow: hidden; color: white; font-family: sans-serif; }
+        body { margin: 0; background-color: black; display: flex; flex-direction: column; height: 100vh; overflow: hidden; color: white; font-family: 'Poppins', sans-serif; }
         
         .volver {
             position: absolute; top: 20px; left: 20px; z-index: 100;
-            background: rgba(0,0,0,0.5); color: white; text-decoration: none;
-            padding: 8px 12px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.3);
-            font-weight: bold; font-size: 14px;
+            background: rgba(0,0,0,0.6); color: white; text-decoration: none;
+            padding: 10px 15px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.3);
+            font-weight: bold; font-size: 14px; backdrop-filter: blur(5px);
         }
 
         #video-container {
             width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-            flex-direction: column;
+            position: relative;
         }
 
         video { width: 100%; height: 100%; max-height: 100vh; }
 
-        /* Mensaje de error para el celular */
-        #debug-console {
-            display: none; position: absolute; bottom: 50px; 
-            background: rgba(200,0,0,0.8); padding: 10px; border-radius: 5px;
-            max-width: 80%; text-align: center;
+        /* PANTALLA DE ERROR / RESCATE */
+        #error-screen {
+            display: none; /* Oculto por defecto */
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.9);
+            flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; z-index: 50; padding: 20px; box-sizing: border-box;
         }
+
+        .btn-rescate {
+            background-color: #ff5722; color: white; border: none;
+            padding: 15px 30px; font-size: 18px; border-radius: 50px;
+            margin-top: 20px; cursor: pointer; font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
+            text-decoration: none; display: inline-block;
+        }
+        .btn-rescate:active { transform: scale(0.95); }
+        
+        h2 { color: #ff5722; margin-bottom: 10px; }
+        p { color: #ccc; max-width: 400px; line-height: 1.5; }
     </style>
 </head>
 <body>
@@ -38,7 +52,12 @@
 
     <div id="video-container">
         <video id="video" controls autoplay playsinline></video>
-        <div id="debug-console"></div>
+        
+        <div id="error-screen">
+            <h2>⚠ No compatible con Web</h2>
+            <p>El reproductor de tu celular no soporta el formato de este canal. Intenta abrirlo externamente:</p>
+            <a id="btn-vlc" href="#" class="btn-rescate">▶ Abrir en VLC / Reproductor Externo</a>
+        </div>
     </div>
 
     <script>
@@ -46,58 +65,60 @@
         const videoUrl = decodeURIComponent(params.get('video'));
         const titulo = decodeURIComponent(params.get('titulo') || '');
         const video = document.getElementById('video');
-        const debugBox = document.getElementById('debug-console');
+        const errorScreen = document.getElementById('error-screen');
+        const btnVlc = document.getElementById('btn-vlc');
 
-        if (!videoUrl) {
-            window.location.href = "index.html";
+        if (!videoUrl) window.location.href = "index.html";
+
+        // Preparamos el botón de rescate con el link VLC
+        // "vlc://" intenta abrir la app VLC directamente.
+        // Si no, enviamos el link crudo para que el celular pregunte.
+        btnVlc.href = videoUrl; 
+
+        function activarModoRescate() {
+            console.log("Activando modo rescate...");
+            video.style.display = 'none'; // Ocultar video roto
+            errorScreen.style.display = 'flex'; // Mostrar pantalla de ayuda
         }
 
         // --- LÓGICA DE REPRODUCCIÓN ---
 
-        // 1. IPHONE / SAFARI (Nativo)
+        // 1. MÓVIL (IPHONE / ANDROID NATIVO)
         if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            console.log("Modo: Nativo (iPhone/Safari)");
             video.src = videoUrl;
             
-            // ESCUCHAMOS ERRORES NATIVOS
+            // Si el celular dice "ERROR", activamos el botón de rescate
             video.onerror = function() {
-                let err = video.error;
-                let mensaje = "Error desconocido";
-                
-                if (err.code === 3) mensaje = "ERROR DE DECODIFICACIÓN (3): El formato de este video es incompatible con iPhone.";
-                if (err.code === 4) mensaje = "ERROR DE SOPORTE (4): El iPhone no soporta este tipo de archivo.";
-                if (err.code === 2) mensaje = "ERROR DE RED (2): El servidor rechazó la conexión (posible bloqueo).";
-
-                mostrarError(mensaje);
+                activarModoRescate();
             };
 
             video.play().catch(e => {
-                video.muted = true; // Intentar silenciado si falla
-                video.play();
+                video.muted = true; 
+                video.play().catch(e => {
+                    // Si ni siquiera en silencio arranca, mostramos rescate
+                    // activarModoRescate(); 
+                });
             });
         }
-        // 2. PC / ANDROID (HLS.js)
+        // 2. PC (HLS.JS)
         else if (Hls.isSupported()) {
-            console.log("Modo: HLS.js (PC/Android)");
             const hls = new Hls();
             hls.loadSource(videoUrl);
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function() {
                 video.play();
             });
+            // Si falla en PC también
             hls.on(Hls.Events.ERROR, function (event, data) {
                 if(data.fatal) {
-                    mostrarError("Error HLS.js: " + data.type);
+                    activarModoRescate();
                 }
             });
         }
         else {
+            // Fallback final
             video.src = videoUrl;
-        }
-
-        function mostrarError(txt) {
-            debugBox.style.display = 'block';
-            debugBox.innerHTML = `<strong>⚠️ NO SE PUEDE VER EN MÓVIL:</strong><br>${txt}<br><br><small>Prueba buscar otro enlace para esta película.</small>`;
+            video.onerror = function() { activarModoRescate(); };
         }
 
         if(titulo) document.title = "Viendo: " + titulo;
