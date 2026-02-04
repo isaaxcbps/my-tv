@@ -201,9 +201,16 @@
     "categoria": "PELICULA",
     "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
     "url":"https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=QF_rboS6iuFzuMOJeD0-cay_lpCUkWb5Gkq_MNr8Hyk&s=1770168451&e=43200&v=107446634&i=0.3&sp=0&fr=j87ydqxaoe0u&r=e"
+  },
+  {
+    "titulo": "A&E",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
+    "url": "http://181.13.252.102:8000/play/a05i"
   }
   
 ]
+
 
 
 
