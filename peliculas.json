@@ -202,9 +202,28 @@
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
     "url": "http://181.13.252.102:8000/play/a05i"
+  },
+  {
+    "titulo": "CINECANAL",
+    "categoria": "TV",
+    "foto": "https://w7.pngwing.com/pngs/1018/63/png-transparent-cinecanal-hd-logo.png",
+    "url": "http://corgol.com@181.114.57.246:4000/play/AS2ESM6kwGDqHCaX"
+  },
+  {
+    "titulo": "HBO POP",
+    "categoria": "TV",
+    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/117?mode=0"
+  },
+  {
+    "titulo": "HBO +",
+    "categoria": "TV",
+    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
+    "url": "http://corgol.com@45.228.234.30:16000/play/a00a"
   }
   
 ]
+
 
 
 
