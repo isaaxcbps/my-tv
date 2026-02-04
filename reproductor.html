@@ -24,30 +24,37 @@
 
         video { width: 100%; height: 100%; max-height: 100vh; }
 
-        /* PANTALLA DE ERROR / RESCATE */
+        /* PANTALLA DE RESCATE MEJORADA */
         #error-screen {
             display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.9);
+            background: rgba(0,0,0,0.95);
             flex-direction: column; justify-content: center; align-items: center;
             text-align: center; z-index: 50; padding: 20px; box-sizing: border-box;
         }
 
+        h2 { color: #ff5722; margin-bottom: 5px; }
+        p { color: #ccc; max-width: 500px; line-height: 1.5; font-size: 15px; margin-bottom: 20px; }
+
+        /* Estilos de botones */
+        .btn-container { display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 300px; }
+
         .btn-rescate {
             background-color: #ff5722; color: white; border: none;
-            padding: 15px 30px; font-size: 16px; border-radius: 50px;
-            margin-top: 15px; cursor: pointer; font-weight: bold;
+            padding: 15px; font-size: 16px; border-radius: 50px;
+            cursor: pointer; font-weight: bold; text-decoration: none;
+            display: block; width: 100%; box-sizing: border-box;
             box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
-            text-decoration: none; display: inline-block;
-        }
-        
-        .btn-copiar {
-            background-color: transparent; border: 1px solid #777; color: #ccc;
-            padding: 10px 20px; border-radius: 50px; margin-top: 10px;
-            font-size: 14px; cursor: pointer;
         }
 
-        h2 { color: #ff5722; margin-bottom: 10px; }
-        p { color: #ccc; max-width: 400px; line-height: 1.5; font-size: 14px; }
+        .btn-copiar {
+            background-color: #333; border: 1px solid #555; color: white;
+            padding: 15px; border-radius: 50px; font-size: 16px; 
+            cursor: pointer; display: block; width: 100%; box-sizing: border-box;
+        }
+        .btn-copiar:active { background-color: #444; }
+
+        .nota-pc { font-size: 12px; color: #777; margin-top: 10px; }
+        .mensaje-exito { color: #4caf50; font-size: 14px; margin-top: 5px; display: none; font-weight: bold;}
     </style>
 </head>
 <body>
@@ -58,13 +65,17 @@
         <video id="video" controls autoplay playsinline></video>
         
         <div id="error-screen">
-            <h2>⚠ Reproductor Externo</h2>
-            <p>Este canal requiere la app <b>VLC</b> o similar para verse.</p>
+            <h2>⚠ No carga en la Web</h2>
+            <p>Este canal tarda demasiado o no es compatible con el navegador. Usa una opción externa:</p>
             
-            <a id="btn-vlc" href="#" class="btn-rescate">▶ Abrir en VLC / App</a>
+            <div class="btn-container">
+                <a id="btn-vlc" href="#" class="btn-rescate">📱 Abrir en VLC / Celular</a>
+                
+                <button class="btn-copiar" onclick="copiarLink()">💻 Copiar Link (Para PC)</button>
+            </div>
             
-            <button id="btn-copy" class="btn-copiar" onclick="copiarLink()">📋 Copiar Link</button>
-            <p id="msg-copiado" style="display:none; color:#4caf50; font-size:12px; margin-top:5px;">¡Copiado! Pégalo en VLC (Red)</p>
+            <div id="msg-copiado" class="mensaje-exito">¡Copiado! Abre VLC > Medio > Red y pega.</div>
+            <p class="nota-pc">Nota: En PC, Windows no suele abrir la app automáticamente. Es mejor copiar el link.</p>
         </div>
     </div>
 
@@ -78,16 +89,14 @@
 
         if (!videoUrl) window.location.href = "index.html";
 
-        // --- LÓGICA DEL BOTÓN DE RESCATE ---
-        // Agregamos "vlc://" al principio para forzar al celular a buscar la App
+        // Configurar botón móvil (vlc://)
         if (videoUrl.startsWith('http')) {
-             // Si el link es http://ejemplo.com/video, el botón será vlc://http://ejemplo.com/video
             btnVlc.href = 'vlc://' + videoUrl;
         } else {
             btnVlc.href = videoUrl;
         }
 
-        // Función para copiar link (Útil en PC si no abre solo)
+        // Función para PC
         function copiarLink() {
             navigator.clipboard.writeText(videoUrl).then(() => {
                 document.getElementById('msg-copiado').style.display = 'block';
@@ -95,17 +104,33 @@
         }
 
         function activarModoRescate() {
+            console.log("Activando modo rescate por error o timeout...");
             video.style.display = 'none';
             errorScreen.style.display = 'flex';
         }
 
-        // --- REPRODUCCIÓN ---
+        // --- TEMPORIZADOR DE PACIENCIA ---
+        // Si en 10 segundos el video no avanza, mostramos la ayuda.
+        const timeoutPaciencia = setTimeout(() => {
+            if (video.currentTime < 0.1) {
+                activarModoRescate();
+            }
+        }, 10000); // 10000 ms = 10 segundos
+
+        // Si el video arranca, cancelamos el temporizador
+        video.onplaying = () => {
+            clearTimeout(timeoutPaciencia);
+        };
+
+        // --- LÓGICA DE REPRODUCCIÓN ---
         if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            // MÓVIL (IPHONE)
             video.src = videoUrl;
-            video.onerror = function() { activarModoRescate(); };
-            video.play().catch(e => { video.muted = true; video.play().catch(e=>{}); });
+            video.onerror = activarModoRescate;
+            video.play().catch(e => { video.muted = true; video.play(); });
         }
         else if (Hls.isSupported()) {
+            // PC / ANDROID
             const hls = new Hls();
             hls.loadSource(videoUrl);
             hls.attachMedia(video);
@@ -116,7 +141,7 @@
         }
         else {
             video.src = videoUrl;
-            video.onerror = function() { activarModoRescate(); };
+            video.onerror = activarModoRescate;
         }
 
         if(titulo) document.title = "Viendo: " + titulo;
