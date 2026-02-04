@@ -7,7 +7,7 @@
   },
   
   {
-    "titulo": "BANFIELD VS ESTUDIANTES RC",
+    "titulo": "ESPN PREMIUM",
     "categoria": "TV",
     "foto": "https://www.365scores.com/es/news/wp-content/uploads/2026/02/photo_4904518641475324873_y-1024x576.jpg",
     "url": "https://anvtcax.fubohd.com/tntsports/mono.m3u8?token=e2617a076f8724bb4ba0fdf176db42a41b68adec-f9-1770174616-1770156616"
@@ -121,8 +121,100 @@
     "categoria": "RADIO",
     "foto": "https://www.radio.es/300/retrobaladas.png?version=ca26d13e2509a3f2e31b5086365b91c499c5557f",
     "url": "https://stream-154.zeno.fm/5115vsdnnnruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1MTE1dnNkbm5ucnV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImtDZ1pJdERKUjdXbEdnYlp5V2FQYUEiLCJpYXQiOjE3NzAxNTkzNTgsImV4cCI6MTc3MDE1OTQxOH0.1874X_DZQLLZr6SBg2d2f_SM3gMB55kHKHFG0llIAwo"
+  },
+  {
+    "titulo": "CARACOL TV",
+    "categoria": "TV",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/CaracolTV2025.png",
+    "url": "https://hls.mywebtv.cloud/hls/c1270126/index.m3u8?token=_oc5kpmLBRuPfNdWN7WOHw&expires=1770174278"
+  },
+  {
+    "titulo": "CINE PREMIERE",
+    "categoria": "TV",
+    "foto": "https://pbs.twimg.com/profile_images/1427018894909362180/QlqAjj7P_400x400.jpg",
+    "url": "https://corgol.com@is.gd/HK5HeB?.m3u8"
+  },
+  {
+    "titulo": "CANELA CINEMA ",
+    "categoria": "TV",
+    "foto": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/efea896119450ed5bdc725f270cf31ec.webp",
+    "url":"https://amg00658-canelamediainc-canela-cinema-rewardedtv-7iajs.amagi.tv/ts-us-e2-n1/playlist/amg00658-canelamediainc-canela-cinema-rewardedtv/playlist.m3u8"
+  },
+  {
+    "titulo": "CINE ROMANTICO",
+    "categoria": "TV",
+    "foto": "https://b2357908.smushcdn.com/2357908/wp-content/uploads/2020/10/2-cine-romantico-logo-only.png?lossy=1&strip=1&webp=1",
+    "url":"https://corgol.com@dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991142"
+  },
+  {
+    "titulo": "CINE TERROR",
+    "categoria": "TV",
+    "foto": "https://elordenmundial.com/wp-content/uploads/2023/10/cine-peliculas-terror-politica-estados-unidos-historia-.jpg",
+    "url":"https://corgol.com@is.gd/ObqtMl?.m3u8"
+  },
+  {
+    "titulo": "NADIE 2",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/mEW9XMgYDO6U0MJcIRqRuSwjzN5.jpg",
+    "url":"https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/06280/iru18ezjbcqt_n/index-v1-a1.m3u8?t=oha6GgFryaYz29RxcKgX6jd0EI4djazwz1YigYTQ2wI&s=1770166136&e=129600&f=31732459&srv=lWe8CcvljpC03&i=0.4&sp=500&p1=lWe8CcvljpC03&p2=lWe8CcvljpC03&asn=22724"
+  },
+  {
+    "titulo": "EQUIPO DEMOLICION",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//pG39vgTEhHeYIlcPJtHpxNLdPPM.jpg",
+    "url":"https://vimeos.zip/hls2/02/00008/slm63blvjl6e_h/index-v1-a1.m3u8?t=SgC94Ixm7Hm-gmx9UrfFFkOpOmLzgHw2Kj4BLLoAEes&s=1770166598&e=43200&v=107417564&srv=s8&i=0.0&sp=0&fr=slm63blvjl6e&r=e"
+  },
+  {
+    "titulo": "Signing Tony Raymond",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
+    "url":"https://vimeos.zip/hls2/02/00008/8uyo0qs0nbms_h/index-v1-a1.m3u8?t=Vk0rIcdqo596qf-cJ01it71cA8EYzrM_I5H93RvTPkk&s=1770166746&e=43200&v=107419885&srv=s8&i=0.0&sp=0&r=e"
+  },
+  {
+    "titulo": "Terror en Silent Hill: Regreso al infierno",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//afTkeXGBGhp3jekam0vG1dQihOr.jpg",
+    "url":"https://s1.vimeos.net/hls2/03/00008/f0etqwkylu5a_h/index-v1-a1.m3u8?t=Ytd5dQ7Edhjv_Ea8ah092I7LQCcasXTit3PvnaZ8rBA&s=1770166957&e=43200&v=104970248&i=0.0&sp=0&r=e"
+  },
+  {
+    "titulo": "SIN PIEDAD",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//tgmtRhwt3NuWXF9piH1pA7CEQA5.jpg",
+    "url":"https://p3.vimeos.zip/hls2/02/00008/ywoarzci8ste_h/index-v1-a1.m3u8?t=D1XpJ4RbTS8Jdsbs_pEaQUAhltgFnHz8pelHkfc65PM&s=1770167067&e=43200&v=107425159&srv=s8&i=0.3&sp=0&r=e"
+  },
+  {
+    "titulo": "We Bury the Dead",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//f7l9Bipd3JFnO4tvIejSyqYjBzt.jpg",
+    "url":"https://s14.vimeos.net/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=ezYgB0PnlXBS623meLTOMDVln7iRsK6jlsOzFTaXmuU&s=1770167227&e=43200&v=107427920&i=0.3&sp=0&r=e"
+  },
+  {
+    "titulo": "El caballero de los Siete Reinos",
+    "categoria": "PELICULA",
+    "foto": "https://www.enter.co/wp-content/uploads/2025/10/CABALLERO-DE-LOS-7-REINOS-768x432.png",
+    "url":"https://s13.vimeos.net/hls2/02/00007/2jgybzcof3h2_h/index-v1-a1.m3u8?t=vwIPkFXSXtCmzhBChVJ8CWdYPpAN8UX3JHeUJSbZxSI&s=1770167603&e=43200&v=107433097&i=0.0&sp=0&fr=2jgybzcof3h2&r=e"
+  },
+  {
+    "titulo": "El botín",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/890e16211a3260329fce9c13ec8e828e_hd.webp",
+    "url":"https://s13.vimeos.net/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=XEQLcClYvkFcvtxivJuSbJ-Ve-Q15oxoyLZTtWXgbJ0&s=1770167754&e=43200&v=107434908&i=0.3&sp=0&fr=9b7uadbng1z9&r=e"
+  },
+  {
+    "titulo": "Gente que conocemos en vacaciones",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/8db48f006fb79821c7508536767432c6_hd.webp",
+    "url":"https://p3.vimeos.zip/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=3ooUdaSIZjMkVsdmByYBc6ahoLdawrEhdnYrqPIcJDM&s=1770168311&e=43200&v=107444009&srv=s14&i=0.3&sp=0&fr=gkbhvuyo36dk&r=e"
+  },
+  {
+    "titulo": "Harpía: Acecho maligno",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
+    "url":"https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=QF_rboS6iuFzuMOJeD0-cay_lpCUkWb5Gkq_MNr8Hyk&s=1770168451&e=43200&v=107446634&i=0.3&sp=0&fr=j87ydqxaoe0u&r=e"
   }
+  
 ]
+
 
 
 
