@@ -166,17 +166,12 @@
     "foto": "https://image.tmdb.org/t/p/w342//afTkeXGBGhp3jekam0vG1dQihOr.jpg",
     "url":"https://s1.vimeos.net/hls2/03/00008/f0etqwkylu5a_h/index-v1-a1.m3u8?t=Ytd5dQ7Edhjv_Ea8ah092I7LQCcasXTit3PvnaZ8rBA&s=1770166957&e=43200&v=104970248&i=0.0&sp=0&r=e"
   },
-  {
-    "titulo": "SIN PIEDAD",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//tgmtRhwt3NuWXF9piH1pA7CEQA5.jpg",
-    "url":"https://p3.vimeos.zip/hls2/02/00008/ywoarzci8ste_h/index-v1-a1.m3u8?t=D1XpJ4RbTS8Jdsbs_pEaQUAhltgFnHz8pelHkfc65PM&s=1770167067&e=43200&v=107425159&srv=s8&i=0.3&sp=0&r=e"
-  },
+  
   {
     "titulo": "We Bury the Dead",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//f7l9Bipd3JFnO4tvIejSyqYjBzt.jpg",
-    "url":"https://s14.vimeos.net/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=ezYgB0PnlXBS623meLTOMDVln7iRsK6jlsOzFTaXmuU&s=1770167227&e=43200&v=107427920&i=0.3&sp=0&r=e"
+    "url":"https://p3.vimeos.zip/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=-s6VDZN_vLL3iuFTjLg3EtlBGPkKgJNXXNdNKWNcxP0&s=1770179134&e=43200&v=107427920&srv=s14&i=0.0&sp=0&r=e"
   },
   {
     "titulo": "El caballero de los Siete Reinos",
@@ -188,19 +183,19 @@
     "titulo": "El botín",
     "categoria": "PELICULA",
     "foto": "https://la.movie/wp-content/uploads/thumbs/890e16211a3260329fce9c13ec8e828e_hd.webp",
-    "url":"https://s13.vimeos.net/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=XEQLcClYvkFcvtxivJuSbJ-Ve-Q15oxoyLZTtWXgbJ0&s=1770167754&e=43200&v=107434908&i=0.3&sp=0&fr=9b7uadbng1z9&r=e"
+    "url":"https://vimeos.zip/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=86O_bWh4-GdG0G45zoIKLpVyBaLR1ra8citG14CY26w&s=1770179032&e=43200&v=107434908&srv=s13&i=0.0&sp=0&fr=9b7uadbng1z9&r=e"
   },
   {
     "titulo": "Gente que conocemos en vacaciones",
     "categoria": "PELICULA",
     "foto": "https://la.movie/wp-content/uploads/thumbs/8db48f006fb79821c7508536767432c6_hd.webp",
-    "url":"https://p3.vimeos.zip/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=3ooUdaSIZjMkVsdmByYBc6ahoLdawrEhdnYrqPIcJDM&s=1770168311&e=43200&v=107444009&srv=s14&i=0.3&sp=0&fr=gkbhvuyo36dk&r=e"
+    "url":"https://s14.vimeos.net/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=I34Q1Xt1UGBPQsARimlv8rd9VnCMhPxJoftKkylvs0Y&s=1770178927&e=43200&v=107444009&i=0.0&sp=0&fr=gkbhvuyo36dk&r=e"
   },
   {
     "titulo": "Harpía: Acecho maligno",
     "categoria": "PELICULA",
     "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
-    "url":"https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=QF_rboS6iuFzuMOJeD0-cay_lpCUkWb5Gkq_MNr8Hyk&s=1770168451&e=43200&v=107446634&i=0.3&sp=0&fr=j87ydqxaoe0u&r=e"
+    "url":"https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=moBhT0nphLaFSMcqYew__EEX21e2nGhZKGv8GdYqXh8&s=1770178826&e=43200&v=107446634&i=0.0&sp=0&fr=j87ydqxaoe0u&r=e"
   },
   {
     "titulo": "A&E",
@@ -210,6 +205,7 @@
   }
   
 ]
+
 
 
 
