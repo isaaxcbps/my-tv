@@ -1,25 +1,100 @@
 [
   {
+    "titulo": "A&E",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
+    "url": "http://181.13.252.102:8000/play/a05i"
+  },
+  {
+    "titulo": "ARCHIVOS DEL FBI",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLgOKXgyFzn_HWJjQyU_gUlDRpR4Pb3svbw&s",
+    "url": "https://corgol.com@is.gd/GmGnXR?.m3u8"
+  },
+  {
+    "titulo": "CANELA CINEMA ",
+    "categoria": "TV",
+    "foto": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/efea896119450ed5bdc725f270cf31ec.webp",
+    "url": "https://amg00658-canelamediainc-canela-cinema-rewardedtv-7iajs.amagi.tv/ts-us-e2-n1/playlist/amg00658-canelamediainc-canela-cinema-rewardedtv/playlist.m3u8"
+  },
+  {
+    "titulo": "CINE PREMIERE",
+    "categoria": "TV",
+    "foto": "https://pbs.twimg.com/profile_images/1427018894909362180/QlqAjj7P_400x400.jpg",
+    "url": "https://corgol.com@is.gd/HK5HeB?.m3u8"
+  },
+  {
+    "titulo": "CINE ROMANTICO",
+    "categoria": "TV",
+    "foto": "https://b2357908.smushcdn.com/2357908/wp-content/uploads/2020/10/2-cine-romantico-logo-only.png?lossy=1&strip=1&webp=1",
+    "url": "https://corgol.com@dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991142"
+  },
+  {
+    "titulo": "CINE TERROR",
+    "categoria": "TV",
+    "foto": "https://elordenmundial.com/wp-content/uploads/2023/10/cine-peliculas-terror-politica-estados-unidos-historia-.jpg",
+    "url": "https://corgol.com@is.gd/ObqtMl?.m3u8"
+  },
+  {
+    "titulo": "CINECANAL",
+    "categoria": "TV",
+    "foto": "https://w7.pngwing.com/pngs/1018/63/png-transparent-cinecanal-hd-logo.png",
+    "url": "http://corgol.com@181.114.57.246:4000/play/AS2ESM6kwGDqHCaX"
+  },
+  {
+    "titulo": "COMEDY MOVIES",
+    "categoria": "TV",
+    "foto": "https://themindsjournal.com/wp-content/uploads/2024/09/Comedy-Movies-1.jpg",
+    "url": "http://corgol.com@canal-pro.xyz:8080/966119620tv/55ce67/812"
+  },
+  {
+    "titulo": "DISCOVERY CHANNEL",
+    "categoria": "TV",
+    "foto": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/60?mode=0"
+  },
+  {
     "titulo": "ECDF",
     "categoria": "TV",
     "foto": "https://cyberonline.ec/2929-thickbox_default/directv-go-.jpg",
     "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/izNrSC-DiUTAywyDDEeCC43FCIRGS8pEDcSES46CC8NBiooDTQRFy82CzpFVHl5/42341/0/chunklist.m3u8"
   },
-  
+  {
+    "titulo": "ECUADOR TV",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCInDdp7LIi6hhK9H6uurpBcbCzKyCuZpLow&s",
+    "url": "https://corgol.com@samson.streamerr.co:8081/shogun/index.m3u8"
+  },
+  {
+    "titulo": "ECUAVISA",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcMUXuhnvCXS1nhDIOp6ErxLkubGtQHGrPg&s",
+    "url": "https://corgol.com@jireh-6-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8"
+  },
   {
     "titulo": "ESPN PREMIUM",
     "categoria": "TV",
     "foto": "https://pbs.twimg.com/media/FPSjpzVXEAwulgr.jpg",
     "url": "https://ag9wzq.fubohd.com/espnpremium/mono.m3u8?token=369f9ab00cf5c4a2a5037e7e35baebf467822241-cc-1770192394-1770174394"
   },
- 
   {
-    "titulo": "ELECTRIC RADIO",
-    "categoria": "RADIO",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr65AATT61le4U6X2hH8us_TUqwPwfkJnzkA&s",
-    "url": "https://stream-168.zeno.fm/gocfnmkdsmttv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnb2Nmbm1rZHNtdHR2IiwiaG9zdCI6InN0cmVhbS0xNjguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik94d2NOUVRUUVJ1YTdlSTVRQXFFRWciLCJpYXQiOjE3NzAwMTQ1NTgsImV4cCI6MTc3MDAxNDYxOH0.QsozmMWe49hIWYTtKZIOGVcS21_7VJFD4jO6aWb0luc"
+    "titulo": "HBO +",
+    "categoria": "TV",
+    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
+    "url": "http://corgol.com@45.228.234.30:16000/play/a00a"
   },
-  
+  {
+    "titulo": "HBO POP",
+    "categoria": "TV",
+    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/117?mode=0"
+  },
+  {
+    "titulo": "HISTORIAS DE ULTRATUMBA",
+    "categoria": "TV",
+    "foto": "https://entrenoslibroscine.wordpress.com/wp-content/uploads/2018/09/historias-de-ultratumba_poster-ok.jpeg?w=306&h=431",
+    "url": "https://corgol.com@is.gd/EH9OVX?.m3u8"
+  },
   {
     "titulo": "RITMO TV TOP LATINO",
     "categoria": "TV",
@@ -27,10 +102,106 @@
     "url": "https://5ff3d9babae13.streamlock.net/vzzfdajnnf/vzzfdajnnf/playlist.m3u8?PlaylistM3UCL"
   },
   {
+    "titulo": "START CHANNEL",
+    "categoria": "TV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKd53COgFsDJ1_tIhZl23IUNI7o7Cmqa1SQ&s",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/15?mode=0"
+  },
+  {
+    "titulo": "ANACONDA",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//hENLu86h3zljg0x8bdy8cOUxZF5.jpg",
+    "url": "https://s1.vimeos.net/hls2/03/00008/u07at9iwuygn_h/index-v1-a2.m3u8?t=Ikv7oRHyoIaMLZLcLwzItA_c0-qS0YFqajeo73GNyVo&s=1770224898&e=43200&v=107849649&i=0.0&sp=0&fr=u07at9iwuygn&r=e"
+  },
+  {
+    "titulo": "Bob Esponja: En busca de los pantalones cuadrados",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//cuXscQfRr1KLknkqNVObkAA7HyE.jpg",
+    "url": "https://cdn-yrhohklc10mfxrgy.edgeon-bandwidth.com/engine/hls2/01/16399/tabrbqhr8oui_,n,.urlset/index-v1-a1.m3u8?t=milbLoRvZrTUqIIZdKZxfvEQ-8Xj7kjjfNs1hM3jBR0&s=1770225189&e=14400&f=81998040&node=9/YfUrcSSltRxRudPemYIkc9gzkqTBAOOy6oaT96arE=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
+    "titulo": "Contactos de cuarto tipo",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//2tpTnb6o1LVRn2IDwn7fr6qn27I.jpg",
+    "url": "https://cdn-xygvp1sk9y8ulkte.edgeon-bandwidth.com/engine/hls2/01/11591/m7wga2bw85zq_,n,.urlset/index-v1-a1.m3u8?t=3B8IRbX0EKnea2Vc2XZN9oEbqxu_l_7K2BWOy_Dwrhs&s=1770225400&e=14400&f=69360103&node=lG4fhWy3Ya/s7A605bVApxePNEeWFQr0aMRR+cKCkdI=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
+    "titulo": "Depredador: Tierras salvajes",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//r7TEWHLr1lsIsTkiEFwtM3hAWma.jpg",
+    "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/09/10603/2ev61x5fmgcy_x/index-v1-a1.m3u8?t=z58UlZ7nCKayROAufgyYluk7K35D2fMrk7wt7KlmDT4&s=1770224700&e=10800&f=53019878&srv=1070&asn=22724&sp=5500&p=0"
+  },
+  {
+    "titulo": "El Día Del Fin Del Mundo: Migración",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//q7aijAKE98Fcp6dgR6oWiUkFO2g.jpg",
+    "url": "https://cdn-n5wvdbjf8ku1nhxd.edgeon-bandwidth.com/engine/hls2-c/01/16322/nmxpz8nixsij_,n,.urlset/index-v1-a1.m3u8?t=J2t7Iw3m6nYhHGUNgfA19wdNa4GBAkWxYU3itawKJt8&s=1770223274&e=14400&f=81612555&node=PUoy/KM77l0V4iZ8nhkZLSLMxo5GfHXyuBpISv5gTK0=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
+    "titulo": "El botín",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/890e16211a3260329fce9c13ec8e828e_hd.webp",
+    "url": "https://vimeos.zip/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=86O_bWh4-GdG0G45zoIKLpVyBaLR1ra8citG14CY26w&s=1770179032&e=43200&v=107434908&srv=s13&i=0.0&sp=0&fr=9b7uadbng1z9&r=e"
+  },
+  {
+    "titulo": "El caballero de los Siete Reinos",
+    "categoria": "PELICULA",
+    "foto": "https://www.enter.co/wp-content/uploads/2025/10/CABALLERO-DE-LOS-7-REINOS-768x432.png",
+    "url": "https://s13.vimeos.net/hls2/02/00007/2jgybzcof3h2_h/index-v1-a1.m3u8?t=vwIPkFXSXtCmzhBChVJ8CWdYPpAN8UX3JHeUJSbZxSI&s=1770167603&e=43200&v=107433097&i=0.0&sp=0&fr=2jgybzcof3h2&r=e"
+  },
+  {
+    "titulo": "EQUIPO DEMOLICION",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//pG39vgTEhHeYIlcPJtHpxNLdPPM.jpg",
+    "url": "https://vimeos.zip/hls2/02/00008/slm63blvjl6e_h/index-v1-a1.m3u8?t=SgC94Ixm7Hm-gmx9UrfFFkOpOmLzgHw2Kj4BLLoAEes&s=1770166598&e=43200&v=107417564&srv=s8&i=0.0&sp=0&fr=slm63blvjl6e&r=e"
+  },
+  {
+    "titulo": "Gente que conocemos en vacaciones",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/8db48f006fb79821c7508536767432c6_hd.webp",
+    "url": "https://s14.vimeos.net/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=I34Q1Xt1UGBPQsARimlv8rd9VnCMhPxJoftKkylvs0Y&s=1770178927&e=43200&v=107444009&i=0.0&sp=0&fr=gkbhvuyo36dk&r=e"
+  },
+  {
+    "titulo": "Hannibal: El origen del mal",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//AfIIQ5lMbqpCa3UQCwHVieLRpyE.jpg",
+    "url": "https://cdn-thhhlmzuxvpehc9r.edgeon-bandwidth.com/engine/hls2-c/01/11506/8alxzafzgydc_,n,.urlset/index-v1-a1.m3u8?t=w9u7oIfHQtG1e1sveCNu6dwQEl5EHzybXTUBeVeZHTQ&s=1770224457&e=14400&f=69323124&node=vQNYzBgoOUWQaNyCrwxJhQY3K9HJDDAMOj7kOzOhD9s=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
+    "titulo": "Harpía: Acecho maligno",
+    "categoria": "PELICULA",
+    "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
+    "url": "https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=moBhT0nphLaFSMcqYew__EEX21e2nGhZKGv8GdYqXh8&s=1770178826&e=43200&v=107446634&i=0.0&sp=0&fr=j87ydqxaoe0u&r=e"
+  },
+  {
+    "titulo": "Los Condenados",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//23VdXxxHf9bWnmBWVB4rIsqDWuz.jpg",
+    "url": "https://cdn-tcixikozel9gpcej.edgeon-bandwidth.com/engine/hls2/01/16436/p7ghavqg83hr_,n,.urlset/index-v1-a1.m3u8?t=s6eZVXzRoT3r8fnZDXdDAyU1vZspLkX5W2v7vHIvzJI&s=1770224313&e=14400&f=82180463&node=ENDBUx+kMcJN2ZoJm8SKpgzDYT6L023BUzKNnGKVxj0=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
+    "titulo": "NADIE 2",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/mEW9XMgYDO6U0MJcIRqRuSwjzN5.jpg",
+    "url": "https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/06280/iru18ezjbcqt_n/index-v1-a1.m3u8?t=oha6GgFryaYz29RxcKgX6jd0EI4djazwz1YigYTQ2wI&s=1770166136&e=129600&f=31732459&srv=lWe8CcvljpC03&i=0.4&sp=500&p1=lWe8CcvljpC03&p2=lWe8CcvljpC03&asn=22724"
+  },
+  {
+    "titulo": "Nunca digas su nombre",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//nQD4sConnRzxuBpAdzkbz15hROb.jpg",
+    "url": "https://cdn-50kcbgjki0zzkzns.edgeon-bandwidth.com/engine/hls2/01/16436/5j0sxuclcwg5_,n,.urlset/index-v1-a1.m3u8?t=2Hvtm_3y4Okt9WWayceeRZtTVOsTElriNuFeaTCd-B0&s=1770224216&e=14400&f=82182352&node=emFhWynNOGuv3pisMCjfukJkzsCosm5hJLraAZ+l22o=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+  },
+  {
     "titulo": "PELICULA EL AMATEUR",
     "categoria": "PELICULA",
     "foto": "https://m.media-amazon.com/images/S/pv-target-images/10a2c61dc0d6f0d1e7a0490f0fac080d12d6fb9c52ef857c48fbb20bb0403c5c.jpg",
     "url": "https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/05330/g1zqo6wjiuzh_n/index-v1-a1.m3u8?t=9TBuTzFYIYvqkqfdgg25d0_oWv58_DGAEERrGozjbMQ&s=1770089302&e=129600&f=26719766&srv=VCgmDWaexkLPOOE2&i=0.4&sp=500&p1=VCgmDWaexkLPOOE2&p2=VCgmDWaexkLPOOE2&asn=22724"
+  },
+  {
+    "titulo": "ROCKY",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//8ZIc49i7tS49HY0b1KmxtkiWesi.jpg",
+    "url": "https://cdn-4mro8nnerm9lma2c.edgeon-bandwidth.com/engine/hls2/01/13863/qklpclznzcfu_,n,.urlset/index-v1-a1.m3u8?t=qtaQy2wDOisYx5NEZe7JDz2wS5MMUD0IKJnhVkdDWMc&s=1770223729&e=14400&f=69317156&node=o5SUYBXH2ou4x3crMvD7z4vhCTdq/K06ctlABLgRD2Y=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
   },
   {
     "titulo": "ROCKY II",
@@ -51,60 +222,28 @@
     "url": "https://vimeos.zip/hls2/03/00000/waeuxp5x2bqo_h/index-v1-a1.m3u8?t=_zDvI9fg5_nB6eF9WCAQ2NpqOZcBsPBg7a9eA80Gd0M&s=1770154150&e=43200&v=107225511&srv=s10&i=0.0&sp=0&r=e"
   },
   {
-    "titulo": "HOUSE MUSIC RADIO",
-    "categoria": "RADIO",
-    "foto": "https://static.wikia.nocookie.net/electropedia/images/0/0c/A2c316fc98634d68817848788a40ad2b.jpg/revision/latest?cb=20170525224550&path-prefix=es",
-    "url": "https://stream-156.zeno.fm/ubrbwq17qy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1YnJid3ExN3F5OHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ii0weDlQMTNMVEdhRGZpa0M3eW9KQXciLCJpYXQiOjE3NzAxNTgyNzIsImV4cCI6MTc3MDE1ODMzMn0._a0ptT50R9feYgmvLSlImWGb417l5BVSK20XEmC0O2U"
-
+    "titulo": "ROCKY V",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//tevHaVxtrMTaUi8f3YjLWYSSY8A.jpg",
+    "url": "https://cdn-lggrqi8abfi4eltg.edgeon-bandwidth.com/engine/hls2/01/13858/mjfh70wyz9pz_,n,.urlset/index-v1-a1.m3u8?t=latJ2G8YWLnBxlp_7Zk6bC-6AzDHuGgmcvW3PxmJHnw&s=1770223808&e=14400&f=69293656&node=Z/DpTnWhIzppBquGEOzeHLkvPJP0j3OnVCEjTgLN1DM=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
   },
   {
-    "titulo": "HOUSE NATION UK",
-    "categoria": "RADIO",
-    "foto": "https://cdn-images.dzcdn.net/images/cover/9e540e305e3f2cd5531a7a19d5d5faed/0x1900-000000-80-0-0.jpg",
-    "url": "https://streaming.radio.co/s06bd9d805/listen"
-
+    "titulo": "Signing Tony Raymond",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
+    "url": "https://vimeos.zip/hls2/02/00008/8uyo0qs0nbms_h/index-v1-a1.m3u8?t=Vk0rIcdqo596qf-cJ01it71cA8EYzrM_I5H93RvTPkk&s=1770166746&e=43200&v=107419885&srv=s8&i=0.0&sp=0&r=e"
   },
   {
-    "titulo": "CLASSIC ROCK",
-    "categoria": "RADIO",
-    "foto": "https://i.scdn.co/image/ab67616d0000b2734afbf8212ec943855d0e8a55",
-    "url": "https://streaming.shoutcast.com/classic-rock-vibes-aac"
-
+    "titulo": "Terror en Silent Hill: Regreso al infierno",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//afTkeXGBGhp3jekam0vG1dQihOr.jpg",
+    "url": "https://s1.vimeos.net/hls2/03/00008/f0etqwkylu5a_h/index-v1-a1.m3u8?t=Ytd5dQ7Edhjv_Ea8ah092I7LQCcasXTit3PvnaZ8rBA&s=1770166957&e=43200&v=104970248&i=0.0&sp=0&r=e"
   },
   {
-    "titulo": "ROCK",
-    "categoria": "RADIO",
-    "foto": "https://cdn-p.smehost.net/sites/5b3bac59eb36401694af3a241173447f/wp-content/uploads/2018/07/ab67706c0000da84a39f683673254a00fe491e47-2.jpg",
-    "url": "https://hdradioclassicrock-rfritschka.radioca.st/;"
-
-  },
-  {
-    "titulo": "IROCK",
-    "categoria": "RADIO",
-    "foto": "https://static.mytuner.mobi/media/tvos_radios/ftnjunvfujey.jpg",
-    "url": "https://streamer.radio.co/s493283a7e/listen"
-
-  },
-  {
-    "titulo": "SOFT ROCK",
-    "categoria": "RADIO",
-    "foto": "https://i.scdn.co/image/ab67616d00001e020ad310285839d6137e96a0b1",
-    "url": "https://gold.streamguys1.com/softrock.mp3"
-
-  },
-  {
-    "titulo": "SALSA RADIO",
-    "categoria": "RADIO",
-    "foto": "https://static.mytuner.mobi/media/tvos_radios/411/clasik.8455ddd4.png",
-    "url": "https://stream-155.zeno.fm/bmqfbhqt8mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJibXFmYmhxdDhtcnV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkV2WFdIMWNfVDY2NTVuaXBlY3NBZnciLCJpYXQiOjE3NzAxNTkwODAsImV4cCI6MTc3MDE1OTE0MH0.4zE6aXcuMgGWW02QjWxRmjJZ7WgHAfSP5I_XbqMfEUc"
-
-  },
-  {
-    "titulo": "RADIO MERENGUE",
-    "categoria": "RADIO",
-    "foto": "https://play-lh.googleusercontent.com/xBcmRyObzfjdc10oVYLXnR4XslnGGY56x5OW72OlTf47RYWiLVe5lUrl1rQWE6JnT9OF=w240-h480-rw",
-    "url": "https://stream-160.zeno.fm/twem5wa0k0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0d2VtNXdhMGswaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkZPUWxpaTRaVDhxSm5tOHJERFJNdUEiLCJpYXQiOjE3NzAxNTkxODYsImV4cCI6MTc3MDE1OTI0Nn0.2-b4Ci6G38916uiAMYS1MHypGsDOrq-_1LSRcjxx9-0"
-
+    "titulo": "We Bury the Dead",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/w342//f7l9Bipd3JFnO4tvIejSyqYjBzt.jpg",
+    "url": "https://p3.vimeos.zip/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=-s6VDZN_vLL3iuFTjLg3EtlBGPkKgJNXXNdNKWNcxP0&s=1770179134&e=43200&v=107427920&srv=s14&i=0.0&sp=0&r=e"
   },
   {
     "titulo": "BALADAS",
@@ -112,166 +251,58 @@
     "foto": "https://www.radio.es/300/retrobaladas.png?version=ca26d13e2509a3f2e31b5086365b91c499c5557f",
     "url": "https://stream-154.zeno.fm/5115vsdnnnruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1MTE1dnNkbm5ucnV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImtDZ1pJdERKUjdXbEdnYlp5V2FQYUEiLCJpYXQiOjE3NzAxNTkzNTgsImV4cCI6MTc3MDE1OTQxOH0.1874X_DZQLLZr6SBg2d2f_SM3gMB55kHKHFG0llIAwo"
   },
- 
   {
-    "titulo": "CINE PREMIERE",
-    "categoria": "TV",
-    "foto": "https://pbs.twimg.com/profile_images/1427018894909362180/QlqAjj7P_400x400.jpg",
-    "url": "https://corgol.com@is.gd/HK5HeB?.m3u8"
+    "titulo": "CLASSIC ROCK",
+    "categoria": "RADIO",
+    "foto": "https://i.scdn.co/image/ab67616d0000b2734afbf8212ec943855d0e8a55",
+    "url": "https://streaming.shoutcast.com/classic-rock-vibes-aac"
   },
   {
-    "titulo": "CANELA CINEMA ",
-    "categoria": "TV",
-    "foto": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/efea896119450ed5bdc725f270cf31ec.webp",
-    "url":"https://amg00658-canelamediainc-canela-cinema-rewardedtv-7iajs.amagi.tv/ts-us-e2-n1/playlist/amg00658-canelamediainc-canela-cinema-rewardedtv/playlist.m3u8"
+    "titulo": "ELECTRIC RADIO",
+    "categoria": "RADIO",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr65AATT61le4U6X2hH8us_TUqwPwfkJnzkA&s",
+    "url": "https://stream-168.zeno.fm/gocfnmkdsmttv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnb2Nmbm1rZHNtdHR2IiwiaG9zdCI6InN0cmVhbS0xNjguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik94d2NOUVRUUVJ1YTdlSTVRQXFFRWciLCJpYXQiOjE3NzAwMTQ1NTgsImV4cCI6MTc3MDAxNDYxOH0.QsozmMWe49hIWYTtKZIOGVcS21_7VJFD4jO6aWb0luc"
   },
   {
-    "titulo": "CINE ROMANTICO",
-    "categoria": "TV",
-    "foto": "https://b2357908.smushcdn.com/2357908/wp-content/uploads/2020/10/2-cine-romantico-logo-only.png?lossy=1&strip=1&webp=1",
-    "url":"https://corgol.com@dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991142"
+    "titulo": "HOUSE MUSIC RADIO",
+    "categoria": "RADIO",
+    "foto": "https://static.wikia.nocookie.net/electropedia/images/0/0c/A2c316fc98634d68817848788a40ad2b.jpg/revision/latest?cb=20170525224550&path-prefix=es",
+    "url": "https://stream-156.zeno.fm/ubrbwq17qy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1YnJid3ExN3F5OHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ii0weDlQMTNMVEdhRGZpa0M3eW9KQXciLCJpYXQiOjE3NzAxNTgyNzIsImV4cCI6MTc3MDE1ODMzMn0._a0ptT50R9feYgmvLSlImWGb417l5BVSK20XEmC0O2U"
   },
   {
-    "titulo": "CINE TERROR",
-    "categoria": "TV",
-    "foto": "https://elordenmundial.com/wp-content/uploads/2023/10/cine-peliculas-terror-politica-estados-unidos-historia-.jpg",
-    "url":"https://corgol.com@is.gd/ObqtMl?.m3u8"
+    "titulo": "HOUSE NATION UK",
+    "categoria": "RADIO",
+    "foto": "https://cdn-images.dzcdn.net/images/cover/9e540e305e3f2cd5531a7a19d5d5faed/0x1900-000000-80-0-0.jpg",
+    "url": "https://streaming.radio.co/s06bd9d805/listen"
   },
   {
-    "titulo": "NADIE 2",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/mEW9XMgYDO6U0MJcIRqRuSwjzN5.jpg",
-    "url":"https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/06280/iru18ezjbcqt_n/index-v1-a1.m3u8?t=oha6GgFryaYz29RxcKgX6jd0EI4djazwz1YigYTQ2wI&s=1770166136&e=129600&f=31732459&srv=lWe8CcvljpC03&i=0.4&sp=500&p1=lWe8CcvljpC03&p2=lWe8CcvljpC03&asn=22724"
+    "titulo": "IROCK",
+    "categoria": "RADIO",
+    "foto": "https://static.mytuner.mobi/media/tvos_radios/ftnjunvfujey.jpg",
+    "url": "https://streamer.radio.co/s493283a7e/listen"
   },
   {
-    "titulo": "EQUIPO DEMOLICION",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//pG39vgTEhHeYIlcPJtHpxNLdPPM.jpg",
-    "url":"https://vimeos.zip/hls2/02/00008/slm63blvjl6e_h/index-v1-a1.m3u8?t=SgC94Ixm7Hm-gmx9UrfFFkOpOmLzgHw2Kj4BLLoAEes&s=1770166598&e=43200&v=107417564&srv=s8&i=0.0&sp=0&fr=slm63blvjl6e&r=e"
+    "titulo": "RADIO MERENGUE",
+    "categoria": "RADIO",
+    "foto": "https://play-lh.googleusercontent.com/xBcmRyObzfjdc10oVYLXnR4XslnGGY56x5OW72OlTf47RYWiLVe5lUrl1rQWE6JnT9OF=w240-h480-rw",
+    "url": "https://stream-160.zeno.fm/twem5wa0k0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0d2VtNXdhMGswaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkZPUWxpaTRaVDhxSm5tOHJERFJNdUEiLCJpYXQiOjE3NzAxNTkxODYsImV4cCI6MTc3MDE1OTI0Nn0.2-b4Ci6G38916uiAMYS1MHypGsDOrq-_1LSRcjxx9-0"
   },
   {
-    "titulo": "Signing Tony Raymond",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
-    "url":"https://vimeos.zip/hls2/02/00008/8uyo0qs0nbms_h/index-v1-a1.m3u8?t=Vk0rIcdqo596qf-cJ01it71cA8EYzrM_I5H93RvTPkk&s=1770166746&e=43200&v=107419885&srv=s8&i=0.0&sp=0&r=e"
+    "titulo": "ROCK",
+    "categoria": "RADIO",
+    "foto": "https://cdn-p.smehost.net/sites/5b3bac59eb36401694af3a241173447f/wp-content/uploads/2018/07/ab67706c0000da84a39f683673254a00fe491e47-2.jpg",
+    "url": "https://hdradioclassicrock-rfritschka.radioca.st/;"
   },
   {
-    "titulo": "Terror en Silent Hill: Regreso al infierno",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//afTkeXGBGhp3jekam0vG1dQihOr.jpg",
-    "url":"https://s1.vimeos.net/hls2/03/00008/f0etqwkylu5a_h/index-v1-a1.m3u8?t=Ytd5dQ7Edhjv_Ea8ah092I7LQCcasXTit3PvnaZ8rBA&s=1770166957&e=43200&v=104970248&i=0.0&sp=0&r=e"
-  },
-  
-  {
-    "titulo": "We Bury the Dead",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//f7l9Bipd3JFnO4tvIejSyqYjBzt.jpg",
-    "url":"https://p3.vimeos.zip/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=-s6VDZN_vLL3iuFTjLg3EtlBGPkKgJNXXNdNKWNcxP0&s=1770179134&e=43200&v=107427920&srv=s14&i=0.0&sp=0&r=e"
+    "titulo": "SALSA RADIO",
+    "categoria": "RADIO",
+    "foto": "https://static.mytuner.mobi/media/tvos_radios/411/clasik.8455ddd4.png",
+    "url": "https://stream-155.zeno.fm/bmqfbhqt8mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJibXFmYmhxdDhtcnV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkV2WFdIMWNfVDY2NTVuaXBlY3NBZnciLCJpYXQiOjE3NzAxNTkwODAsImV4cCI6MTc3MDE1OTE0MH0.4zE6aXcuMgGWW02QjWxRmjJZ7WgHAfSP5I_XbqMfEUc"
   },
   {
-    "titulo": "El caballero de los Siete Reinos",
-    "categoria": "PELICULA",
-    "foto": "https://www.enter.co/wp-content/uploads/2025/10/CABALLERO-DE-LOS-7-REINOS-768x432.png",
-    "url":"https://s13.vimeos.net/hls2/02/00007/2jgybzcof3h2_h/index-v1-a1.m3u8?t=vwIPkFXSXtCmzhBChVJ8CWdYPpAN8UX3JHeUJSbZxSI&s=1770167603&e=43200&v=107433097&i=0.0&sp=0&fr=2jgybzcof3h2&r=e"
-  },
-  {
-    "titulo": "El botín",
-    "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/890e16211a3260329fce9c13ec8e828e_hd.webp",
-    "url":"https://vimeos.zip/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=86O_bWh4-GdG0G45zoIKLpVyBaLR1ra8citG14CY26w&s=1770179032&e=43200&v=107434908&srv=s13&i=0.0&sp=0&fr=9b7uadbng1z9&r=e"
-  },
-  {
-    "titulo": "Gente que conocemos en vacaciones",
-    "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/8db48f006fb79821c7508536767432c6_hd.webp",
-    "url":"https://s14.vimeos.net/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=I34Q1Xt1UGBPQsARimlv8rd9VnCMhPxJoftKkylvs0Y&s=1770178927&e=43200&v=107444009&i=0.0&sp=0&fr=gkbhvuyo36dk&r=e"
-  },
-  {
-    "titulo": "Harpía: Acecho maligno",
-    "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
-    "url":"https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=moBhT0nphLaFSMcqYew__EEX21e2nGhZKGv8GdYqXh8&s=1770178826&e=43200&v=107446634&i=0.0&sp=0&fr=j87ydqxaoe0u&r=e"
-  },
-  {
-    "titulo": "A&E",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
-    "url": "http://181.13.252.102:8000/play/a05i"
-  },
-  {
-    "titulo": "CINECANAL",
-    "categoria": "TV",
-    "foto": "https://w7.pngwing.com/pngs/1018/63/png-transparent-cinecanal-hd-logo.png",
-    "url": "http://corgol.com@181.114.57.246:4000/play/AS2ESM6kwGDqHCaX"
-  },
-  {
-    "titulo": "HBO POP",
-    "categoria": "TV",
-    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/117?mode=0"
-  },
-  {
-    "titulo": "HBO +",
-    "categoria": "TV",
-    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
-    "url": "http://corgol.com@45.228.234.30:16000/play/a00a"
-  },
-  {
-    "titulo": "ARCHIVOS DEL FBI",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLgOKXgyFzn_HWJjQyU_gUlDRpR4Pb3svbw&s",
-    "url": "https://corgol.com@is.gd/GmGnXR?.m3u8"
-  },
-  {
-    "titulo": "HISTORIAS DE ULTRATUMBA",
-    "categoria": "TV",
-    "foto": "https://entrenoslibroscine.wordpress.com/wp-content/uploads/2018/09/historias-de-ultratumba_poster-ok.jpeg?w=306&h=431",
-    "url": "https://corgol.com@is.gd/EH9OVX?.m3u8"
-  },
-  {
-    "titulo": "DISCOVERY CHANNEL",
-    "categoria": "TV",
-    "foto": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/60?mode=0"
-  },
-  {
-    "titulo": "START CHANNEL",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKd53COgFsDJ1_tIhZl23IUNI7o7Cmqa1SQ&s",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/15?mode=0"
-  },
-  {
-    "titulo": "COMEDY MOVIES",
-    "categoria": "TV",
-    "foto": "https://themindsjournal.com/wp-content/uploads/2024/09/Comedy-Movies-1.jpg",
-    "url": "http://corgol.com@canal-pro.xyz:8080/966119620tv/55ce67/812"
-  },
-  {
-    "titulo": "ECUADOR TV",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCInDdp7LIi6hhK9H6uurpBcbCzKyCuZpLow&s",
-    "url": "https://corgol.com@samson.streamerr.co:8081/shogun/index.m3u8"
-  },
-  {
-    "titulo": "ECUAVISA",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcMUXuhnvCXS1nhDIOp6ErxLkubGtQHGrPg&s",
-    "url": "https://corgol.com@jireh-6-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8"
+    "titulo": "SOFT ROCK",
+    "categoria": "RADIO",
+    "foto": "https://i.scdn.co/image/ab67616d00001e020ad310285839d6137e96a0b1",
+    "url": "https://gold.streamguys1.com/softrock.mp3"
   }
-  
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
