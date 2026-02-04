@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor NIU PLAY</title>
     <meta name="referrer" content="no-referrer">
-    
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     
     <style>
-        body { margin: 0; background-color: black; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+        body { margin: 0; background-color: black; display: flex; flex-direction: column; height: 100vh; overflow: hidden; color: white; font-family: sans-serif; }
         
         .volver {
             position: absolute; top: 20px; left: 20px; z-index: 100;
             background: rgba(0,0,0,0.5); color: white; text-decoration: none;
             padding: 8px 12px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.3);
-            font-family: sans-serif; font-weight: bold; font-size: 14px;
+            font-weight: bold; font-size: 14px;
         }
 
         #video-container {
             width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+            flex-direction: column;
         }
 
-        video {
-            width: 100%; height: 100%;
-            max-height: 100vh;
+        video { width: 100%; height: 100%; max-height: 100vh; }
+
+        /* Mensaje de error para el celular */
+        #debug-console {
+            display: none; position: absolute; bottom: 50px; 
+            background: rgba(200,0,0,0.8); padding: 10px; border-radius: 5px;
+            max-width: 80%; text-align: center;
         }
     </style>
 </head>
@@ -34,6 +38,7 @@
 
     <div id="video-container">
         <video id="video" controls autoplay playsinline></video>
+        <div id="debug-console"></div>
     </div>
 
     <script>
@@ -41,59 +46,60 @@
         const videoUrl = decodeURIComponent(params.get('video'));
         const titulo = decodeURIComponent(params.get('titulo') || '');
         const video = document.getElementById('video');
+        const debugBox = document.getElementById('debug-console');
 
         if (!videoUrl) {
-            alert("Error: No hay video seleccionado");
             window.location.href = "index.html";
         }
 
-        // --- LÓGICA DE REPRODUCCIÓN HÍBRIDA ---
+        // --- LÓGICA DE REPRODUCCIÓN ---
 
-        // 1. PRIMERO: Intentamos soporte nativo (Vital para iPhone/Safari)
+        // 1. IPHONE / SAFARI (Nativo)
         if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            console.log("Modo: Nativo (iPhone/Safari)");
             video.src = videoUrl;
-            // Intentar reproducir (a veces los celulares bloquean el autoplay con sonido)
+            
+            // ESCUCHAMOS ERRORES NATIVOS
+            video.onerror = function() {
+                let err = video.error;
+                let mensaje = "Error desconocido";
+                
+                if (err.code === 3) mensaje = "ERROR DE DECODIFICACIÓN (3): El formato de este video es incompatible con iPhone.";
+                if (err.code === 4) mensaje = "ERROR DE SOPORTE (4): El iPhone no soporta este tipo de archivo.";
+                if (err.code === 2) mensaje = "ERROR DE RED (2): El servidor rechazó la conexión (posible bloqueo).";
+
+                mostrarError(mensaje);
+            };
+
             video.play().catch(e => {
-                // Si falla el autoplay, silenciamos e intentamos de nuevo (truco común)
-                video.muted = true;
+                video.muted = true; // Intentar silenciado si falla
                 video.play();
             });
         }
-        // 2. SEGUNDO: Si no es iPhone, usamos Hls.js (Para Chrome PC y Android)
+        // 2. PC / ANDROID (HLS.js)
         else if (Hls.isSupported()) {
+            console.log("Modo: HLS.js (PC/Android)");
             const hls = new Hls();
             hls.loadSource(videoUrl);
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                video.play().catch(e => console.log("Autoplay bloqueado por el navegador"));
+                video.play();
             });
-            
-            // Manejo de errores de la librería
             hls.on(Hls.Events.ERROR, function (event, data) {
-                if (data.fatal) {
-                    switch (data.type) {
-                        case Hls.ErrorTypes.NETWORK_ERROR:
-                            console.error("Error de red, intentando recuperar...");
-                            hls.startLoad();
-                            break;
-                        case Hls.ErrorTypes.MEDIA_ERROR:
-                            console.error("Error multimedia, intentando recuperar...");
-                            hls.recoverMediaError();
-                            break;
-                        default:
-                            console.error("Error fatal, no se puede reproducir.");
-                            break;
-                    }
+                if(data.fatal) {
+                    mostrarError("Error HLS.js: " + data.type);
                 }
             });
         }
-        // 3. TERCERO: Fallback final (Video MP4 directo)
         else {
             video.src = videoUrl;
-            video.play();
         }
 
-        // Título de la pestaña
+        function mostrarError(txt) {
+            debugBox.style.display = 'block';
+            debugBox.innerHTML = `<strong>⚠️ NO SE PUEDE VER EN MÓVIL:</strong><br>${txt}<br><br><small>Prueba buscar otro enlace para esta película.</small>`;
+        }
+
         if(titulo) document.title = "Viendo: " + titulo;
 
     </script>
