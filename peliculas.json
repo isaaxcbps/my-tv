@@ -15,7 +15,7 @@
   {
     "titulo": "ESPN",
     "categoria": "TV",
-    "foto": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/624986973_122157950096741098_3550207540856455388_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NwprxCzTuO4Q7kNvwHqcN4V&_nc_oc=Adl_eWq67xJE6TPa_VtEascCbm_8hDLdN_IVDs3ea1AwGcRj93IkLVDAFZXY_eI8mUU&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=5Bawrqf9jA0_9cSLFef5iQ&oh=00_AfuWc2gi8SrfmxpnsideTkyaNQHY-MXOpD5PzJDHmrMtXA&oe=69883F2D",
+    "foto": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png",
     "url": "https://tyg2mnl9.fubohd.com/espn/mono.m3u8?token=28bac0e942d5095873d2fab8e3687f8805be1a3f-48-1770179710-1770161710"
   },
   {
@@ -265,6 +265,7 @@
   }
   
 ]
+
 
 
 
