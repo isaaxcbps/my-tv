@@ -36,7 +36,7 @@
     "titulo": "ROCKY II",
     "categoria": "PELICULA",
     "foto": "https://i.pinimg.com/736x/0c/a2/58/0ca258db492dbedceb226fbd6077a4df.jpg",
-    "url": "https://s9.vimeos.net/hls2/02/00003/knmnpvnahx3u_h/index-v1-a1.m3u8?t=elNAeaIr0yjmjY6KJe1nW8cLy3b43dknKYIS5cnF-e4&s=1770152105&e=43200&v=107214573&i=0.3&sp=0&r=e"
+    "url": "https://cdn-zrxms7xl06zuseys.edgeon-bandwidth.com/engine/hls2/01/11759/mpin2hult4gg_,n,.urlset/index-v1-a1.m3u8?t=mBOqxNyfUygaByXbV-74G0UETTV6ysp0JSTepDUrfgc&s=1770223608&e=14400&f=69248843&node=QDhUD1BCVABWHahrrteZ0jwEU43hSijKnDxpUvfvbmA=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
   },
   {
     "titulo": "ROCKY III",
@@ -260,6 +260,7 @@
   }
   
 ]
+
 
 
 
