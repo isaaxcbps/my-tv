@@ -1,5 +1,11 @@
 [
   {
+    "titulo": "SANTOS VS SAOPAULO",
+    "categoria": "TV",
+    "foto": "https://static.sportytrader.com/betting-tip-thumbnail/prod/324178.webp",
+    "url": "https://ssout.marsrivagg.click/premiere3/tracks-v1a1/mono.m3u8?ip=179.49.51.26&token=617e34750a37b9576b7305251e4b9746a46b2be4-9a-1770292640-1770238640"
+  },
+  {
     "titulo": "A&E",
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
@@ -16,6 +22,18 @@
     "categoria": "TV",
     "foto": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/efea896119450ed5bdc725f270cf31ec.webp",
     "url": "https://amg00658-canelamediainc-canela-cinema-rewardedtv-7iajs.amagi.tv/ts-us-e2-n1/playlist/amg00658-canelamediainc-canela-cinema-rewardedtv/playlist.m3u8"
+  },
+  {
+    "titulo": "CARACOL TV",
+    "categoria": "TV",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/CaracolTV2025.png",
+    "url": "http://corgol.com@181.78.82.6:46090/play/a05y"
+  },
+  {
+    "titulo": "CARTOON NETWORK",
+    "categoria":"TV",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/250px-Cartoon_Network_2010_logo.svg.png",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/50?mode=0"
   },
   {
     "titulo": "CINE PREMIERE",
@@ -94,6 +112,12 @@
     "categoria": "TV",
     "foto": "https://entrenoslibroscine.wordpress.com/wp-content/uploads/2018/09/historias-de-ultratumba_poster-ok.jpeg?w=306&h=431",
     "url": "https://corgol.com@is.gd/EH9OVX?.m3u8"
+  },
+  {
+    "titulo": "NICKELODEON",
+    "categoria": "TV",
+    "foto": "https://1000marcas.net/wp-content/uploads/2020/03/logo-Nickelodeon.png",
+    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/48?mode=0"
   },
   {
     "titulo": "RITMO TV TOP LATINO",
@@ -306,4 +330,5 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
