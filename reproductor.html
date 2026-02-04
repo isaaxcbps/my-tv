@@ -26,8 +26,7 @@
 
         /* PANTALLA DE ERROR / RESCATE */
         #error-screen {
-            display: none; /* Oculto por defecto */
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0,0,0,0.9);
             flex-direction: column; justify-content: center; align-items: center;
             text-align: center; z-index: 50; padding: 20px; box-sizing: border-box;
@@ -35,15 +34,20 @@
 
         .btn-rescate {
             background-color: #ff5722; color: white; border: none;
-            padding: 15px 30px; font-size: 18px; border-radius: 50px;
-            margin-top: 20px; cursor: pointer; font-weight: bold;
+            padding: 15px 30px; font-size: 16px; border-radius: 50px;
+            margin-top: 15px; cursor: pointer; font-weight: bold;
             box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
             text-decoration: none; display: inline-block;
         }
-        .btn-rescate:active { transform: scale(0.95); }
         
+        .btn-copiar {
+            background-color: transparent; border: 1px solid #777; color: #ccc;
+            padding: 10px 20px; border-radius: 50px; margin-top: 10px;
+            font-size: 14px; cursor: pointer;
+        }
+
         h2 { color: #ff5722; margin-bottom: 10px; }
-        p { color: #ccc; max-width: 400px; line-height: 1.5; }
+        p { color: #ccc; max-width: 400px; line-height: 1.5; font-size: 14px; }
     </style>
 </head>
 <body>
@@ -54,9 +58,13 @@
         <video id="video" controls autoplay playsinline></video>
         
         <div id="error-screen">
-            <h2>⚠ No compatible con Web</h2>
-            <p>El reproductor de tu celular no soporta el formato de este canal. Intenta abrirlo externamente:</p>
-            <a id="btn-vlc" href="#" class="btn-rescate">▶ Abrir en VLC / Reproductor Externo</a>
+            <h2>⚠ Reproductor Externo</h2>
+            <p>Este canal requiere la app <b>VLC</b> o similar para verse.</p>
+            
+            <a id="btn-vlc" href="#" class="btn-rescate">▶ Abrir en VLC / App</a>
+            
+            <button id="btn-copy" class="btn-copiar" onclick="copiarLink()">📋 Copiar Link</button>
+            <p id="msg-copiado" style="display:none; color:#4caf50; font-size:12px; margin-top:5px;">¡Copiado! Pégalo en VLC (Red)</p>
         </div>
     </div>
 
@@ -70,59 +78,48 @@
 
         if (!videoUrl) window.location.href = "index.html";
 
-        // Preparamos el botón de rescate con el link VLC
-        // "vlc://" intenta abrir la app VLC directamente.
-        // Si no, enviamos el link crudo para que el celular pregunte.
-        btnVlc.href = videoUrl; 
-
-        function activarModoRescate() {
-            console.log("Activando modo rescate...");
-            video.style.display = 'none'; // Ocultar video roto
-            errorScreen.style.display = 'flex'; // Mostrar pantalla de ayuda
+        // --- LÓGICA DEL BOTÓN DE RESCATE ---
+        // Agregamos "vlc://" al principio para forzar al celular a buscar la App
+        if (videoUrl.startsWith('http')) {
+             // Si el link es http://ejemplo.com/video, el botón será vlc://http://ejemplo.com/video
+            btnVlc.href = 'vlc://' + videoUrl;
+        } else {
+            btnVlc.href = videoUrl;
         }
 
-        // --- LÓGICA DE REPRODUCCIÓN ---
-
-        // 1. MÓVIL (IPHONE / ANDROID NATIVO)
-        if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = videoUrl;
-            
-            // Si el celular dice "ERROR", activamos el botón de rescate
-            video.onerror = function() {
-                activarModoRescate();
-            };
-
-            video.play().catch(e => {
-                video.muted = true; 
-                video.play().catch(e => {
-                    // Si ni siquiera en silencio arranca, mostramos rescate
-                    // activarModoRescate(); 
-                });
+        // Función para copiar link (Útil en PC si no abre solo)
+        function copiarLink() {
+            navigator.clipboard.writeText(videoUrl).then(() => {
+                document.getElementById('msg-copiado').style.display = 'block';
             });
         }
-        // 2. PC (HLS.JS)
+
+        function activarModoRescate() {
+            video.style.display = 'none';
+            errorScreen.style.display = 'flex';
+        }
+
+        // --- REPRODUCCIÓN ---
+        if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoUrl;
+            video.onerror = function() { activarModoRescate(); };
+            video.play().catch(e => { video.muted = true; video.play().catch(e=>{}); });
+        }
         else if (Hls.isSupported()) {
             const hls = new Hls();
             hls.loadSource(videoUrl);
             hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                video.play();
-            });
-            // Si falla en PC también
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play(); });
             hls.on(Hls.Events.ERROR, function (event, data) {
-                if(data.fatal) {
-                    activarModoRescate();
-                }
+                if(data.fatal) activarModoRescate();
             });
         }
         else {
-            // Fallback final
             video.src = videoUrl;
             video.onerror = function() { activarModoRescate(); };
         }
 
         if(titulo) document.title = "Viendo: " + titulo;
-
     </script>
 </body>
 </html>
