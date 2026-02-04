@@ -117,12 +117,7 @@
     "foto": "https://www.radio.es/300/retrobaladas.png?version=ca26d13e2509a3f2e31b5086365b91c499c5557f",
     "url": "https://stream-154.zeno.fm/5115vsdnnnruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1MTE1dnNkbm5ucnV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImtDZ1pJdERKUjdXbEdnYlp5V2FQYUEiLCJpYXQiOjE3NzAxNTkzNTgsImV4cCI6MTc3MDE1OTQxOH0.1874X_DZQLLZr6SBg2d2f_SM3gMB55kHKHFG0llIAwo"
   },
-  {
-    "titulo": "CARACOL TV",
-    "categoria": "TV",
-    "foto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/CaracolTV2025.png",
-    "url": "https://hls.mywebtv.cloud/hls/c1270126/index.m3u8?token=_oc5kpmLBRuPfNdWN7WOHw&expires=1770174278"
-  },
+ 
   {
     "titulo": "CINE PREMIERE",
     "categoria": "TV",
@@ -209,6 +204,7 @@
   }
   
 ]
+
 
 
 
