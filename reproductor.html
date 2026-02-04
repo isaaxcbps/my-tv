@@ -1,38 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Reproduciendo...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor NIU PLAY</title>
+    <meta name="referrer" content="no-referrer">
+    
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    
     <style>
-        body { margin: 0; background: black; display: flex; justify-content: center; align-items: center; height: 100vh; }
-        video { width: 90%; max-width: 1000px; height: auto; }
-        .volver { position: absolute; top: 20px; left: 20px; color: white; text-decoration: none; font-family: Arial; font-weight: bold;}
+        body { margin: 0; background-color: black; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+        
+        .volver {
+            position: absolute; top: 20px; left: 20px; z-index: 100;
+            background: rgba(0,0,0,0.5); color: white; text-decoration: none;
+            padding: 8px 12px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.3);
+            font-family: sans-serif; font-weight: bold; font-size: 14px;
+        }
+
+        #video-container {
+            width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+        }
+
+        video {
+            width: 100%; height: 100%;
+            max-height: 100vh;
+        }
     </style>
 </head>
 <body>
-    <a href="index.html" class="volver">← Volver al menú</a>
-    <video id="video" controls autoplay></video>
+
+    <a href="index.html" class="volver">⬅ Volver</a>
+
+    <div id="video-container">
+        <video id="video" controls autoplay playsinline></video>
+    </div>
 
     <script>
-        // 1. Detectar qué video pidió el usuario desde la URL
-        const parametros = new URLSearchParams(window.location.search);
-        const urlVideo = parametros.get('video');
+        const params = new URLSearchParams(window.location.search);
+        const videoUrl = decodeURIComponent(params.get('video'));
+        const titulo = decodeURIComponent(params.get('titulo') || '');
         const video = document.getElementById('video');
 
-        if (urlVideo) {
-            // 2. Si el navegador soporta HLS nativo (Safari/iPhone)
-            if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = urlVideo;
-            }
-            // 3. Si no, usamos la librería Hls.js (Chrome, Firefox, Android)
-            else if (Hls.isSupported()) {
-                var hls = new Hls();
-                hls.loadSource(urlVideo);
-                hls.attachMedia(video);
-            }
-        } else {
-            alert("No encontré ningún video para reproducir");
+        if (!videoUrl) {
+            alert("Error: No hay video seleccionado");
+            window.location.href = "index.html";
         }
+
+        // --- LÓGICA DE REPRODUCCIÓN HÍBRIDA ---
+
+        // 1. PRIMERO: Intentamos soporte nativo (Vital para iPhone/Safari)
+        if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoUrl;
+            // Intentar reproducir (a veces los celulares bloquean el autoplay con sonido)
+            video.play().catch(e => {
+                // Si falla el autoplay, silenciamos e intentamos de nuevo (truco común)
+                video.muted = true;
+                video.play();
+            });
+        }
+        // 2. SEGUNDO: Si no es iPhone, usamos Hls.js (Para Chrome PC y Android)
+        else if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoUrl);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                video.play().catch(e => console.log("Autoplay bloqueado por el navegador"));
+            });
+            
+            // Manejo de errores de la librería
+            hls.on(Hls.Events.ERROR, function (event, data) {
+                if (data.fatal) {
+                    switch (data.type) {
+                        case Hls.ErrorTypes.NETWORK_ERROR:
+                            console.error("Error de red, intentando recuperar...");
+                            hls.startLoad();
+                            break;
+                        case Hls.ErrorTypes.MEDIA_ERROR:
+                            console.error("Error multimedia, intentando recuperar...");
+                            hls.recoverMediaError();
+                            break;
+                        default:
+                            console.error("Error fatal, no se puede reproducir.");
+                            break;
+                    }
+                }
+            });
+        }
+        // 3. TERCERO: Fallback final (Video MP4 directo)
+        else {
+            video.src = videoUrl;
+            video.play();
+        }
+
+        // Título de la pestaña
+        if(titulo) document.title = "Viendo: " + titulo;
+
     </script>
 </body>
 </html>
