@@ -360,8 +360,15 @@
     "categoria": "RADIO",
     "foto": "https://i.scdn.co/image/ab67616d00001e020ad310285839d6137e96a0b1",
     "url": "https://gold.streamguys1.com/softrock.mp3"
+  },
+   {
+    "titulo": " REAL BETIS VS ATLE MADIRD",
+    "categoria": "PPV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwTyfSVSAt-hnrIhP3zE_2VyTnSj4Q0TcmYQ&s",
+    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/meeZG5-JQ0HdSgtJxkKfiooPwoFbys2Ox8GZyolIwcZcC43JhoDZiwlJxJRIn1m/42341/0/chunklist.m3u8"
   }
 ]
+
 
 
 
