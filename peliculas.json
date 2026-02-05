@@ -127,6 +127,42 @@
     "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/15?mode=0"
   },
   {
+    "titulo": "Pluto TV Anime",
+    "categoria": "TV",
+    "foto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxEMFbdY3f5lFHHNgaupgPXGNtgVgHmD4cKR5EzS00b045CnGoNSa6s7QpxLJ-L9f0xBv8R8S2fyPLZ8Kogxe9BO_giro_G5szk2u2Z_2Xs3r8VAE1b9DVtQSekJ6kuDa1CMaui54UTUpZg1O5CS-TkQb9JFSRzVOfDpITR96w9EqdmLhh5l4dzbHwTVT-/s1920/sakura%20cazadora%20de%20cartas%20pluto%20tv%20anime%20estanteriaotaku%20via%20pluto%20tv%20paramount.jpg",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/5dcde17bf6591d0009839e02/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
+  },
+  {
+    "titulo": "Naruto 24/7",
+    "categoria": "TV",
+    "foto": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/5ee92e72fb286e0007285fec/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
+  },
+  {
+    "titulo": "Naruto Shippuden 24/7",
+    "categoria": "TV",
+    "foto": "https://i.redd.it/99u82er66aib1.jpg",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/64c92fea3c3344000869e8a9/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
+  },
+  {
+    "titulo": "ONE PIECE 24/7",
+    "categoria": "TV",
+    "foto": "https://static.wikia.nocookie.net/onepiece/images/8/8d/One_Piece.png/revision/latest?cb=20131217174846&path-prefix=es",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/680ba8992472a7200a183eb5/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=bdfb2f46-e843-11f0-9e3e-f2d6fe1fe6df"
+  },
+  {
+    "titulo": "YU-GI-HO 24/7",
+    "categoria": "TV",
+    "foto": "https://www.yugioh-card.com/eu/wp-content/uploads/2022/04/Yugi.webp",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
+  },
+  {
+    "titulo": "CABALLEROS DEL ZODIACO",
+    "categoria": "TV",
+    "foto": "https://static.wikia.nocookie.net/doblaje/images/b/b2/LCDZ_Poster.png/revision/latest?cb=20220410222701&path-prefix=es",
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/680ba8c3a48b3ead0db701cc/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=bdfb2f46-e843-11f0-9e3e-f2d6fe1fe6df"
+  },
+  {
     "titulo": "ANACONDA",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//hENLu86h3zljg0x8bdy8cOUxZF5.jpg",
@@ -326,6 +362,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
