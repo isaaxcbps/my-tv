@@ -135,37 +135,32 @@
     "titulo": "ANACONDA",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//hENLu86h3zljg0x8bdy8cOUxZF5.jpg",
-    "url": "https://s1.vimeos.net/hls2/03/00008/u07at9iwuygn_h/index-v1-a2.m3u8?t=Ikv7oRHyoIaMLZLcLwzItA_c0-qS0YFqajeo73GNyVo&s=1770224898&e=43200&v=107849649&i=0.0&sp=0&fr=u07at9iwuygn&r=e"
+    "url": "https://pomf2.lain.la/f/azlbkjha.mp4"
   },
   {
     "titulo": "Bob Esponja: En busca de los pantalones cuadrados",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//cuXscQfRr1KLknkqNVObkAA7HyE.jpg",
-    "url": "https://cdn-yrhohklc10mfxrgy.edgeon-bandwidth.com/engine/hls2/01/16399/tabrbqhr8oui_,n,.urlset/index-v1-a1.m3u8?t=milbLoRvZrTUqIIZdKZxfvEQ-8Xj7kjjfNs1hM3jBR0&s=1770225189&e=14400&f=81998040&node=9/YfUrcSSltRxRudPemYIkc9gzkqTBAOOy6oaT96arE=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+    "url": "https://pomf2.lain.la/f/t71flrw.mp4"
   },
-  {
-    "titulo": "Contactos de cuarto tipo",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//2tpTnb6o1LVRn2IDwn7fr6qn27I.jpg",
-    "url": "https://cdn-xygvp1sk9y8ulkte.edgeon-bandwidth.com/engine/hls2/01/11591/m7wga2bw85zq_,n,.urlset/index-v1-a1.m3u8?t=3B8IRbX0EKnea2Vc2XZN9oEbqxu_l_7K2BWOy_Dwrhs&s=1770225400&e=14400&f=69360103&node=lG4fhWy3Ya/s7A605bVApxePNEeWFQr0aMRR+cKCkdI=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
-  },
+  
   {
     "titulo": "Depredador: Tierras salvajes",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//r7TEWHLr1lsIsTkiEFwtM3hAWma.jpg",
-    "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/09/10603/2ev61x5fmgcy_x/index-v1-a1.m3u8?t=z58UlZ7nCKayROAufgyYluk7K35D2fMrk7wt7KlmDT4&s=1770224700&e=10800&f=53019878&srv=1070&asn=22724&sp=5500&p=0"
+    "url": "https://pomf2.lain.la/f/4557groy.mp4"
   },
   {
-    "titulo": "El Día Del Fin Del Mundo: Migración",
+    "titulo": "Cazadores Del Fin Del Mundo",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//q7aijAKE98Fcp6dgR6oWiUkFO2g.jpg",
-    "url": "https://cdn-n5wvdbjf8ku1nhxd.edgeon-bandwidth.com/engine/hls2-c/01/16322/nmxpz8nixsij_,n,.urlset/index-v1-a1.m3u8?t=J2t7Iw3m6nYhHGUNgfA19wdNa4GBAkWxYU3itawKJt8&s=1770223274&e=14400&f=81612555&node=PUoy/KM77l0V4iZ8nhkZLSLMxo5GfHXyuBpISv5gTK0=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+    "foto": "https://image.tmdb.org/t/p/original/6VTnUQx6nY3UsZUV0BQX5S6l1Nq.jpg",
+    "url": "https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%281%29.mp4"
   },
   {
-    "titulo": "El botín",
+    "titulo": "Trap House",
     "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/890e16211a3260329fce9c13ec8e828e_hd.webp",
-    "url": "https://vimeos.zip/hls2/03/00007/9b7uadbng1z9_h/index-v1-a1.m3u8?t=86O_bWh4-GdG0G45zoIKLpVyBaLR1ra8citG14CY26w&s=1770179032&e=43200&v=107434908&srv=s13&i=0.0&sp=0&fr=9b7uadbng1z9&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/6tpAPeuuqbVnYWWPoOLEDLSBU7a.jpg",
+    "url": "https://pomf2.lain.la/f/17jap2e4.mp4"
   },
   {
     "titulo": "El caballero de los Siete Reinos",
@@ -174,34 +169,34 @@
     "url": "https://s13.vimeos.net/hls2/02/00007/2jgybzcof3h2_h/index-v1-a1.m3u8?t=vwIPkFXSXtCmzhBChVJ8CWdYPpAN8UX3JHeUJSbZxSI&s=1770167603&e=43200&v=107433097&i=0.0&sp=0&fr=2jgybzcof3h2&r=e"
   },
   {
-    "titulo": "EQUIPO DEMOLICION",
+    "titulo": "Muerte de un unicornio",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//pG39vgTEhHeYIlcPJtHpxNLdPPM.jpg",
-    "url": "https://vimeos.zip/hls2/02/00008/slm63blvjl6e_h/index-v1-a1.m3u8?t=SgC94Ixm7Hm-gmx9UrfFFkOpOmLzgHw2Kj4BLLoAEes&s=1770166598&e=43200&v=107417564&srv=s8&i=0.0&sp=0&fr=slm63blvjl6e&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+    "url": "https://pomf2.lain.la/f/scicha3l.mp4"
+  },
+  { 
+    "titulo": "El abismo secreto",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/bJToUFSmdyDR1qx2hmjXFJld5vK.jpg",
+    "url": "https://pomf2.lain.la/f/rsmz3cpu.mp4?download=1"
   },
   {
-    "titulo": "Gente que conocemos en vacaciones",
+    "titulo": "Los Cuatro Fantásticos: Primeros pasos ",
     "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/8db48f006fb79821c7508536767432c6_hd.webp",
-    "url": "https://s14.vimeos.net/hls2/02/00007/gkbhvuyo36dk_h/index-v1-a1.m3u8?t=I34Q1Xt1UGBPQsARimlv8rd9VnCMhPxJoftKkylvs0Y&s=1770178927&e=43200&v=107444009&i=0.0&sp=0&fr=gkbhvuyo36dk&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/u6iFFGcOXk4d6C5pZes1qRgU8Nt.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/ifgzkj8nmjycbdk4qj16i/sociales.mp4?rlkey=qjf9dnhp5mej55di2y7jarj03&st=79g5g9i2&dl=0"
   },
   {
-    "titulo": "Hannibal: El origen del mal",
+    "titulo": "Las Ratas Una historia de The Witcher",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//AfIIQ5lMbqpCa3UQCwHVieLRpyE.jpg",
-    "url": "https://cdn-thhhlmzuxvpehc9r.edgeon-bandwidth.com/engine/hls2-c/01/11506/8alxzafzgydc_,n,.urlset/index-v1-a1.m3u8?t=w9u7oIfHQtG1e1sveCNu6dwQEl5EHzybXTUBeVeZHTQ&s=1770224457&e=14400&f=69323124&node=vQNYzBgoOUWQaNyCrwxJhQY3K9HJDDAMOj7kOzOhD9s=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+    "foto": "https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg",
+    "url": "https://ia903109.us.archive.org/30/items/fisica-cuantica-2/fisica%20cuantica%20%2810%29.mp4"
   },
   {
-    "titulo": "Harpía: Acecho maligno",
+    "titulo": "La noche siempre llega",
     "categoria": "PELICULA",
-    "foto": "https://la.movie/wp-content/uploads/thumbs/3f24181f21dd1ba00d31711926df9840_hd.webp",
-    "url": "https://s1.vimeos.net/hls2/03/00008/j87ydqxaoe0u_h/index-v1-a1.m3u8?t=moBhT0nphLaFSMcqYew__EEX21e2nGhZKGv8GdYqXh8&s=1770178826&e=43200&v=107446634&i=0.0&sp=0&fr=j87ydqxaoe0u&r=e"
-  },
-  {
-    "titulo": "Los Condenados",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//23VdXxxHf9bWnmBWVB4rIsqDWuz.jpg",
-    "url": "https://cdn-tcixikozel9gpcej.edgeon-bandwidth.com/engine/hls2/01/16436/p7ghavqg83hr_,n,.urlset/index-v1-a1.m3u8?t=s6eZVXzRoT3r8fnZDXdDAyU1vZspLkX5W2v7vHIvzJI&s=1770224313&e=14400&f=82180463&node=ENDBUx+kMcJN2ZoJm8SKpgzDYT6L023BUzKNnGKVxj0=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+    "foto": "https://image.tmdb.org/t/p/original/n1FDVrDlgVHgm3IXGMmTZRXQmvI.jpg",
+    "url": "https://archive.org/download/la-noche-siempre-llega-2025-latino/la-noche-siempre-llega-2025-%5Blatino%5D.mp4"
   },
   {
     "titulo": "NADIE 2",
@@ -210,16 +205,16 @@
     "url": "https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/06280/iru18ezjbcqt_n/index-v1-a1.m3u8?t=oha6GgFryaYz29RxcKgX6jd0EI4djazwz1YigYTQ2wI&s=1770166136&e=129600&f=31732459&srv=lWe8CcvljpC03&i=0.4&sp=500&p1=lWe8CcvljpC03&p2=lWe8CcvljpC03&asn=22724"
   },
   {
-    "titulo": "Nunca digas su nombre",
+    "titulo": "LOS BARBAROS",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//nQD4sConnRzxuBpAdzkbz15hROb.jpg",
-    "url": "https://cdn-50kcbgjki0zzkzns.edgeon-bandwidth.com/engine/hls2/01/16436/5j0sxuclcwg5_,n,.urlset/index-v1-a1.m3u8?t=2Hvtm_3y4Okt9WWayceeRZtTVOsTElriNuFeaTCd-B0&s=1770224216&e=14400&f=82182352&node=emFhWynNOGuv3pisMCjfukJkzsCosm5hJLraAZ+l22o=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
+    "foto": "https://image.tmdb.org/t/p/original/xm6rilitqrlvnPThzJpLBSCreVg.jpg",
+    "url": "https://pomf2.lain.la/f/0l8wtq36.mp4"
   },
   {
-    "titulo": "PELICULA EL AMATEUR",
+    "titulo": "E BUSCA DE VENGANZA 2",
     "categoria": "PELICULA",
-    "foto": "https://m.media-amazon.com/images/S/pv-target-images/10a2c61dc0d6f0d1e7a0490f0fac080d12d6fb9c52ef857c48fbb20bb0403c5c.jpg",
-    "url": "https://jhcoapysuyp3y1f.acek-cdn.com/hls2/01/05330/g1zqo6wjiuzh_n/index-v1-a1.m3u8?t=9TBuTzFYIYvqkqfdgg25d0_oWv58_DGAEERrGozjbMQ&s=1770089302&e=129600&f=26719766&srv=VCgmDWaexkLPOOE2&i=0.4&sp=500&p1=VCgmDWaexkLPOOE2&p2=VCgmDWaexkLPOOE2&asn=22724"
+    "foto": "https://image.tmdb.org/t/p/original/yBg2t8vuqrE8nqrxS3VzW3Qvzh3.jpg",
+    "url": "https://pomf2.lain.la/f/vob9d876.mp4"
   },
   {
     "titulo": "ROCKY",
@@ -252,22 +247,28 @@
     "url": "https://cdn-lggrqi8abfi4eltg.edgeon-bandwidth.com/engine/hls2/01/13858/mjfh70wyz9pz_,n,.urlset/index-v1-a1.m3u8?t=latJ2G8YWLnBxlp_7Zk6bC-6AzDHuGgmcvW3PxmJHnw&s=1770223808&e=14400&f=69293656&node=Z/DpTnWhIzppBquGEOzeHLkvPJP0j3OnVCEjTgLN1DM=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
   },
   {
-    "titulo": "Signing Tony Raymond",
+    "titulo": "LOCKED",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
-    "url": "https://vimeos.zip/hls2/02/00008/8uyo0qs0nbms_h/index-v1-a1.m3u8?t=Vk0rIcdqo596qf-cJ01it71cA8EYzrM_I5H93RvTPkk&s=1770166746&e=43200&v=107419885&srv=s8&i=0.0&sp=0&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
+    "url": "https://pomf2.lain.la/f/f5gxmqrd.mp4"
   },
   {
-    "titulo": "Terror en Silent Hill: Regreso al infierno",
+    "titulo": "The Running Man",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//afTkeXGBGhp3jekam0vG1dQihOr.jpg",
-    "url": "https://s1.vimeos.net/hls2/03/00008/f0etqwkylu5a_h/index-v1-a1.m3u8?t=Ytd5dQ7Edhjv_Ea8ah092I7LQCcasXTit3PvnaZ8rBA&s=1770166957&e=43200&v=104970248&i=0.0&sp=0&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/dosxlzcqsp8vaxsqqkgwh/f-sica.mp4?rlkey=vnk5b9aaudgknmcg6fblcy3g6&st=vw1rdanl&dl=0"
   },
   {
     "titulo": "We Bury the Dead",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//f7l9Bipd3JFnO4tvIejSyqYjBzt.jpg",
-    "url": "https://p3.vimeos.zip/hls2/02/00007/73dsjk3em25n_h/index-v1-a1.m3u8?t=-s6VDZN_vLL3iuFTjLg3EtlBGPkKgJNXXNdNKWNcxP0&s=1770179134&e=43200&v=107427920&srv=s14&i=0.0&sp=0&r=e"
+    "foto": "https://image.tmdb.org/t/p/original/pzKeASTj4HitqVXB1cdvswmMV50.jpg",
+    "url": "https://pomf2.lain.la/f/e2uwp5l1.mp4"
+  },
+  {
+    "titulo": "TIEMPO DE GUERRA",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/fkVpNJugieKeTu7Se8uQRqRag2M.jpg",
+    "url": "https://pomf2.lain.la/f/cpj8xt9.mp4?download=1"
   },
   {
     "titulo": "BALADAS",
@@ -330,5 +331,6 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
