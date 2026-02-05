@@ -1,10 +1,5 @@
 [
-  {
-    "titulo": "SANTOS VS SAOPAULO",
-    "categoria": "TV",
-    "foto": "https://static.sportytrader.com/betting-tip-thumbnail/prod/324178.webp",
-    "url": "https://ssout.marsrivagg.click/premiere3/tracks-v1a1/mono.m3u8?ip=179.49.51.26&token=617e34750a37b9576b7305251e4b9746a46b2be4-9a-1770292640-1770238640"
-  },
+  
   {
     "titulo": "A&E",
     "categoria": "TV",
@@ -75,7 +70,7 @@
     "titulo": "ECDF",
     "categoria": "TV",
     "foto": "https://cyberonline.ec/2929-thickbox_default/directv-go-.jpg",
-    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/izNrSC-DiUTAywyDDEeCC43FCIRGS8pEDcSES46CC8NBiooDTQRFy82CzpFVHl5/42341/0/chunklist.m3u8"
+    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/bAjcPU-KjQQFScJKCAdHiUMMDMSDyQSNCYRByUBLD4OECETKSQdCSAALitGQnJC/42341/0/chunklist.m3u8"
   },
   {
     "titulo": "ECUADOR TV",
@@ -331,6 +326,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
