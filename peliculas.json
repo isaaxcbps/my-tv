@@ -15,7 +15,7 @@
     "titulo": "CABALLEROS DEL ZODIACO",
     "categoria": "TV",
     "foto": "https://static.wikia.nocookie.net/doblaje/images/b/b2/LCDZ_Poster.png/revision/latest?cb=20220410222701&path-prefix=es",
-    "url": "https://stitcher.pluto.tv/stitch/hls/channel/680ba8c3a48b3ead0db701cc/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=bdfb2f46-e843-11f0-9e3e-f2d6fe1fe6df"
+    "url": "https://stitcher.pluto.tv/stitch/hls/channel/680ba8c3a48b3ead0db701cc/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
   },
   {
     "titulo": "CANELA CINEMA ",
@@ -162,10 +162,28 @@
     "url": "https://stitcher.pluto.tv/stitch/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f1346bbd-b0b3-11f0-ab21-da2bce2249f9"
   },
   {
+    "titulo": "100 METERS (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/w2pzrRTevXrW3vgIK4CCYaXvtIc.jpg",
+    "url": "https://pomf2.lain.la/f/1r7v9507.mp4"
+  },
+  {
     "titulo": "A Bronx Tale (1993)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/t4dv3SbJOV4uGFYWQd8xxnGiddX.jpg",
     "url": "https://pomf2.lain.la/f/v61mn75q.mp4"
+  },
+  {
+    "titulo": "Adivina quién muere esta noche (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/jK3U9ymvunvYqTE1XnVkegKUHuL.jpg",
+    "url": "https://pomf2.lain.la/f/1mku1auj.mp4"
+  },
+  {
+    "titulo": "adultez (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/kTVABjFns9gZ72kOPbtuwnfBeLo.jpg",
+    "url": "https://pomf2.lain.la/f/jd186h2.mp4"
   },
   {
     "titulo": "Air (2005)",
@@ -186,6 +204,18 @@
     "url": "https://pomf2.lain.la/f/wjptylg2.mp4"
   },
   {
+    "titulo": "Another You (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/vfEbhAzhKavunGOFiOknVtY0NiD.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/23wripm4a3c3hvauds1ax/another-you.mp4?rlkey=ibazwahnc8kh89bunagm6yrfv"
+  },
+  {
+    "titulo": "Armas arriba (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/jJshmHRXDH4PdythVz82fnSymo6.jpg",
+    "url": "https://pomf2.lain.la/f/j0w88gb2.mp4"
+  },
+  {
     "titulo": "Atena (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/kP4380IsiyoQ1EIuJxR1AEIIDPX.jpg",
@@ -204,6 +234,12 @@
     "url": "https://pomf2.lain.la/f/64p0uqsb.mp4"
   },
   {
+    "titulo": "BLUE LOCK THE MOVIE -EPISODE NAGI- (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/ae434jM5NG2kKX1rRkG5giMhpPI.jpg",
+    "url": "https://github.com/tokio14-dot/Q.5825/releases/download/Q.563737/4914689537.mp4"
+  },
+  {
     "titulo": "Bob Esponja: En busca de los pantalones cuadrados",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//cuXscQfRr1KLknkqNVObkAA7HyE.jpg",
@@ -216,10 +252,22 @@
     "url": "https://pomf2.lain.la/f/0ep0qypn.mp4"
   },
   {
+    "titulo": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg",
+    "url": "https://pomf2.lain.la/f/wytsfla2.mp4"
+  },
+  {
     "titulo": "Cheetahs Up Close with Bertie Gregory (2026)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/pSmSgFb1cnRQep0OzcuKWMYWeqR.jpg",
     "url": "https://pomf2.lain.la/f/44fup4u9.mp4"
+  },
+  {
+    "titulo": "Chico Chico (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/a5AuXy70HjNy7RJexXwNpoBGkg0.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/75y405wv5ftpdy9tsylht/Chuck-Billy-and-The-Marvelous-Guava-Tree-2025.mp4"
   },
   {
     "titulo": "Colón ADN - Su Verdadero Origen (2024)",
@@ -228,16 +276,16 @@
     "url": "https://archive.org/download/colon-adn/colon-adn.ia.mp4"
   },
   {
-    "titulo": "Cover-Up (2025)",
+    "titulo": "cuando el cielo se equivoca (2025)",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/tez2piKTs1mi1X99RQVm78t8y9m.jpg",
-    "url": "https://pomf2.lain.la/f/2scg8eqx.mp4"
+    "foto": "https://image.tmdb.org/t/p/original/kDLQP1bbaFBTpOSM2fuPu3yBqxA.jpg",
+    "url": "https://pomf2.lain.la/f/pm5wuket.mp4"
   },
   {
-    "titulo": "Critical Incident: Death at the Border (2025)",
+    "titulo": "DAN DA DAN: Evil Eye (2025)",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/bLq4GRp4InjkipnWM5Bdzbkhg2P.jpg",
-    "url": "https://pomf2.lain.la/f/6ta9o6fj.mp4"
+    "foto": "https://image.tmdb.org/t/p/original/o9DcvVsjZyBRv7dAm4PeWHfIsp6.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/4l58bo66amn4ocf3csts2/01.mp4?rlkey=yv0iupyllzitdb01og95zvjf9&st=oe8ctbds&dl=0"
   },
   {
     "titulo": "Demon City (2025)",
@@ -246,10 +294,22 @@
     "url": "https://1a-1791.com/video/fwe1/32/s8/2/s/k/c/s/skcsy.aaa.mp4"
   },
   {
+    "titulo": "Depredador: Cazador de Asesinos (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/8upWJ1KTR1bAPqXCHAuVOhfuiAZ.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/1lbof8fn6tjgm8l08fyb4/D31PR4E1DA1AD4OR.mkv?rlkey=pv9aw682l3s30q8xc1uo200b2&st=hc4l6wdj&"
+  },
+  {
     "titulo": "Depredador: Tierras salvajes",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/w342//r7TEWHLr1lsIsTkiEFwtM3hAWma.jpg",
     "url": "https://pomf2.lain.la/f/4557groy.mp4"
+  },
+  {
+    "titulo": "donde esta el policía (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/5RM9cbIQfrtYYSbb6KEL4bo8JYj.jpg",
+    "url": "https://pomf2.lain.la/f/ft1e41.mp4"
   },
   {
     "titulo": "E BUSCA DE VENGANZA 2",
@@ -270,10 +330,46 @@
     "url": "https://s13.vimeos.net/hls2/02/00007/2jgybzcof3h2_h/index-v1-a1.m3u8?t=vwIPkFXSXtCmzhBChVJ8CWdYPpAN8UX3JHeUJSbZxSI&s=1770167603&e=43200&v=107433097&i=0.0&sp=0&fr=2jgybzcof3h2&r=e"
   },
   {
+    "titulo": "El cuadro robado (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/1D8on0AKvFxBGgyW05PW30Bn24N.jpg",
+    "url": "https://pomf2.lain.la/f/bxakoxd.mp4"
+  },
+  {
     "titulo": "El irlandés (2019)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/sNilmIAwBbH0DmBOWBS6gWvNDex.jpg",
     "url": "https://pomf2.lain.la/f/r61zlqah.mp4"
+  },
+  {
+    "titulo": "El mayor fan (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/wgUmsekYPOt9ZQ8ero91qRnmhQY.jpg",
+    "url": "https://pomf2.lain.la/f/71z1sxep.mp4?download=1"
+  },
+  {
+    "titulo": "El Plan Familiar 2 (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/sxoN17pPyL6SiqD8F6DXmTPILwJ.jpg",
+    "url": "https://pomf2.lain.la/f/9njymju.mp4"
+  },
+  {
+    "titulo": "El Rey de Reyes (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/cRLRn48400cJtLowPyOMj18OvSy.jpg",
+    "url": "https://archive.org/download/the-king-of-kings-el-rey-de-reyes-2025-latino/the-king-of-kings-el-rey-de-reyes-2025-%5Blatino%5D.mp4"
+  },
+  {
+    "titulo": "El señor de los anillos: La guerra de los Rohirrim (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/mD2m6Lr7GtyBv85EP1s0dQHQo1X.jpg",
+    "url": "https://github.com/tokio14-dot/ser-53/releases/download/A.1.0.7/0ore2477.mp4"
+  },
+  {
+    "titulo": "Estragos (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/tbsDLmo2Ej8YFM0HKcOGfNMTlyJ.jpg",
+    "url": "https://pomf2.lain.la/f/ej6kbln.mp4?download=1"
   },
   {
     "titulo": "Evil Influencer: The Jodi Hildebrandt Story (2025)",
@@ -282,10 +378,28 @@
     "url": "https://pomf2.lain.la/f/7g6ksoj5.mp4"
   },
   {
+    "titulo": "Exorcism Chronicles: The Beginning (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/n7mf3Bu7PSw8uZtKUtYNNndTc0g.jpg",
+    "url": "https://pomf2.lain.la/f/vf826ovc.mp4"
+  },
+  {
     "titulo": "Fotógrafo de guerra El hombre que captó la imagen (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/cnDf5hkhoAa810dWTSkBDYEkbcY.jpg",
     "url": "https://pomf2.lain.la/f/f545krnw.mp4"
+  },
+  {
+    "titulo": "Fran the Man (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/24zTubOP9RCJGVTpUxpQ92JxflC.jpg",
+    "url": "https://pomf2.lain.la/f/xpeo21q.mp4"
+  },
+  {
+    "titulo": "G20(2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+    "url": "https://1a-1791.com/video/fww1/db/s8/2/5/U/S/D/5USDy.aaa.mp4"
   },
   {
     "titulo": "Gato fantasma Anzu (2024)",
@@ -294,10 +408,40 @@
     "url": "https://archive.org/download/anzu-gato-fantasma-2024-2castellano/anzu-gato-fantasma-2024-2%5Bcastellano%5D.mp4"
   },
   {
+    "titulo": "Given - La Película (2020)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/ygPexnfuIox9QfHxqXSHgGnjeXd.jpg",
+    "url": "https://archive.org/download/given-la-pelicula-2020-cine-anime/%5BAz-Animex%5D_Given_Movie_%5BBD%5D%5BKashikoi%5D.mp4"
+  },
+  {
+    "titulo": "Given Movie 2 - Hiiragi Mix (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/oMa5Kc1lz9THT9YHNI3yjXxg8Yd.jpg",
+    "url": "https://archive.org/download/given-la-pelicula-hiiragi-mix-2020-cine-anine/%5BAnimeOnlineNinja%5D_given_The_Movie__Hiiragi_mix_.mp4"
+  },
+  {
+    "titulo": "given the Movie: To the Sea (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/2VLnT5JtJ77ErG6GD3c1J628VLp.jpg",
+    "url": "https://archive.org/download/given-3-to-the-sea-pelicula-2024-cine-anime/%5BAnimeOnlineNinja%5D_given_The_Movie__To_the_Sea.mp4"
+  },
+  {
+    "titulo": "Groom & Two Brides (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/5ixetxYF75iikkNZ3gImKEjVJNH.jpg",
+    "url": "https://pomf2.lain.la/f/i6adgufn.mp4"
+  },
+  {
     "titulo": "Hasta que me quede sin voz (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/pmKHBwYj5tfgyAVomgAjm4Lxh4A.jpg",
     "url": "https://pomf2.lain.la/f/7i3mofkw.mp4"
+  },
+  {
+    "titulo": "High Ground (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/cqF7xuZWbBYXWHsp1I1H5PwujPs.jpg",
+    "url": "https://pomf2.lain.la/f/2y9x5848.mp4"
   },
   {
     "titulo": "Hijos (2024)",
@@ -306,10 +450,46 @@
     "url": "https://pomf2.lain.la/f/vyqxpxuc.mp4"
   },
   {
+    "titulo": "Hunting Season (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+    "url": "https://pomf2.lain.la/f/t8gamu55.mp4"
+  },
+  {
+    "titulo": "Ice Road: Vengeance (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
+    "url": "https://pomf2.lain.la/f/hlr3d8ia.mp4?download=1"
+  },
+  {
+    "titulo": "Instintos (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/sKjOf6zQgCc5bYwOFanKTD96Obc.jpg",
+    "url": "https://pomf2.lain.la/f/cv4fc083.mp4?download=1"
+  },
+  {
     "titulo": "Isla de los monstruos (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/x1JOs4xWNr1QYjDAXHxWw1NJ7Sq.jpg",
     "url": "https://pomf2.lain.la/f/u3bokhps.mp4"
+  },
+  {
+    "titulo": "John Wick 4 (2023) 480p latino",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w300_and_h450_face/mj2Z9HnRSIEk3n7yVPoOY4Uzzfh.jpg",
+    "url": "https://dl.dropboxusercontent.com/scl/fi/wfley6gbdthmvx325hzqt/J1H3ON-W1ICFK-4.mp4?rlkey=67es8jxdnyuyzdpx94b2lq7la&st=hih3y17c"
+  },
+  {
+    "titulo": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins- (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/a4QuZ6oW71zCpwVW08u3fHBxc6E.jpg",
+    "url": "https://pomf2.lain.la/f/yofrzo5.mp4"
+  },
+  {
+    "titulo": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/xaQdh164coVcrNiQm6jpehYG1dV.jpg",
+    "url": "https://pomf2.lain.la/f/cgop09y7.mp4"
   },
   {
     "titulo": "Kung Fu Rookie (2023)",
@@ -334,6 +514,12 @@
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/1i6t9FjtcMLL4TQA3dgOIoAQwbD.jpg",
     "url": "https://pomf2.lain.la/f/15fgrp11.mp4"
+  },
+  {
+    "titulo": "Les irresponsables (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/xFTAD47rxzQGCd1yiC7T8cYROq.jpg",
+    "url": "https://pomf2.lain.la/f/g9mfllte.mp4"
   },
   {
     "titulo": "Locked (2025)",
@@ -372,6 +558,12 @@
     "url": "https://pomf2.lain.la/f/avts2p5.mp4"
   },
   {
+    "titulo": "Misterioso asesinato en la montaña (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/yfCPhG8z5eTmfYnKd4QWUgZ5vk4.jpg",
+    "url": "https://pomf2.lain.la/f/6r17qv95.mp4"
+  },
+  {
     "titulo": "Muerte de un unicornio",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
@@ -382,6 +574,18 @@
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/kBbKJKBL2Y32SL5BcqILcyOnzI2.jpg",
     "url": "https://pomf2.lain.la/f/icnw6vbi.mp4"
+  },
+  {
+    "titulo": "My Hero Academia: You're Next (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/8rdB1wkheEMMqcY8qLAKjCMPcnZ.jpg",
+    "url": "https://github.com/tokio14-dot/Q.5825/releases/download/Q.563737/373679421567.mp4"
+  },
+  {
+    "titulo": "Nadie sabe quién soy yo (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/7TNBs393l7pOKDZsk6q9BAiUTaD.jpg",
+    "url": "https://pomf2.lain.la/f/5ohssm.mp4"
   },
   {
     "titulo": "Ne Zha 2 (2025)",
@@ -396,40 +600,22 @@
     "url": "https://pomf2.lain.la/f/9eht1wkd.mp4"
   },
   {
+    "titulo": "OVERLORD: The Sacred Kingdom (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/sWPhQZZKPDZaxRlx18A9l657vO5.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/bqsnramsbp6myyql1u3ym/202546.mp4?rlkey=nd1bn9u1ccp2wynue8c6nbu5d&st=jgktfemk&dl=0"
+  },
+  {
+    "titulo": "Padre no hay más que uno 5: Nido repleto (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/7H27uvaPZfq794qVcLFrSEgHseZ.jpg",
+    "url": "https://pomf2.lain.la/f/k8r68nw4.mp4"
+  },
+  {
     "titulo": "Risqué (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/h6OsRrDwbspLnKMvlFl57QFDP7d.jpg",
     "url": "https://pomf2.lain.la/f/epnr0qn.mp4"
-  },
-  {
-    "titulo": "ROCKY",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//8ZIc49i7tS49HY0b1KmxtkiWesi.jpg",
-    "url": "https://cdn-4mro8nnerm9lma2c.edgeon-bandwidth.com/engine/hls2/01/13863/qklpclznzcfu_,n,.urlset/index-v1-a1.m3u8?t=qtaQy2wDOisYx5NEZe7JDz2wS5MMUD0IKJnhVkdDWMc&s=1770223729&e=14400&f=69317156&node=o5SUYBXH2ou4x3crMvD7z4vhCTdq/K06ctlABLgRD2Y=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
-  },
-  {
-    "titulo": "ROCKY II",
-    "categoria": "PELICULA",
-    "foto": "https://i.pinimg.com/736x/0c/a2/58/0ca258db492dbedceb226fbd6077a4df.jpg",
-    "url": "https://cdn-zrxms7xl06zuseys.edgeon-bandwidth.com/engine/hls2/01/11759/mpin2hult4gg_,n,.urlset/index-v1-a1.m3u8?t=mBOqxNyfUygaByXbV-74G0UETTV6ysp0JSTepDUrfgc&s=1770223608&e=14400&f=69248843&node=QDhUD1BCVABWHahrrteZ0jwEU43hSijKnDxpUvfvbmA=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
-  },
-  {
-    "titulo": "ROCKY III",
-    "categoria": "PELICULA",
-    "foto": "https://m.media-amazon.com/images/M/MV5BNDYzNDQ3Y2MtODc1Zi00ZTBkLWIzZWUtOGY0NGZmYWZhMWQ5XkEyXkFqcGc@._V1_.jpg",
-    "url": "https://p3.vimeos.zip/hls2/03/00000/mwl758u1osdp_h/index-v1-a1.m3u8?t=9NcgWTx6hXmEZmPiCLAS-ttGBP7moPg4sgSTSLbzY7w&s=1770152685&e=43200&v=107219221&srv=s10&i=0.0&sp=0&r=e"
-  },
-  {
-    "titulo": "ROCKY IV",
-    "categoria": "PELICULA",
-    "foto": "https://filmartgallery.com/cdn/shop/products/Rocky-4-Vintage-Movie-Poster-Original.jpg?v=1738910399",
-    "url": "https://vimeos.zip/hls2/03/00000/waeuxp5x2bqo_h/index-v1-a1.m3u8?t=_zDvI9fg5_nB6eF9WCAQ2NpqOZcBsPBg7a9eA80Gd0M&s=1770154150&e=43200&v=107225511&srv=s10&i=0.0&sp=0&r=e"
-  },
-  {
-    "titulo": "ROCKY V",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/w342//tevHaVxtrMTaUi8f3YjLWYSSY8A.jpg",
-    "url": "https://cdn-lggrqi8abfi4eltg.edgeon-bandwidth.com/engine/hls2/01/13858/mjfh70wyz9pz_,n,.urlset/index-v1-a1.m3u8?t=latJ2G8YWLnBxlp_7Zk6bC-6AzDHuGgmcvW3PxmJHnw&s=1770223808&e=14400&f=69293656&node=Z/DpTnWhIzppBquGEOzeHLkvPJP0j3OnVCEjTgLN1DM=&i=179.49&sp=2500&asn=22724&q=n&rq=miQPfywA8VeyzTZ8cOWiQ7YQnpyJ1CwRqcDBMjUY"
   },
   {
     "titulo": "Scarface (1932)",
@@ -450,6 +636,12 @@
     "url": "https://pomf2.lain.la/f/bdijxi4.mp4"
   },
   {
+    "titulo": "Sibling's Bond (2019)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/xnXeOfHXsgCRi4u75OPU2U3kZsO.jpg",
+    "url": "https://pomf2.lain.la/f/abm33kzv.mp4"
+  },
+  {
     "titulo": "Sisu (2022)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/ygO9lowFMXWymATCrhoQXd6gCEh.jpg",
@@ -462,10 +654,52 @@
     "url": "https://pomf2.lain.la/f/lnr9rf5k.mp4"
   },
   {
+    "titulo": "Solo Leveling ReAwakening (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/diPEcLFEb1uuUpApol1Bit6ck3l.jpg",
+    "url": "https://github.com/tokio14-dot/ser-53/releases/download/A.1.0.7/1_5091785288204682858.mp4"
+  },
+  {
+    "titulo": "Soy Frankelda (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/bp7TxHXrUlTfCIiA0z2pdkX9X56.jpg",
+    "url": "https://pomf2.lain.la/f/5kj6ss2d.mp4"
+  },
+  {
     "titulo": "Striking Rescue (2024)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/h8DNi9XJKUS2nOzU5qEFEg7R0N6.jpg",
     "url": "https://archive.org/download/rescate-impactante-2024-2castellano/rescate-impactante-2024-2%5Bcastellano%5D.mp4"
+  },
+  {
+    "titulo": "Tee Yai Nacido para el crimen (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/wM125GkMUzSyjPzNqvx9j2UHYV7.jpg",
+    "url": "https://pomf2.lain.la/f/rh3oafiw.mp4"
+  },
+  {
+    "titulo": "That Time I Got Reincarnated as a Slime: El vínculo escarlata (2022)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/xITip9n9uMAUA0TU6niMXU2tbh0.jpg",
+    "url": "https://archive.org/download/tensei-shitara-slime-datta-ken-guren-no-kizuna-hen-that-time-i-got-reincarnated/Tensei%20shitara%20slime%20Datta%20ken%20Guren%20no%20kizuna-hen%20%28That%20time%20i%20got%20reincarnated%29.ia.mp4"
+  },
+  {
+    "titulo": "The Empire of Corpses (2015)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/gtfQzn3lRnJ2P3CcE8yxOtXPHTC.jpg",
+    "url": "https://archive.org/download/shisha-no-teikoku-bd-1080p-cast-eng-jap-subs/Shisha%20no%20Teikoku%20%5BBD-1080p%5D%5BCast%2BEng%2BJap%2BSubs%5D.mp4"
+  },
+  {
+    "titulo": "The Gardener (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/sVuYUl7EtBxyJTOl4Ao7eZVjKDb.jpg",
+    "url": "https://pomf2.lain.la/f/twivsggb.mp4?download=1"
+  },
+  {
+    "titulo": "The Gentleman (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/pzKeASTj4HitqVXB1cdvswmMV50.jpg",
+    "url": "https://pomf2.lain.la/f/e2uwp5l1.mp4"
   },
   {
     "titulo": "The Prosecutor (2024)",
@@ -474,16 +708,88 @@
     "url": "https://pomf2.lain.la/f/abowo9ei.mp4"
   },
   {
+    "titulo": "The Rookie Guide (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/7zcrIiAn1SW6C4COlqboHP0L19p.jpg",
+    "url": "https://pomf2.lain.la/f/fuo524o.mp4"
+  },
+  {
+    "titulo": "The Running Man",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/dosxlzcqsp8vaxsqqkgwh/f-sica.mp4?rlkey=vnk5b9aaudgknmcg6fblcy3g6&st=vw1rdanl&dl=0"
+  },
+  {
     "titulo": "The Secrets We Bury (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/aTDKgSCAuAcXbGfUbJ0wwRFOgFS.jpg",
     "url": "https://pomf2.lain.la/f/qqkinnj5.mp4"
   },
   {
+    "titulo": "TIEMPO DE GUERRA",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/fkVpNJugieKeTu7Se8uQRqRag2M.jpg",
+    "url": "https://pomf2.lain.la/f/cpj8xt9.mp4?download=1"
+  },
+  {
     "titulo": "Todos te quieren cuando has muerto (2025)",
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/uimZ60ToXqVIgpX9jOTy8QEnEir.jpg",
     "url": "https://pomf2.lain.la/f/22cbbxy1.mp4"
+  },
+  {
+    "titulo": "Trap House",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/6tpAPeuuqbVnYWWPoOLEDLSBU7a.jpg",
+    "url": "https://pomf2.lain.la/f/17jap2e4.mp4"
+  },
+  {
+    "titulo": "Troll 2 (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/plyEn5uDNXXDYihF8Z7YOe2PVKE.jpg",
+    "url": "https://pomf2.lain.la/f/w62rlscr.mp4"
+  },
+  {
+    "titulo": "Un buen ladrón (3025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/cntGBm2Kr1ZP9nwoES8tdaPnmo3.jpg",
+    "url": "https://archive.org/download/offm_20251115/%23offm%23.mkv"
+  },
+  {
+    "titulo": "Un Reino Para Todos Nosotros (2023)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/6m6XcD6Gbfrir8BYVkta02xJoFq.jpg",
+    "url": "https://archive.org/download/un-reino-para-todos-nosotros-latino/Un%20Reino%20Para%20Todos%20Nosotros%20Latino.mp4"
+  },
+  {
+    "titulo": "Un robo muy navideño (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/1DIgVqN9EhFJr9ogtA3Atzid6cV.jpg",
+    "url": "https://pomf2.lain.la/f/1wc0apka.mp4"
+  },
+  {
+    "titulo": "Una Navidad muy Jonas Brothers (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/8ey7sv3Fd9XmjnVxk5zR6uE4DUv.jpg",
+    "url": "https://pomf2.lain.la/f/bwf6cnu.mp4"
+  },
+  {
+    "titulo": "Uno X Dos (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/q42qOEkYYfe7cUy3EWUHYTbRUAJ.jpg",
+    "url": "https://pomf2.lain.la/f/sx2ktbfy.mp4"
+  },
+  {
+    "titulo": "Venganza justificada (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/3kliZ6mw8ZgnhfmHw14Zye6GyPS.jpg",
+    "url": "https://pomf2.lain.la/f/wqb7cxbw.mp4"
+  },
+  {
+    "titulo": "Voy a pasármelo mejor (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/4ov5cLaFO8toC7HBDl6T0Vg8pQo.jpg",
+    "url": "https://pomf2.lain.la/f/9vyg53aw.mp4"
   },
   {
     "titulo": "Warfare. Tiempo de guerra (2025)",
@@ -506,8 +812,188 @@
   {
     "titulo": "Ya se verá (2025)",
     "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/iiXW7L30x4U89VEyTRmxkIM0lrN.jpg",
-    "url": "https://pomf2.lain.la/f/dy33kb4f.mp4"
+    "foto": "https://image.tmdb.org/t/p/original/qlhukyCnDmaWICbfaDE4S5J4duc.jpg",
+    "url": "https://pomf2.lain.la/f/in2xguk2.mp4"
+  },
+  {
+    "titulo": "A Minecraft Movie (2025)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/m3paT74qJ1TkDYMihmni3OFdcjZ.jpg",
+    "url": "https://archive.org/download/A-minecraft-pelicula-espanol-latino/1.%20Minecraft%20pel%C3%ADcula%F0%9F%87%B2%F0%9F%87%BD%20espa%C3%B1ol%20latino.ia.mp4"
+  },
+  {
+    "titulo": "Ant-Man y la avispa",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/lwmCdtTvjnJZK79JKYkzkb0MFOP.jpg",
+    "url": "https://archive.org/download/avispa.1080p.lat.www.hackstore.net/ERE34/AVISPA.1080p.LAT.Www.Hackstore.Net.mkv"
+  },
+  {
+    "titulo": "Ant-Man: El hombre hormiga",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/nx47yd4k4soizpqux19ft/ant-man-1.mp4?rlkey=5ub6dzlq8hvl7icopr11sgrhb&st=3guwfu55&dl=0"
+  },
+  {
+    "titulo": "Avengers end game",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/sv96bj3rk3u7vkdn1vgxi/end-game.mp4?rlkey=937chdfr0brlw1t0m4dpkg8ld&st=qwzui7ms&dl=0"
+  },
+  {
+    "titulo": "Avengers infinity war",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/zsjcga9ukt88q4n02u6cp/Infinity-war.mp4?rlkey=3kofwpagvvczhymkznzrd32qs&st=605pxgi3&dl=0"
+  },
+  {
+    "titulo": "Avengers (2012)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/1mmzq9w8pt472bgbu4zsf/the-avengers.mp4?rlkey=tjwdp586tvo7rutp7wooj1lsh&st=f9cy34px&dl=0"
+  },
+  {
+    "titulo": "Batman y Harley Quinn",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/cC5zcStR6WJExkthMmKwXrOfrBs.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/l7jm6w2x3iz71npkkqj93/05.mp4?rlkey=9du6achspgqjngw83g7559nan&st=qfhjq921&dl=0"
+  },
+  {
+    "titulo": "Batman: La Broma Asesina",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/ouRndgsflwbSs54yWIQYwPDqIzl.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/6hbd38mh273h2zc95q49v/bomba.mp4?rlkey=fdu5zv6xe8r9cle4as5eyg4iq&st=xrcactlv&dl=0"
+  },
+  {
+    "titulo": "Batman: Mala Sangre",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/xMDoFicHakKLNsf7v90QDWptZ8O.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/oy71h85ytj2hisvxxxyoe/sabdre.mp4?rlkey=gm9mmoxhsjmjbsqjnpmxxo4n2&st=h0sa534g&dl=0"
+  },
+  {
+    "titulo": "Better Man: La historia de Robbie Williams (2024)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/ak7VgAaI94K6CbbFuL22xIBJtyE.jpg",
+    "url": "https://archive.org/download/better-man-la-historia-de-robbie-williams-2024-better.man.-2024.1080p-dual-lat-cinecalidad.rs/Better%20Man%20La%20historia%20de%20Robbie%20Williams%20%282024%29%20Better.man.2024.1080p-dual-lat-cinecalidad.rs.mp4"
+  },
+  {
+    "titulo": "Black panter",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/lAPzezdc5E6DFnttJwCWXZ9A9C6.jpg",
+    "url": "https://archive.org/download/299975a7bfe1d2f/299975a7bfe1d2f.mp4"
+  },
+  {
+    "titulo": "Capitán américa civil war",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg",
+    "url": "https://archive.org/download/1211_20200921/1211.mkv"
+  },
+  {
+    "titulo": "Capitán américa: El soldado del invierno",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg",
+    "url": "https://archive.org/download/21416_202009/21416.mp4"
+  },
+  {
+    "titulo": "Capitán américa: Primer vengador",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/i5eSA5DK5iAv53SB4yv57bN56o6.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/v2usezfj93kp0pqajqo69/Capit-n-Am-rica-el-primer-vengador.mp4?rlkey=iv8j1bumvv75dgjkbniccf69r&st=v03t5wy3&dl=0"
+  },
+  {
+    "titulo": "Capitana marvel",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/5SPa7dZ85p54xa7E9tHRmfKq5ce.jpg",
+    "url": "https://dl.dropbox.com/s/qnnirswyiybs14k/CapMarvel.mp4"
+  },
+  {
+    "titulo": "El increíble hulk",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/p4NYZXVtgKf6aiH65QzzkUVJcsd.jpg",
+    "url": "https://archive.org/download/00200_201909/00200.avi"
+  },
+  {
+    "titulo": "Gatúbela",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/l40ot7UBtLOmse1qn4NI97w3ve3.jpg",
+    "url": "https://pomf2.lain.la/f/urs2mq9l.mp4"
+  },
+  {
+    "titulo": "Guardianes de la Galaxia vol.1",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/lGR9yjcPctrIxNrnGBiXlEbM6nT.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/qzmsdlhygo8qd9gx7e2uz/guardianes-de-la-galaxia-1.mp4?rlkey=m7dak5y5edu9y1be74b58os5c&st=clhp0fag&dl=0"
+  },
+  {
+    "titulo": "Guardianes de la Galaxia vol.2",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/rbmutulamg47dot5sbs5h/guardianes-de-la-galaxia-2.mp4?rlkey=czoji9frorkpelgoupbm7s7h7&st=rt6qhqcg&dl=0"
+  },
+  {
+    "titulo": "Iron man 1",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/i46badogboadxjf2jgna6/1_5046378812346991048.mp4?rlkey=ezk04w0vy4kksluje1v68stl5&st=bapnmme5&dl=0"
+  },
+  {
+    "titulo": "Iron man 2",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/ayyJVOV5I4MGjti7nIHC3mVCagR.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/ujf3vudjdjfxualrr2cko/Iron-Man-2-2010-1.mp4?rlkey=x59ywl9eew6ihbve2i4a4w8ka&st=aujzkjht&dl=0"
+  },
+  {
+    "titulo": "Iron man 3",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/cW0fOIZONkgeiMJDYzqUcgl4MUn.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/shvc93gv0cwnu1teokm1e/iron-man-3.mp4?rlkey=1otvn9gf0mtqot1kb31ihdalr&st=lbpa03zq&dl=0"
+  },
+  {
+    "titulo": "Los Jovenes Titanes: El Contrato De Judas",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/mRr1yD7KFS88hesTjQCURpK0A7w.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/7cptumk1xjiqx1jvbnnsg/jud.mp4?rlkey=eprep62izqengbejpec4z2g5d&st=pq7nm6zt&dl=0"
+  },
+  {
+    "titulo": "Shang-chi",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/3j7u3lqe2WJOlh9tEKHcbSMCBmW.jpg",
+    "url": "https://dl.dropbox.com/s/whqyk0dve4mgi21/SH4NGCH1.mp4"
+  },
+  {
+    "titulo": "Spider-Man: De Regreso a Casa",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/81qIJbnS2L0rUAAB55G8CZODpS5.jpg",
+    "url": "https://dl.dropbox.com/scl/fi/7spw4ulsd1cnijcpn1h0d/spiderman-regreso-a-casa.mp4?rlkey=uau5i7yol6a766rw0b0u9x926&st=vsok9n0v&dl=0"
+  },
+  {
+    "titulo": "Thor un mundo oscuro",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg",
+    "url": "https://archive.org/download/cuartormuna/20.mp4"
+  },
+  {
+    "titulo": "Thor Ragnarok",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
+    "url": "https://archive.org/download/sh-1_20200430/Artya/sh%201.mp4"
+  },
+  {
+    "titulo": "Ultimate Avengers (2006)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/zyMZ2boSccbaUjOkl6AdzLb6KKd.jpg",
+    "url": "https://archive.org/download/vengadores-ultimate-avengers-2006-castellano/Vengadores%20%28Ultimate%20Avengers%29%20%282006%29%20%5BCastellano%5D.mp4"
+  },
+  {
+    "titulo": "Ultimate Avengers 2: El ascenso de la pantera (2006)",
+    "categoria": "PELICULA",
+    "foto": "https://image.tmdb.org/t/p/original/2bfVNvLKWaxFh1LiOKlvxgiHOXn.jpg",
+    "url": "https://archive.org/download/ultimate-avengers-2-hd-720_es/ultimate-avengers-2-hd-720_es.ia.mp4"
+  },
+  {
+    "titulo": "Viuda negra",
+    "categoria": "PELICULA",
+    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg",
+    "url": "https://archive.org/download/manguera_20210711/Bl4ck.mkv"
   },
   {
     "titulo": "BALADAS",
