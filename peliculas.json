@@ -235,31 +235,7 @@
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_x-77-Jp9S83S1M2S8S5W9V7M2p4W7U3aw&s",
     "url": "http://api.toonamiaftermath.com:3000/pst/playlist.m3u8"
-  },
-
-  {
-    "titulo": "All-Star Superman",
-    "categoria": "PELICULA",
-    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/ggiozzxw9MlMIKqSN0wkM45uAYA.jpg",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e82bb378601b80007b4bd78/master.m3u8"
-  },
- 
- 
-  {
-    "titulo": "Batman: El Regreso Del Caballero Oscuro",
-    "categoria": "PELICULA",
-    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/yplFdLSePwRdVeiw3xfnumeTvsH.jpg",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acdaa8ba90f0007d5e760/master.m3u8"
-  },
-  
-  {
-    "titulo": "Doctor Strange (Animada)",
-    "categoria": "PELICULA",
-    "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/7WfK17BXE6szXlm4WOxfswgbdsL.jpg",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8"
-  },
- 
-
+  },   
   {
     "titulo": "Radio ILCE",
     "categoria": "RADIO",
@@ -307,12 +283,6 @@
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/kTVABjFns9gZ72kOPbtuwnfBeLo.jpg",
     "url": "https://pomf2.lain.la/f/jd186h2.mp4"
-  },
-  {
-    "titulo": "Air (2005)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/cZ97grqenZ0oB3Da9NKkucNbSpj.jpg",
-    "url": "https://archive.org/download/a.-i.-r-la-pelicula-2005-cine-anime/A.I.R%20La%20Pelicula%202005.mp4"
   },
   {
     "titulo": "ANACONDA",
@@ -385,12 +355,6 @@
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/pSmSgFb1cnRQep0OzcuKWMYWeqR.jpg",
     "url": "https://pomf2.lain.la/f/44fup4u9.mp4"
-  },
-  {
-    "titulo": "Chico Chico (2025)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/a5AuXy70HjNy7RJexXwNpoBGkg0.jpg",
-    "url": "https://dl.dropbox.com/scl/fi/75y405wv5ftpdy9tsylht/Chuck-Billy-and-The-Marvelous-Guava-Tree-2025.mp4"
   },
   {
     "titulo": "Colón ADN - Su Verdadero Origen (2024)",
@@ -523,24 +487,6 @@
     "categoria": "PELICULA",
     "foto": "https://image.tmdb.org/t/p/original/sAoPr70LHhLCs0H8n95TlkfHzX5.jpg",
     "url": "https://archive.org/download/anzu-gato-fantasma-2024-2castellano/anzu-gato-fantasma-2024-2%5Bcastellano%5D.mp4"
-  },
-  {
-    "titulo": "Given - La Película (2020)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/ygPexnfuIox9QfHxqXSHgGnjeXd.jpg",
-    "url": "https://archive.org/download/given-la-pelicula-2020-cine-anime/%5BAz-Animex%5D_Given_Movie_%5BBD%5D%5BKashikoi%5D.mp4"
-  },
-  {
-    "titulo": "Given Movie 2 - Hiiragi Mix (2024)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/oMa5Kc1lz9THT9YHNI3yjXxg8Yd.jpg",
-    "url": "https://archive.org/download/given-la-pelicula-hiiragi-mix-2020-cine-anine/%5BAnimeOnlineNinja%5D_given_The_Movie__Hiiragi_mix_.mp4"
-  },
-  {
-    "titulo": "given the Movie: To the Sea (2024)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/2VLnT5JtJ77ErG6GD3c1J628VLp.jpg",
-    "url": "https://archive.org/download/given-3-to-the-sea-pelicula-2024-cine-anime/%5BAnimeOnlineNinja%5D_given_The_Movie__To_the_Sea.mp4"
   },
   {
     "titulo": "Groom & Two Brides (2025)",
@@ -1094,18 +1040,7 @@
     "foto": "https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
     "url": "https://archive.org/download/sh-1_20200430/Artya/sh%201.mp4"
   },
-  {
-    "titulo": "Ultimate Avengers (2006)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/zyMZ2boSccbaUjOkl6AdzLb6KKd.jpg",
-    "url": "https://archive.org/download/vengadores-ultimate-avengers-2006-castellano/Vengadores%20%28Ultimate%20Avengers%29%20%282006%29%20%5BCastellano%5D.mp4"
-  },
-  {
-    "titulo": "Ultimate Avengers 2: El ascenso de la pantera (2006)",
-    "categoria": "PELICULA",
-    "foto": "https://image.tmdb.org/t/p/original/2bfVNvLKWaxFh1LiOKlvxgiHOXn.jpg",
-    "url": "https://archive.org/download/ultimate-avengers-2-hd-720_es/ultimate-avengers-2-hd-720_es.ia.mp4"
-  },
+  
   {
     "titulo": "Viuda negra",
     "categoria": "PELICULA",
