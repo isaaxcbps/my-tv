@@ -1,0 +1,207 @@
+[
+  {
+    "id": "arnold_2023",
+    "titulo": "Arnold (2023)",
+    "categoria": "SERIE",
+    "foto": "https://image.tmdb.org/t/p/original/o9KmWrG9rbFhB7jWW4vFHTmqv28.jpg",
+    "descripcion": "Serie documental que narra la vida de Arnold Schwarzenegger, desde sus días como campeón de culturismo hasta sus triunfos en Hollywood y su etapa como gobernador de California.",
+    "temporadas": [
+      {
+        "nombre": "Temporada 1",
+        "capitulos": [
+          {
+            "nombre": "1x01 - De Austria a América",
+            "url": "https://archive.org/download/mini-serie-arnold-2023/S01E01.mp4"
+          },
+          {
+            "nombre": "1x02 - De Mr. Olympia a Hollywood",
+            "url": "https://archive.org/download/mini-serie-arnold-2023/S01E02.mp4"
+          },
+          {
+            "nombre": "1x03 - De actor a gobernador (Final)",
+            "url": "https://archive.org/download/mini-serie-arnold-2023/S01E03.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mr_robot",
+    "titulo": "Mr. Robot",
+    "categoria": "SERIE",
+    "foto": "https://image.tmdb.org/t/p/original/q7FzUmsCtYNAwWZ5PTACZLngssg.jpg",
+    "descripcion": "Elliot Alderson, un joven programador que trabaja como ingeniero de ciberseguridad de día y como hacker vigilante de noche.",
+    "temporadas": [
+      {
+        "nombre": "Temporada 1",
+        "capitulos": [
+          { "nombre": "eps1.0_hellofriend.mov", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x01.mp4" },
+          { "nombre": "eps1.1_ones-and-zer0es.mpeg", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x02.mp4" },
+          { "nombre": "eps1.2_d3bug.mkv", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x03.mp4" },
+          { "nombre": "eps1.3_da3m0ns.mp4", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x04.mp4" },
+          { "nombre": "eps1.4_3xpl0its.wmv", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x05.mp4" },
+          { "nombre": "eps1.5_br4ve-trave1er.asf", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x06.mp4" },
+          { "nombre": "eps1.6_v1ew-s0urce.flv", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x07.mp4" },
+          { "nombre": "eps1.7_wh1ter0se.m4v", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x08.mp4" },
+          { "nombre": "eps1.8_m1rr0r1ng.qt", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x09.mp4" },
+          { "nombre": "eps1.9_zer0-day.avi", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x10.mp4" }
+        ]
+      },
+      {
+        "nombre": "Temporada 2",
+        "capitulos": [
+          { "nombre": "eps2.0_unm4sk-pt1.tc", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x01-02.mp4" },
+          { "nombre": "eps2.1_unm4sk-pt2.tc", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x01-02.mp4" },
+          { "nombre": "eps2.2_init1.asec", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x03.mp4" },
+          { "nombre": "eps2.3_logic-b0mb.hc", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x04.mp4" },
+          { "nombre": "eps2.4_m4ster-s1ave.aes", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x05.mp4" },
+          { "nombre": "eps2.5_h4ndshake.sme", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x06.mp4" },
+          { "nombre": "eps2.6_succ3ss0r.p12", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x07.mp4" },
+          { "nombre": "eps2.7_init5.fve", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x08.mp4" },
+          { "nombre": "eps2.8_h1dden-pr0cess.axx", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x09.mp4" },
+          { "nombre": "eps2.9_pyth0n-pt1.p7z", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x10.mp4" },
+          { "nombre": "eps2.9_pyth0n-pt2.p7z", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x11.mp4" },
+          { "nombre": "eps2.9_pyth0n-pt3.p7z", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x12.mp4" }
+        ]
+      },
+      {
+        "nombre": "Temporada 3",
+        "capitulos": [
+          { "nombre": "eps3.0_power-saver-mode.h", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x01.mp4" },
+          { "nombre": "eps3.1_undo.gz", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x02.mp4" },
+          { "nombre": "eps3.2_legacy.so", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x03.mp4" },
+          { "nombre": "eps3.3_metadata.par2", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x04.mp4" },
+          { "nombre": "eps3.4_runtime-err0r.r00", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x05.mp4" },
+          { "nombre": "eps3.5_kill-process.inc", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x06.mp4" },
+          { "nombre": "eps3.6_fredrick+tanya.chk", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x07.mp4" },
+          { "nombre": "eps3.7_dont-delete-me.ko", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x08.mp4" },
+          { "nombre": "eps3.8_stage3.torrent", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x09.mp4" },
+          { "nombre": "eps3.9_shutdown-r", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x10.mp4" }
+        ]
+      },
+      {
+        "nombre": "Temporada 4",
+        "capitulos": [
+          { "nombre": "eps4.0_hola-amigo.wav", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x01.mp4" },
+          { "nombre": "eps4.1_not-found.404", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x02.mp4" },
+          { "nombre": "eps4.2_payment-required.402", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x03.mp4" },
+          { "nombre": "eps4.3_forbidden.403", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x04.mp4" },
+          { "nombre": "eps4.4_method-not-allowed.405", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x05.mp4" },
+          { "nombre": "eps4.5_not-acceptable.406", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x06.mp4" },
+          { "nombre": "eps4.6_proxy-auth-required.407", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x07.mp4" },
+          { "nombre": "eps4.7_request-timeout.408", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x08.mp4" },
+          { "nombre": "eps4.8_conflict.409", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x09.mp4" },
+          { "nombre": "eps4.9_gone.410", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x10.mp4" },
+          { "nombre": "eps4.10_length-required.411", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x11.mp4" },
+          { "nombre": "eps4.11_precondition-failed.412", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x12.mp4" },
+          { "nombre": "eps4.12_hello-elliot.aac", "url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x13.mp4" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "merlina_2022",
+    "titulo": "Merlina",
+    "categoria": "SERIE",
+    "foto": "https://image.tmdb.org/t/p/original/wFvfqUNUSxjT3zDOKhryKiV9YEt.jpg",
+    "descripcion": "Inteligente, sarcástica y un poco muerta por dentro, Merlina Addams investiga una ola de asesinatos mientras hace nuevos amigos (y enemigos) en la Academia Nevermore.",
+    "temporadas": [
+      {
+        "nombre": "Temporada 1",
+        "capitulos": [
+          { "nombre": "1x01 - Los miércoles son tristes", "url": "https://archive.org/download/M-Season1/S1E1.mp4" },
+          { "nombre": "1x02 - La tristeza es solitaria", "url": "https://archive.org/download/M-Season1/S1E2.mp4" },
+          { "nombre": "1x03 - Amiga o enemiga", "url": "https://archive.org/download/M-Season1/S1E3.mp4" },
+          { "nombre": "1x04 - Qué noche la de ese día", "url": "https://archive.org/download/M-Season1/S1E4.mp4" },
+          { "nombre": "1x05 - El baile de los corazones rotos", "url": "https://archive.org/download/M-Season1/S1E5.mp4" },
+          { "nombre": "1x06 - El día del villano", "url": "https://archive.org/download/M-Season1/S1E6.mp4" },
+          { "nombre": "1x07 - Si no me querías, no debiste invitarme", "url": "https://archive.org/download/M-Season1/S1E7.mp4" },
+          { "nombre": "1x08 - Un final con sentimiento", "url": "https://archive.org/download/M-Season1/S1E8.mp4" }
+        ]
+      },
+      {
+        "nombre": "Temporada 2",
+        "capitulos": [
+          { "nombre": "2x01 - El regreso a Nevermore", "url": "https://archive.org/download/M-Temporada2/S2E1.mp4" },
+          { "nombre": "2x02 - Secretos en la mansión", "url": "https://archive.org/download/M-Temporada2/S2E2.mp4" },
+          { "nombre": "2x03 - El llamado del dolor", "url": "https://archive.org/download/M-Temporada2/S2E3.mp4" },
+          { "nombre": "2x04 - Si estos problemas pudieran hablar", "url": "https://archive.org/download/M-Temporada2/S2E4.mp4" },
+          { "nombre": "2x05 - sombria sed de venganza", "url": "https://dl.dropbox.com/scl/fi/bzh9xwx1ggov5n3ctm9yi/sociales-1.mp4?rlkey=gvw8brnqwx281iqr4mlyyj5sd&st=kn953g05&dl=0" },
+          { "nombre": "2x06 - conoce mi sombria esencia", "url": "https://dl.dropbox.com/scl/fi/d2d7rii8ojjv1rs79t2zm/sociales-2.mp4?rlkey=bwaok6gyji5i4iklstasb5bnd&st=zpnwqvrn&dl=0" },
+          { "nombre": "2x07 - sombrío y vil metal", "url": "https://dl.dropbox.com/scl/fi/a9p5p1goqsovnaqi27yvp/sociales-3.mp4?rlkey=oa1kuf7c66gqbeuv1ajwh8qcu&st=h3nchcj8&dl=0" },
+          { "nombre": "2x08 - sombria declaración de guerra", "url": "https://dl.dropbox.com/scl/fi/4cuk9d4kcyrbo4ce81q8f/sociales-4.mp4?rlkey=e5q5e4d99nzvl3owt2t9f2c90&st=6aerc3h5&dl=0" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "daybreak_netflix",
+    "titulo": "Daybreak",
+    "categoria": "SERIE",
+    "foto": "http://archive.org/download/125452445445/DAYBREAK.jpg",
+    "descripcion": "En una ciudad postapocalíptica llena de zombis y bandas al estilo Mad Max, un adolescente busca a su novia desaparecida.",
+    "temporadas": [
+            {
+            "nombre": "Temporada 1",
+            "capitulos": [
+                { "nombre": "1x1 JOSH CONTRA EL APOCALIPSIS PARTE 1", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b1cuckcjc.mp4" },
+                { "nombre": "1x2 ATRAPATONTOS", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b2gygukgrto.mp4" },
+                { "nombre": "1x3 LA REINA DEL SLIME DE GLENDALE", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b3ftghusr.mp4" },
+                { "nombre": "1x4 MMMMMM HMMMMM", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b4erfggudtx.mp4" },
+                { "nombre": "1x5 BAILE DOS PUNTO CERO", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b5rhggsyh.mp4" },
+                { "nombre": "1x6 7371745", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b6rtzhxhzf.mp4" },
+                { "nombre": "1x7 CANTA TU VIDA", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b7fuvfycgbx.mp4" },
+                { "nombre": "1x8 AMOR A DOMICILIO", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b8eggvhgyx.mp4" },
+                { "nombre": "1x9 JOSH CONTRA EL APOCALIPSIS PARTE 2", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b9rgcghbx.mp4" },
+                { "nombre": "1x10 CATAPLUUUUUUUM", "url": "http://archive.org/download/db-1b-1cuckcjc/Db1b10etghjzh.mp4" }
+            ]
+            }
+        ]
+   },
+   {
+  "id": "cobra_kai_netflix",
+  "titulo": "Cobra Kai",
+  "categoria": "SERIE",
+  "foto": "http://archive.org/download/125452445445/COBRA KAI.jpg",
+  "descripcion": "Treinta años después de su pelea en el torneo de All Valley, Johnny Lawrence busca redención abriendo nuevamente el dojo Cobra Kai.",
+  "temporadas": [
+    {
+      "nombre": "Temporada 1",
+      "capitulos": [
+        {
+          "nombre": "Lista de episodios - T1",
+          "url": "http://archive.org/download/ANIME_20190528/Mi%20video2.mp4"
+        }
+      ]
+    },
+    {
+      "nombre": "Temporada 2",
+      "capitulos": [
+        {
+          "nombre": "Lista de episodios - T2",
+          "url": "http://archive.org/download/ck-2_20210106/CK2.m3u"
+        }
+      ]
+    },
+    {
+      "nombre": "Temporada 3",
+      "capitulos": [
+        {
+          "nombre": "Lista de episodios - T3",
+          "url": "http://archive.org/download/ANIME_20190528/Mi%20video2.mp4"
+        }
+      ]
+    },
+    {
+      "nombre": "Temporada 4",
+      "capitulos": [
+        {
+          "nombre": "Lista de episodios - T4",
+          "url": "https://archive.org/download/si2_20220111/CK4.m3u"
+        }
+      ]
+    }
+  ]
+}   
+
+]

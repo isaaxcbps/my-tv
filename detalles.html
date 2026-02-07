@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Serie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #E50914; --dark: #141414; --gray: #333; --text: #fff; }
+        body { background-color: var(--dark); color: var(--text); font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
+
+        /* HEADER CON IMAGEN DE FONDO */
+        .hero {
+            position: relative; width: 100%; height: 50vh;
+            background-size: cover; background-position: center;
+        }
+        .hero::after {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to bottom, transparent 0%, var(--dark) 100%);
+        }
+        
+        .volver {
+            position: absolute; top: 20px; left: 20px; z-index: 100;
+            background: rgba(0,0,0,0.6); color: white; text-decoration: none;
+            padding: 8px 15px; border-radius: 30px; font-weight: bold; border: 1px solid #555;
+        }
+
+        /* INFORMACIÓN DE LA SERIE */
+        .info-container { padding: 20px; margin-top: -60px; position: relative; z-index: 10; }
+        h1 { font-size: 32px; margin-bottom: 10px; text-shadow: 0 2px 4px black; }
+        p.desc { color: #ccc; font-size: 14px; line-height: 1.5; max-width: 800px; }
+
+        /* LISTA DE TEMPORADAS (ACORDEÓN) */
+        .temporada-container { margin-top: 30px; max-width: 800px; }
+        
+        details {
+            background: #222; margin-bottom: 10px; border-radius: 8px; overflow: hidden;
+            border: 1px solid #333;
+        }
+        
+        summary {
+            padding: 15px; font-weight: 600; cursor: pointer; list-style: none;
+            background: #2a2a2a; display: flex; justify-content: space-between; align-items: center;
+        }
+        summary:after { content: '+'; font-size: 20px; font-weight: bold; color: var(--primary); }
+        details[open] summary:after { content: '-'; }
+        
+        /* LISTA DE CAPÍTULOS */
+        .capitulo-item {
+            padding: 15px; border-top: 1px solid #333; display: flex; align-items: center;
+            cursor: pointer; transition: background 0.2s;
+        }
+        .capitulo-item:hover { background: #333; }
+        
+        .play-icon { margin-right: 15px; color: var(--primary); font-size: 18px; }
+        .cap-titulo { font-size: 14px; color: #ddd; }
+
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="volver">⬅ Volver</a>
+
+    <div id="contenido-dinamico"></div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const idSerie = params.get('id');
+        const contenido = document.getElementById('contenido-dinamico');
+
+        // 1. CARGAR EL JSON DE SERIES
+        // OJO: Si usas el mismo peliculas.json para todo, cambia el nombre aquí
+        fetch('series.json') 
+            .then(res => res.json())
+            .then(data => {
+                // Buscar la serie por ID
+                const serie = data.find(item => item.id === idSerie);
+                
+                if (!serie) {
+                    contenido.innerHTML = "<h2 style='text-align:center; margin-top:50px;'>Serie no encontrada</h2>";
+                    return;
+                }
+
+                renderizarSerie(serie);
+            })
+            .catch(err => console.error("Error:", err));
+
+        function renderizarSerie(serie) {
+            let htmlTemporadas = '';
+
+            // Crear el HTML de cada temporada y sus capítulos
+            if (serie.temporadas && serie.temporadas.length > 0) {
+                serie.temporadas.forEach(temp => {
+                    let htmlCapitulos = '';
+                    
+                    temp.capitulos.forEach(cap => {
+                        // Al hacer click, vamos al REPRODUCTOR que ya tienes
+                        // Le pasamos el link del video y el nombre compuesto (Serie - Cap)
+                        const linkVideo = `reproductor.html?video=${encodeURIComponent(cap.url)}&titulo=${encodeURIComponent(serie.titulo + ' - ' + cap.nombre)}`;
+                        
+                        htmlCapitulos += `
+                            <div class="capitulo-item" onclick="window.location.href='${linkVideo}'">
+                                <span class="play-icon">▶</span>
+                                <span class="cap-titulo">${cap.nombre}</span>
+                            </div>
+                        `;
+                    });
+
+                    htmlTemporadas += `
+                        <details>
+                            <summary>${temp.nombre}</summary>
+                            <div>${htmlCapitulos}</div>
+                        </details>
+                    `;
+                });
+            } else {
+                htmlTemporadas = '<p style="color:#666;">No hay capítulos disponibles aún.</p>';
+            }
+
+            // Pintar todo en la pantalla
+            contenido.innerHTML = `
+                <div class="hero" style="background-image: url('${serie.foto}')"></div>
+                <div class="info-container">
+                    <h1>${serie.titulo}</h1>
+                    <p class="desc">${serie.descripcion || 'Sin descripción disponible.'}</p>
+                    
+                    <div class="temporada-container">
+                        ${htmlTemporadas}
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
