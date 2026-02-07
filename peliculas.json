@@ -94,7 +94,7 @@
     "titulo": "ECDF",
     "categoria": "TV",
     "foto": "https://cyberonline.ec/2929-thickbox_default/directv-go-.jpg",
-    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/G8RoAw-EjgBNwJwECwMPAB1CD8DLQFrDCoAJQB4FDIfMgRqES8MIAB0FidXYFc7/42341/0/chunklist.m3u8"
+    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/G6Nb1O-DjVxDwJ-DCF8BAB7FDJzFQFlECdwHQB2CD9vCgRkDSN9GAJ0CyonWFc1/42341/0/chunklist.m3u8"
   },
   {
     "titulo": "ECUADOR TV",
@@ -1127,6 +1127,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
