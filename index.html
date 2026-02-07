@@ -7,10 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     
     <style>
-        /* --- ESTILOS GENERALES --- */
+        /* --- 1. VARIABLES Y BASE --- */
         :root {
-            --primary: #E50914;
-            --dark: #141414;
+            --primary: #E50914; /* Rojo Netflix */
+            --dark: #141414;    /* Fondo Oscuro */
             --gray: #333;
             --light: #fff;
         }
@@ -20,33 +20,39 @@
             color: var(--light); 
             font-family: 'Poppins', sans-serif; 
             margin: 0; padding: 0;
+            overflow-x: hidden; /* Evita scroll lateral */
         }
 
-        /* --- CABECERA --- */
+        /* --- 2. CABECERA (HEADER) --- */
         header {
             padding: 20px;
             position: sticky; top: 0; z-index: 100;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 100%);
-            backdrop-filter: blur(5px);
+            background: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
 
         .header-top {
             display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;
         }
 
-        h1 { margin: 0; color: var(--primary); font-size: 28px; letter-spacing: 2px; }
+        h1 { 
+            margin: 0; color: var(--primary); font-size: 28px; 
+            letter-spacing: 1px; text-shadow: 0 2px 4px black; font-weight: 700;
+        }
 
         #buscador {
             background: var(--gray); border: 1px solid #444; color: white;
-            padding: 8px 15px; border-radius: 20px; width: 200px;
-            transition: width 0.3s;
+            padding: 10px 15px; border-radius: 50px; width: 40%; max-width: 300px;
+            transition: all 0.3s ease; font-family: inherit;
         }
-        #buscador:focus { width: 100%; outline: none; border-color: var(--primary); }
+        #buscador:focus { 
+            width: 50%; outline: none; border-color: var(--primary); background: #444; 
+        }
 
-        /* --- PESTAÑAS DE CATEGORÍA --- */
+        /* --- 3. PESTAÑAS (MENÚ) --- */
         .tabs {
             display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px;
-            /* Ocultar barra de scroll */
             scrollbar-width: none; 
         }
         .tabs::-webkit-scrollbar { display: none; }
@@ -55,53 +61,79 @@
             background: rgba(255,255,255,0.1);
             border: 1px solid rgba(255,255,255,0.2);
             color: #ddd;
-            padding: 8px 16px;
+            padding: 8px 18px;
             border-radius: 20px;
             cursor: pointer;
             white-space: nowrap;
             font-size: 14px;
-            transition: all 0.3s;
+            transition: all 0.2s;
         }
 
-        .tab-btn:hover { background: rgba(255,255,255,0.2); }
+        /* Efecto Hover y FOCUS (Para TV) en menú */
+        .tab-btn:hover, .tab-btn:focus { 
+            background: rgba(255,255,255,0.3); 
+            transform: scale(1.05);
+            outline: none; border-color: white;
+        }
         
         .tab-btn.activo {
-            background: var(--light);
-            color: var(--dark);
-            font-weight: 600;
-            border-color: var(--light);
+            background: var(--light); color: var(--dark);
+            font-weight: 600; border-color: var(--light);
         }
 
-        /* --- GRILLA --- */
-        .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
+        /* --- 4. GRILLA DE PELÍCULAS --- */
+        .contenedor-principal { padding: 20px; max-width: 1400px; margin: 0 auto; }
+        
         .galeria { 
             display: grid; 
+            /* Grid Responsive Automático */
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
-            gap: 15px; 
+            gap: 20px; 
+            padding-bottom: 50px;
         }
 
-        /* --- TARJETAS --- */
+        /* --- 5. TARJETAS (POSTERS) --- */
         .tarjeta { 
-            position: relative; border-radius: 6px; overflow: hidden; 
-            cursor: pointer; transition: transform 0.2s; aspect-ratio: 2/3;
+            position: relative; border-radius: 8px; overflow: hidden; 
+            cursor: pointer; transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+            aspect-ratio: 2/3; /* Formato Poster Vertical */
             background: #222;
+            border: 2px solid transparent; /* Preparado para el focus */
         }
-        .tarjeta:hover { transform: scale(1.05); z-index: 10; box-shadow: 0 0 15px rgba(229,9,20,0.5); }
+
+        /* --- MAGIA PARA TV Y MOUSE --- */
+        /* Esto activa el brillo cuando pasas el mouse O cuando llegas con las flechas del control */
+        .tarjeta:hover, .tarjeta:focus { 
+            transform: scale(1.1); 
+            z-index: 10; 
+            box-shadow: 0 0 25px rgba(229,9,20,0.6); /* Resplandor Rojo */
+            border-color: white; 
+            outline: none;
+        }
         
-        .tarjeta img { width: 100%; height: 100%; object-fit: cover; }
+        .tarjeta img { width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s; }
         
         .titulo-overlay {
             position: absolute; bottom: 0; left: 0; right: 0;
-            background: linear-gradient(transparent, black);
+            background: linear-gradient(to top, rgba(0,0,0,1), transparent);
             padding: 10px; font-size: 13px; text-align: center;
+            font-weight: 600; text-shadow: 0 1px 3px black;
+            opacity: 1; /* Siempre visible para leer fácil */
         }
 
-        /* Etiqueta de tipo (TV/Peli) */
         .badge {
-            position: absolute; top: 5px; right: 5px;
-            background: rgba(0,0,0,0.6); padding: 2px 6px;
+            position: absolute; top: 8px; right: 8px;
+            background: rgba(229, 9, 20, 0.9); padding: 3px 8px;
             border-radius: 4px; font-size: 10px; font-weight: bold;
-            color: #ccc; border: 1px solid #555;
+            color: white; box-shadow: 0 2px 5px black; z-index: 5;
+            text-transform: uppercase;
+        }
+
+        /* Ajustes Móvil */
+        @media (max-width: 600px) {
+            .galeria { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; }
+            h1 { font-size: 22px; }
+            #buscador { width: 150px; }
         }
     </style>
 </head>
@@ -115,17 +147,19 @@
         
         <div class="tabs">
             <button class="tab-btn activo" onclick="cambiarCategoria('TODO')">Todo</button>
-            <button class="tab-btn" onclick="cambiarCategoria('PPV')">Eventos PPV</button>
             <button class="tab-btn" onclick="cambiarCategoria('TV')">TV en Vivo</button>
+            <button class="tab-btn" onclick="cambiarCategoria('SERIE')">Series</button>
             <button class="tab-btn" onclick="cambiarCategoria('PELICULA')">Películas</button>
-            <button class="tab-btn" onclick="cambiarCategoria('RADIO')">Radio</button>
+            <button class="tab-btn" onclick="cambiarCategoria('DEPORTES')">Deportes</button>
         </div>
     </header>
 
     <div class="contenedor-principal">
-        <div class="galeria" id="contenedor-peliculas"></div>
-        <div id="sin-resultados" style="display:none; text-align:center; margin-top:50px; color:#666;">
-            <p>No hay contenido en esta categoría.</p>
+        <div class="galeria" id="contenedor-peliculas">
+            </div>
+        
+        <div id="sin-resultados" style="display:none; text-align:center; margin-top:50px; color:#777;">
+            <p>☹️ No encontramos contenido en esta sección.</p>
         </div>
     </div>
 
@@ -135,44 +169,81 @@
         let peliculasDB = [];
         let categoriaActual = 'TODO';
 
-        // 1. CARGAR DATOS
-        fetch('peliculas.json')
-            .then(res => res.json())
-            .then(data => {
-                peliculasDB = data;
-                renderizar();
-            })
-            .catch(err => console.error("Error cargando JSON:", err));
+        // 1. CARGA DE DATOS (Puedes cargar peliculas.json y series.json si quieres combinarlos)
+        // Por ahora cargamos todo de un solo archivo principal para evitar errores
+        Promise.all([
+            fetch('peliculas.json').then(res => res.json()).catch(err => []), // Carga Pelis
+            fetch('series.json').then(res => res.json()).catch(err => [])     // Carga Series
+        ])
+        .then(([datosPeliculas, datosSeries]) => {
+            // Aquí mezclamos las dos listas en una sola
+            peliculasDB = [...datosPeliculas, ...datosSeries];
+            
+            console.log("Datos cargados:", peliculasDB.length); // Para depurar
+            renderizar();
+        })
+        .catch(err => {
+            console.error("Error cargando archivos:", err);
+            contenedor.innerHTML = '<h3 style="text-align:center; margin-top:20px;">Error cargando datos. Revisa la consola (F12).</h3>';
+        });
 
-        // 2. FUNCIÓN PRINCIPAL DE RENDERIZADO
+        // 2. RENDERIZADO (PINTAR PANTALLA)
         function renderizar() {
             contenedor.innerHTML = '';
             const textoBusqueda = buscador.value.toLowerCase();
 
-            // Filtramos por Categoría Y por Texto al mismo tiempo
             const filtrados = peliculasDB.filter(item => {
-                // Si la categoría es TODO, pasa. Si no, debe coincidir.
-                // Si el item no tiene categoría definida, lo mostramos en TODO o en TV por defecto
+                // Filtro Categoría
                 const catItem = item.categoria ? item.categoria.toUpperCase() : 'OTROS';
+                // Lógica: Si es TODO muestra todo, si no, debe coincidir.
+                // Nota: Puedes ajustar esto si quieres que 'TV' incluya 'DEPORTES', etc.
                 const pasaCategoria = (categoriaActual === 'TODO') || (catItem === categoriaActual);
                 
-                // Filtro de texto
+                // Filtro Texto
                 const pasaTexto = item.titulo.toLowerCase().includes(textoBusqueda);
 
                 return pasaCategoria && pasaTexto;
             });
 
-            // Mostrar mensaje si está vacío
+            // Mensaje vacío
             document.getElementById('sin-resultados').style.display = filtrados.length === 0 ? 'block' : 'none';
 
-            // Dibujar tarjetas
+            // Crear Tarjetas
             filtrados.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'tarjeta';
-                card.onclick = () => window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                 
-                // Ponemos una imagen por defecto si falla
-                const img = item.foto || 'https://via.placeholder.com/200x300?text=NIU+PLAY';
+                // IMPORTANTE PARA TV: tabindex="0" permite seleccionarlo con el control
+                card.setAttribute('tabindex', '0'); 
+                
+                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE ---
+                const abrirContenido = () => {
+                    if (item.categoria === 'SERIE') {
+                        // SI ES SERIE: Va a la página de temporadas (detalles.html)
+                        // Requiere que el item tenga "id": "nombre_serie"
+                        if(item.id) {
+                            window.location.href = `detalles.html?id=${item.id}`;
+                        } else {
+                            alert("Error: Esta serie no tiene ID configurado.");
+                        }
+                    } else {
+                        // SI ES PELÍCULA/TV: Va directo al video (reproductor.html)
+                        window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
+                    }
+                };
+
+                // Evento Click (Mouse / Dedo)
+                card.onclick = abrirContenido;
+
+                // Evento Teclado (Para control remoto FireStick/TV Box)
+                card.onkeydown = (e) => {
+                    if (e.key === 'Enter') {
+                        abrirContenido();
+                    }
+                };
+
+                // Imagen de respaldo
+                const img = item.foto || 'https://via.placeholder.com/200x300?text=NIU';
                 
                 card.innerHTML = `
                     <div class="badge">${item.categoria || ''}</div>
@@ -183,27 +254,23 @@
             });
         }
 
-        // 3. CAMBIAR CATEGORÍA (Click en botones)
+        // 3. CAMBIAR CATEGORÍA
         function cambiarCategoria(nuevaCat) {
             categoriaActual = nuevaCat;
             
-            // Actualizar estilo de botones (Poner blanco el activo)
+            // Actualizar botones (Estética)
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('activo');
-                if(btn.innerText.toUpperCase().includes(nuevaCat === 'TODO' ? 'TODO' : nuevaCat) ||
-                   (nuevaCat === 'PPV' && btn.innerText.includes('PPV')) ||
-                   (nuevaCat === 'TV' && btn.innerText.includes('TV')) ||
-                   (nuevaCat === 'PELICULA' && btn.innerText.includes('Películas')) ||
-                   (nuevaCat === 'RADIO' && btn.innerText.includes('Radio'))) {
+                // Lógica flexible para que coincida aunque el nombre sea largo
+                if(btn.innerText.toUpperCase().includes(nuevaCat) || 
+                   (nuevaCat === 'TODO' && btn.innerText === 'Todo')) {
                     btn.classList.add('activo');
                 }
             });
-            
-            // Volver a pintar
             renderizar();
         }
 
-        // 4. ESCUCHAR EL BUSCADOR
+        // 4. BUSCADOR EN TIEMPO REAL
         buscador.addEventListener('input', renderizar);
 
     </script>
