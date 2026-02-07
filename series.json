@@ -158,50 +158,74 @@
             }
         ]
    },
-   {
+  {
   "id": "cobra_kai_netflix",
   "titulo": "Cobra Kai",
   "categoria": "SERIE",
   "foto": "http://archive.org/download/125452445445/COBRA KAI.jpg",
-  "descripcion": "Treinta años después de su pelea en el torneo de All Valley, Johnny Lawrence busca redención abriendo nuevamente el dojo Cobra Kai.",
+  "descripcion": "Treinta años después de su pelea en el torneo de All Valley, Johnny Lawrence busca redención abriendo nuevamente el dojo Cobra Kai, reavivando su rivalidad con Daniel LaRusso.",
   "temporadas": [
     {
       "nombre": "Temporada 1",
       "capitulos": [
-        {
-          "nombre": "Lista de episodios - T1",
-          "url": "http://archive.org/download/ANIME_20190528/Mi%20video2.mp4"
-        }
+        { "nombre": "Capítulo 1", "url": "http://archive.org/download/descarga_202101/1.mp4" },
+        { "nombre": "Capítulo 2", "url": "http://archive.org/download/descarga_202101/2.mp4" },
+        { "nombre": "Capítulo 3", "url": "http://archive.org/download/descarga_202101/3.mp4" },
+        { "nombre": "Capítulo 4", "url": "http://archive.org/download/descarga_202101/4.mp4" },
+        { "nombre": "Capítulo 5", "url": "http://archive.org/download/descarga_202101/5.mp4" },
+        { "nombre": "Capítulo 6", "url": "http://archive.org/download/descarga_202101/6.mp4" },
+        { "nombre": "Capítulo 7", "url": "http://archive.org/download/descarga_202101/7.mp4" },
+        { "nombre": "Capítulo 8", "url": "http://archive.org/download/descarga_202101/8.mp4" },
+        { "nombre": "Capítulo 9", "url": "http://archive.org/download/descarga_202101/9.mp4" },
+        { "nombre": "Capítulo 10", "url": "http://archive.org/download/descarga_202101/10.mp4" }
       ]
     },
     {
       "nombre": "Temporada 2",
       "capitulos": [
-        {
-          "nombre": "Lista de episodios - T2",
-          "url": "http://archive.org/download/ck-2_20210106/CK2.m3u"
-        }
+        { "nombre": "Capítulo 1", "url": "http://archive.org/download/descarga_202101/11.mp4" },
+        { "nombre": "Capítulo 2", "url": "http://archive.org/download/descarga_202101/12.mp4" },
+        { "nombre": "Capítulo 3", "url": "http://archive.org/download/descarga_202101/13.mp4" },
+        { "nombre": "Capítulo 4", "url": "http://archive.org/download/descarga_202101/14.mp4" },
+        { "nombre": "Capítulo 5", "url": "http://archive.org/download/descarga_202101/15.mp4" },
+        { "nombre": "Capítulo 6", "url": "http://archive.org/download/descarga_202101/16.mp4" },
+        { "nombre": "Capítulo 7", "url": "http://archive.org/download/descarga_202101/17.mp4" },
+        { "nombre": "Capítulo 8", "url": "http://archive.org/download/descarga_202101/18.mp4" },
+        { "nombre": "Capítulo 9", "url": "http://archive.org/download/descarga_202101/19.mp4" },
+        { "nombre": "Capítulo 10", "url": "http://archive.org/download/descarga_202101/20.mp4" }
       ]
     },
     {
       "nombre": "Temporada 3",
       "capitulos": [
-        {
-          "nombre": "Lista de episodios - T3",
-          "url": "http://archive.org/download/ANIME_20190528/Mi%20video2.mp4"
-        }
+        { "nombre": "Capítulo 1", "url": "http://archive.org/download/descarga_202101/21.mp4" },
+        { "nombre": "Capítulo 2", "url": "http://archive.org/download/descarga_202101/22.mp4" },
+        { "nombre": "Capítulo 3", "url": "http://archive.org/download/descarga_202101/23.mp4" },
+        { "nombre": "Capítulo 4", "url": "http://archive.org/download/descarga_202101/24.mp4" },
+        { "nombre": "Capítulo 5", "url": "http://archive.org/download/descarga_202101/25.mp4" },
+        { "nombre": "Capítulo 6", "url": "http://archive.org/download/descarga_202101/26.mp4" },
+        { "nombre": "Capítulo 7", "url": "http://archive.org/download/descarga_202101/27.mp4" },
+        { "nombre": "Capítulo 8", "url": "http://archive.org/download/descarga_202101/28.mp4" },
+        { "nombre": "Capítulo 9", "url": "http://archive.org/download/descarga_202101/29.mp4" },
+        { "nombre": "Capítulo 10", "url": "http://archive.org/download/descarga_202101/30.mp4" }
       ]
     },
     {
       "nombre": "Temporada 4",
       "capitulos": [
-        {
-          "nombre": "Lista de episodios - T4",
-          "url": "https://archive.org/download/si2_20220111/CK4.m3u"
-        }
+        { "nombre": "Capítulo 1", "url": "https://archive.org/download/00chich/1.mp4" },
+        { "nombre": "Capítulo 2", "url": "https://archive.org/download/00chich/2.mp4" },
+        { "nombre": "Capítulo 3", "url": "https://archive.org/download/00chich/3.mp4" },
+        { "nombre": "Capítulo 4", "url": "https://archive.org/download/00chich/4.mp4" },
+        { "nombre": "Capítulo 5", "url": "https://archive.org/download/00chich/5.mp4" },
+        { "nombre": "Capítulo 6", "url": "https://archive.org/download/00chich/6.mp4" },
+        { "nombre": "Capítulo 7", "url": "https://archive.org/download/00chich/7.mp4" },
+        { "nombre": "Capítulo 8", "url": "https://archive.org/download/00chich/8.mp4" },
+        { "nombre": "Capítulo 9", "url": "https://archive.org/download/00chich/9.mp4" },
+        { "nombre": "Capítulo 10", "url": "https://archive.org/download/00chich/10.mp4" }
       ]
     }
   ]
-}   
+}
 
 ]
