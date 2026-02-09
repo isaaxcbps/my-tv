@@ -226,6 +226,75 @@
       ]
     }
   ]
+},
+  {
+  "id": "spartacus_complete",
+  "titulo": "Spartacus",
+  "categoria": "SERIE",
+  "foto": "https://m.media-amazon.com/images/M/MV5BNTc4ZjlkNjUtOWZlMS00ODQ0LTg2MWUtMjBkNjMwOTJkOWZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "descripcion": "La historia de Espartaco, el gladiador que lideró la rebelión de los esclavos contra la República Romana. Una épica de sangre, honor y libertad.",
+  "temporadas": [
+    {
+      "nombre": "Temporada 1: Sangre y Arena",
+      "capitulos": [
+        { "nombre": "1x01 - La Serpiente Roja", "url": "https://archive.org/download/afe597a286618d157b2b433f2e69e7c1/Spartacus.1x01.Dual.720p-lat.mkv" },
+        { "nombre": "1x02 - Sacramento de Gladiadores", "url": "https://dl.dropbox.com/s/ghvbj9ysa6nj14h/2.mp4" },
+        { "nombre": "1x03 - Leyendas", "url": "https://archive.org/download/captura-de-pantalla-2023-11-02-151743/Spartacus.1x03.lati.mp4" },
+        { "nombre": "1x04 - La Fosa", "url": "https://dl.dropbox.com/s/x6gcima7225cp84/4.mp4" },
+        { "nombre": "1x05 - Juegos de Sombras", "url": "https://dl.dropbox.com/s/opikdyk2oe4xr4c/5.mp4" },
+        { "nombre": "1x06 - Cosas Delicadas", "url": "https://dl.dropbox.com/s/bn62i4nflvnkwde/6.mp4" },
+        { "nombre": "1x07 - Cosas Grandes y Desafortunadas", "url": "https://dl.dropbox.com/s/4u0lzw0h7ib4mtv/7.mp4" },
+        { "nombre": "1x08 - La Marca de la Hermandad", "url": "https://dl.dropbox.com/s/9ix7wn6rllz35ml/8.mp4" },
+        { "nombre": "1x09 - Ramera", "url": "https://dl.dropbox.com/s/x43ou3gy4udmm4t/9.mp4" },
+        { "nombre": "1x10 - Favores en la Celebración", "url": "https://dl.dropbox.com/s/503oxb59z7yph2x/10.mp4" },
+        { "nombre": "1x11 - Viejas Heridas", "url": "https://dl.dropbox.com/s/bd9vwel0qag9s0n/11.mp4" },
+        { "nombre": "1x12 - Revelaciones", "url": "https://dl.dropbox.com/s/l7m0ivp8suwwgpn/12.mp4" },
+        { "nombre": "1x13 - Mátalos a Todos", "url": "https://dl.dropbox.com/s/bucpblrd6bjkq8t/13.mp4" }
+      ]
+    },
+    {
+      "nombre": "Temporada 2: Dioses de la Arena",
+      "capitulos": [
+        { "nombre": "2x01 - Transgresiones del Pasado", "url": "https://dl.dropbox.com/s/uptu0kb4wppcipq/1.mp4" },
+        { "nombre": "2x02 - Rendición", "url": "https://dl.dropbox.com/s/6kczt7fektmh4kt/2.mp4" },
+        { "nombre": "2x03 - Paterfamilias", "url": "https://dl.dropbox.com/s/cq9qloaq900aoxq/3.mp4" },
+        { "nombre": "2x04 - Bajo la Máscara", "url": "https://dl.dropbox.com/s/jdna8h02p9oqa6n/4.mp4" },
+        { "nombre": "2x05 - Ajuste de Cuentas", "url": "https://dl.dropbox.com/s/ux1sbqtgfjuzw20/5.mp4" },
+        { "nombre": "2x06 - El Amargo Final", "url": "https://dl.dropbox.com/s/chwpa32cmlf5ye4/6.mp4" }
+      ]
+    },
+    {
+      "nombre": "Temporada 3: Venganza",
+      "capitulos": [
+        { "nombre": "3x01 - Fugitivos", "url": "https://archive.org/download/747595625385951385/Spartacus.3x01.Dual.720p-lat.mkv" },
+        { "nombre": "3x02 - Un Lugar en este Mundo", "url": "https://archive.org/download/747595625385951385/Spartacus.3x02.Dual.720p-lat.mkv" },
+        { "nombre": "3x03 - El Bien Común", "url": "https://dl.dropbox.com/s/maoo46g0d3vzbtx/3.mp4" },
+        { "nombre": "3x04 - Manos Vacías", "url": "https://dl.dropbox.com/s/4kyy4fct45qd3qg/4.mp4" },
+        { "nombre": "3x05 - Hombre Libre", "url": "https://archive.org/download/747595625385951385/Spartacus.3x05.Dual.720p-lat.mkv" },
+        { "nombre": "3x06 - Camino Elegido", "url": "https://archive.org/download/747595625385951385/Spartacus.3x06.Dual.720p-lat.mkv" },
+        { "nombre": "3x07 - Sacramento", "url": "https://archive.org/download/747595625385951385/Spartacus.3x07.Dual.720p-lat.mkv" },
+        { "nombre": "3x08 - Equilibrio", "url": "https://archive.org/download/747595625385951385/Spartacus.3x08.Dual.720p-lat.mkv" },
+        { "nombre": "3x09 - Monstruos", "url": "https://archive.org/download/747595625385951385/Spartacus.3x09.Dual.720p-lat.mkv" },
+        { "nombre": "3x10 - Ira de los Dioses", "url": "https://archive.org/download/747595625385951385/Spartacus.3x10.Dual.720p-lat.mkv" }
+      ]
+    },
+    {
+      "nombre": "Temporada 4: La Guerra de los Condenados",
+      "capitulos": [
+        { "nombre": "4x01 - Enemigos de Roma", "url": "https://dl.dropbox.com/s/t2n9a8sbsr1hv0u/1.mp4" },
+        { "nombre": "4x02 - Lobos en la Entrada", "url": "https://dl.dropbox.com/s/0bq7h9kudpsqkzi/2.mp4" },
+        { "nombre": "4x03 - Hombres de Honor", "url": "https://dl.dropbox.com/s/zyvvyaeksg41wy2/3.mp4" },
+        { "nombre": "4x04 - La diezma", "url": "https://dl.dropbox.com/s/y619971fi3ue6fw/4.mp4" },
+        { "nombre": "4x05 - Hermanos de Sangre", "url": "https://dl.dropbox.com/s/kkwttvasuqmsi5n/5.mp4" },
+        { "nombre": "4x06 - Botín de Guerra", "url": "https://dl.dropbox.com/s/jo0cvk7s41u1w5u/6.mp4" },
+        { "nombre": "4x07 - Muerte Súbita", "url": "https://dl.dropbox.com/s/ap2p7whdm57xsad/7.mp4" },
+        { "nombre": "4x08 - Caminos Separados", "url": "https://dl.dropbox.com/s/56q9yaa74irr50p/8.mp4" },
+        { "nombre": "4x09 - Los Muertos y los Moribundos", "url": "https://dl.dropbox.com/s/ntcg1m7h8em16m8/9.mp4" },
+        { "nombre": "4x10 - Victoria", "url": "https://archive.org/download/captura-de-pantalla-2023-11-02-151743/Spartacus.4x10.lati.mp4" }
+      ]
+    }
+  ]
 }
 
 ]
+
