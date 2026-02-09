@@ -56,6 +56,60 @@
     "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/60?mode=0"
   },
   {
+    "titulo": "FX",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a020/index.m3u8"
+  },
+  {
+    "titulo": "DISCOVERY TURBO",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a046/index.m3u8"
+  },
+  {
+    "titulo": "HISTORY CHANNEL",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a01o/index.m3u8"
+  },
+  {
+    "titulo": "HISTORY CHANNEL 2",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a02e/index.m3u8"
+  },
+  {
+    "titulo": "HBO FAMILY",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a06q/index.m3u8"
+  },
+  {
+    "titulo": "SPACE",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a04p/index.m3u8"
+  },
+  {
+    "titulo": "HBO EXTREM",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a00t/index.m3u8"
+  },
+  {
+    "titulo": "HBO 2",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a00r/index.m3u8"
+  },
+  {
+    "titulo": "SONY HD ",
+    "categoria": "TV",
+    "foto": "",
+    "url": "http://200.229.147.142:8000/play/a03f/index.m3u8"
+  },
+  {
     "titulo": "ECDF",
     "categoria": "TV",
     "foto": "https://cyberonline.ec/2929-thickbox_default/directv-go-.jpg",
@@ -1087,6 +1141,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
