@@ -150,6 +150,7 @@
             <button class="tab-btn" onclick="cambiarCategoria('TV')">TV en Vivo</button>
             <button class="tab-btn" onclick="cambiarCategoria('SERIE')">Series</button>
             <button class="tab-btn" onclick="cambiarCategoria('PELICULA')">Películas</button>
+            <button class="tab-btn" onclick="cambiarCategoria('RADIO')">Radio</button>
             <button class="tab-btn" onclick="cambiarCategoria('PPV')">Deportes</button>
         </div>
     </header>
@@ -169,8 +170,7 @@
         let peliculasDB = [];
         let categoriaActual = 'TODO';
 
-        // 1. CARGA DE DATOS (Puedes cargar peliculas.json y series.json si quieres combinarlos)
-        // Por ahora cargamos todo de un solo archivo principal para evitar errores
+        // 1. CARGA DE DATOS (Fusión de Archivos)
         Promise.all([
             fetch('peliculas.json').then(res => res.json()).catch(err => []), // Carga Pelis
             fetch('series.json').then(res => res.json()).catch(err => [])     // Carga Series
@@ -196,7 +196,6 @@
                 // Filtro Categoría
                 const catItem = item.categoria ? item.categoria.toUpperCase() : 'OTROS';
                 // Lógica: Si es TODO muestra todo, si no, debe coincidir.
-                // Nota: Puedes ajustar esto si quieres que 'TV' incluya 'DEPORTES', etc.
                 const pasaCategoria = (categoriaActual === 'TODO') || (catItem === categoriaActual);
                 
                 // Filtro Texto
@@ -216,19 +215,32 @@
                 // IMPORTANTE PARA TV: tabindex="0" permite seleccionarlo con el control
                 card.setAttribute('tabindex', '0'); 
                 
-                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE ---
+                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE (EL CEREBRO DEL SISTEMA) ---
                 const abrirContenido = () => {
                     if (item.categoria === 'SERIE') {
                         // SI ES SERIE: Va a la página de temporadas (detalles.html)
-                        // Requiere que el item tenga "id": "nombre_serie"
                         if(item.id) {
                             window.location.href = `detalles.html?id=${item.id}`;
                         } else {
                             alert("Error: Esta serie no tiene ID configurado.");
                         }
                     } else {
-                        // SI ES PELÍCULA/TV: Va directo al video (reproductor.html)
-                        window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
+                        // SI ES PELÍCULA/TV: DECIDIMOS QUÉ REPRODUCTOR USAR
+                        
+                        // Criterios para usar el "Tanque" (Proxy Python):
+                        // 1. Empieza con http: (Inseguro)
+                    
+                        const esDificil = item.url.startsWith('http:')
+
+                        if (esDificil) {
+                            console.log("Detectado enlace difícil. Usando Modo Proxy.");
+                            // Enviamos al reproductor que usa Python
+                            window.location.href = `reproductorhttp.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
+                        } else {
+                            console.log("Detectado enlace seguro. Usando Modo Directo.");
+                            // Enviamos al reproductor rápido normal
+                            window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
+                        }
                     }
                 };
 
@@ -276,4 +288,3 @@
     </script>
 </body>
 </html>
-
