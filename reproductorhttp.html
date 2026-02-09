@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIU PLAY - Modo Proxy</title>
+    <script src="https://cdn.jsdelivr.net/npm/mpegts.js@1.7.3/dist/mpegts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        body { margin: 0; background: black; display: flex; height: 100vh; overflow: hidden; justify-content: center; align-items: center; color: white; font-family: sans-serif; }
+        .volver { position: absolute; top: 20px; left: 20px; z-index: 100; background: rgba(0,0,0,0.6); color: white; text-decoration: none; padding: 10px 20px; border-radius: 30px; border: 1px solid #555; }
+        video { width: 100%; height: 100%; max-height: 100vh; outline: none; }
+        #estado { position: absolute; bottom: 20px; left: 20px; color: #0f0; font-size: 12px; background: rgba(0,0,0,0.5); padding: 5px; pointer-events: none;}
+    </style>
+</head>
+<body>
+    <a href="index.html" class="volver">⬅ Volver</a>
+    <video id="video" controls autoplay muted playsinline></video>
+    <div id="estado">Iniciando Proxy...</div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const urlOriginal = decodeURIComponent(params.get('video'));
+        const video = document.getElementById('video');
+        const estado = document.getElementById('estado');
+
+        // 1. FORZAMOS EL PROXY DE PYTHON
+        // Codificamos la URL para que no se rompa con los símbolos raros
+        const urlProxy = `https://niu-proxy.onrender.com/play?url=${encodeURIComponent(urlOriginal)}`;
+        
+        estado.innerText = "🔄 Conectando vía Python...";
+        console.log("Usando Proxy:", urlProxy);
+
+        // 2. ELEGIR MOTOR
+        if (mpegts.getFeatureList().mseLivePlayback) {
+            // Si es m3u8, usamos HLS con proxy. Si no, asumimos MPEGTS/FLV.
+            let tipo = urlOriginal.includes('.m3u8') ? 'hls' : 'mpegts';
+
+            if (tipo === 'mpegts') {
+                // Configuración para el canal HTTP 181.13...
+                const player = mpegts.createPlayer({
+                    type: 'mpegts',  // O 'flv' si falla
+                    url: urlProxy,
+                    isLive: true,
+                    cors: true,
+                    enableStashBuffer: false // Menos latencia
+                });
+                player.attachMediaElement(video);
+                player.load();
+                player.play().catch(e => console.log("Click para iniciar"));
+                estado.innerText = "▶ Reproduciendo MPEGTS (Proxy)";
+            } 
+            else if (tipo === 'hls' && Hls.isSupported()) {
+                // Configuración para el canal HTTPS raro (is.gd)
+                const hls = new Hls();
+                hls.loadSource(urlProxy);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    video.play().catch(e => console.log("Click para iniciar"));
+                    estado.innerText = "▶ Reproduciendo HLS (Proxy)";
+                });
+            }
+        } else {
+            // Fallback básico
+            video.src = urlProxy;
+            video.play();
+        }
+    </script>
+</body>
+</html>
