@@ -10,61 +10,124 @@
         body { margin: 0; background: black; display: flex; height: 100vh; overflow: hidden; justify-content: center; align-items: center; color: white; font-family: sans-serif; }
         .volver { position: absolute; top: 20px; left: 20px; z-index: 100; background: rgba(0,0,0,0.6); color: white; text-decoration: none; padding: 10px 20px; border-radius: 30px; border: 1px solid #555; }
         video { width: 100%; height: 100%; max-height: 100vh; outline: none; }
-        #estado { position: absolute; bottom: 20px; left: 20px; color: #0f0; font-size: 12px; background: rgba(0,0,0,0.5); padding: 5px; pointer-events: none;}
+        #estado { position: absolute; bottom: 20px; left: 20px; color: #0f0; font-size: 12px; background: rgba(0,0,0,0.5); padding: 5px; pointer-events: none; z-index: 50;}
+
+        /* PANTALLA DE RESCATE (VLC) */
+        #error-screen {
+            display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.9); flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; z-index: 60;
+        }
+        .btn-rescate {
+            background-color: #E50914; color: white; border: none; padding: 15px 30px; 
+            font-size: 16px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(229, 9, 20, 0.5);
+        }
+        h2 { margin-bottom: 10px; color: #ff9800; }
+        p { color: #ccc; max-width: 80%; }
     </style>
 </head>
 <body>
     <a href="index.html" class="volver">⬅ Volver</a>
+    
     <video id="video" controls autoplay muted playsinline></video>
     <div id="estado">Iniciando Proxy...</div>
+
+    <div id="error-screen">
+        <h2>⚠️ No compatible con navegador móvil</h2>
+        <p>Este canal requiere un reproductor externo en celulares.</p>
+        <a id="btn-vlc" href="#" class="btn-rescate">📱 Abrir en VLC / Reproductor</a>
+    </div>
 
     <script>
         const params = new URLSearchParams(window.location.search);
         const urlOriginal = decodeURIComponent(params.get('video'));
         const video = document.getElementById('video');
         const estado = document.getElementById('estado');
+        const errorScreen = document.getElementById('error-screen');
+        const btnVlc = document.getElementById('btn-vlc');
 
-        // 1. FORZAMOS EL PROXY DE PYTHON
-        // Codificamos la URL para que no se rompa con los símbolos raros
+        // 1. URL DEL PROXY (RENDER)
         const urlProxy = `https://niu-proxy.onrender.com/play?url=${encodeURIComponent(urlOriginal)}`;
         
-        estado.innerText = "🔄 Conectando vía Python...";
-        console.log("Usando Proxy:", urlProxy);
+        console.log("Proxy:", urlProxy);
+        estado.innerText = "🔄 Conectando...";
 
-        // 2. ELEGIR MOTOR
-        if (mpegts.getFeatureList().mseLivePlayback) {
-            // Si es m3u8, usamos HLS con proxy. Si no, asumimos MPEGTS/FLV.
+        // Configurar botón VLC con la URL ORIGINAL (Directa) o Proxy, a veces directo es mejor para VLC
+        // Probamos enviarle al VLC la URL Original para que él gestione la conexión
+        btnVlc.href = urlOriginal.startsWith('http') ? 'vlc://' + urlOriginal.replace(/^https?:\/\//, '') : urlOriginal;
+
+        function activarRescate(motivo) {
+            console.log("Fallo:", motivo);
+            video.style.display = 'none';
+            errorScreen.style.display = 'flex';
+            estado.innerText = "";
+        }
+
+        // Detección de iPhone/iPad
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+        // 2. LÓGICA DE REPRODUCCIÓN
+        if (isIOS) {
+            // IPHONE: No soporta MPEGTS.js. Intentamos nativo con Proxy.
+            estado.innerText = "🍎 Modo iOS detectado";
+            video.src = urlProxy;
+            video.play().catch(e => {
+                // Si falla en iPhone (muy probable con TS), mostramos botón VLC
+                activarRescate("iOS no soporta este formato web");
+            });
+        } 
+        else if (mpegts.getFeatureList().mseLivePlayback) {
+            // ANDROID / PC: Usamos MPEGTS.js
             let tipo = urlOriginal.includes('.m3u8') ? 'hls' : 'mpegts';
 
             if (tipo === 'mpegts') {
-                // Configuración para el canal HTTP 181.13...
                 const player = mpegts.createPlayer({
-                    type: 'mpegts',  // O 'flv' si falla
+                    type: 'mpegts', 
                     url: urlProxy,
                     isLive: true,
                     cors: true,
-                    enableStashBuffer: false // Menos latencia
+                    enableStashBuffer: false 
                 });
                 player.attachMediaElement(video);
                 player.load();
-                player.play().catch(e => console.log("Click para iniciar"));
-                estado.innerText = "▶ Reproduciendo MPEGTS (Proxy)";
+                
+                player.on(mpegts.Events.ERROR, (type, details) => {
+                    // Si falla el motor, mostramos botón VLC
+                    activarRescate("Error MPEGTS: " + details);
+                });
+
+                video.play().catch(e => estado.innerText = "Click para iniciar");
+                estado.innerText = "▶ Reproduciendo (Proxy)";
             } 
             else if (tipo === 'hls' && Hls.isSupported()) {
-                // Configuración para el canal HTTPS raro (is.gd)
                 const hls = new Hls();
                 hls.loadSource(urlProxy);
                 hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => {
-                    video.play().catch(e => console.log("Click para iniciar"));
-                    estado.innerText = "▶ Reproduciendo HLS (Proxy)";
+                hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
+                hls.on(Hls.Events.ERROR, (e, data) => {
+                    if(data.fatal) activarRescate("Error HLS");
                 });
             }
-        } else {
-            // Fallback básico
+        } 
+        else {
+            // Fallback final
             video.src = urlProxy;
+            video.onerror = () => activarRescate("Navegador no compatible");
             video.play();
         }
+
+        // Temporizador de seguridad: Si en 15 seg no carga, ofrece VLC
+        setTimeout(() => {
+            if(video.paused || video.readyState < 2) {
+                // No forzamos el error screen, pero ponemos el estado en rojo
+                if(errorScreen.style.display === 'none') {
+                    estado.innerText = "⚠️ ¿Tarda mucho? Usa el botón atrás e intenta VLC";
+                    estado.style.color = "yellow";
+                }
+            }
+        }, 15000);
+
     </script>
 </body>
 </html>
