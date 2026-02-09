@@ -294,7 +294,34 @@
       ]
     }
   ]
+},
+  {
+  "id": "misterios_sin_resolver_2020",
+  "titulo": "Misterios sin resolver",
+  "categoria": "SERIE",
+  "foto": "https://image.tmdb.org/t/p/w300/a97V0nC9IVtidZAFOx7VrBT0IWW.jpg",
+  "descripcion": "Casos reales de desapariciones inexplicables, asesinatos impactantes y encuentros paranormales que esperan ser resueltos.",
+  "temporadas": [
+    {
+      "nombre": "Temporada 1",
+      "capitulos": [
+        { "nombre": "Capítulo 1x01", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x01.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x02", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x02.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x03", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x03.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x04", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x04.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x05", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x05.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x06", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x06.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x07", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x07.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x08", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x08.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x09", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x09.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x10", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x10.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x11", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x11.Dual.720p-lat.mkv" },
+        { "nombre": "Capítulo 1x12", "url": "https://archive.org/download/747595625385951385/Misterios.sin.Resolver.1x12.Dual.720p-lat.mkv" }
+      ]
+    }
+  ]
 }
 
 ]
+
 
