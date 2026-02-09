@@ -1,27 +1,10 @@
 [
-   {
-    "titulo": "UFC FIGHT NIGHT: PRELIMINARES",
-    "categoria": "PPV",
-    "foto": "https://storage.googleapis.com/trainunm/filer_public/03/85/03850794-bdb2-483a-a29f-4fe718c030d5/categorie_di_peso_ufc.jpg",
-    "url": "https://plu002.myluck1.top:8088/live/zdus1/playlist.m3u8?vidictid=20492735986&id=122263&pk=8f21369aec0e530237eb1f685ab67cedb826cd3277829bb08ed4c2a52f35e3cb"
-  },
-  {
-    "titulo": "BARCELONA SC VS INTER MIAMI",
-    "categoria": "PPV",
-    "foto": "https://www.ole.com.ar/2026/02/07/VAreImmo8_400x400__1.jpg",
-    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/knvFjK-NBMuDiomNAUnACwjLBYoES09KAMrGSwuMBs0Dig8NQcmHCApMg58XHtt/60715/0/chunklist.m3u8"
-  },
+  
   {
     "titulo": "A&E",
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
-    "url": "http://181.13.252.102:8000/play/a05i"
-  },
-  {
-    "titulo": "ARCHIVOS DEL FBI",
-    "categoria": "TV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLgOKXgyFzn_HWJjQyU_gUlDRpR4Pb3svbw&s",
-    "url": "https://corgol.com@is.gd/GmGnXR?.m3u8"
+    "url": "http://181.13.252.102:8000/play/a05i/index.m3u8"
   },
   {
     "titulo": "CABALLEROS DEL ZODIACO",
@@ -39,7 +22,7 @@
     "titulo": "CARACOL TV",
     "categoria": "TV",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/CaracolTV2025.png",
-    "url": "http://corgol.com@181.78.82.6:46090/play/a05y"
+    "url": "http://corgol.com@181.78.82.6:46090/play/a05y/index.m3u8"
   },
   {
     "titulo": "CARTOON NETWORK",
@@ -47,23 +30,12 @@
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/250px-Cartoon_Network_2010_logo.svg.png",
     "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/50?mode=0"
   },
-  {
-    "titulo": "CINE PREMIERE",
-    "categoria": "TV",
-    "foto": "https://pbs.twimg.com/profile_images/1427018894909362180/QlqAjj7P_400x400.jpg",
-    "url": "https://corgol.com@is.gd/HK5HeB?.m3u8"
-  },
+  
   {
     "titulo": "CINE ROMANTICO",
     "categoria": "TV",
     "foto": "https://b2357908.smushcdn.com/2357908/wp-content/uploads/2020/10/2-cine-romantico-logo-only.png?lossy=1&strip=1&webp=1",
     "url": "https://corgol.com@dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991142"
-  },
-  {
-    "titulo": "CINE TERROR",
-    "categoria": "TV",
-    "foto": "https://elordenmundial.com/wp-content/uploads/2023/10/cine-peliculas-terror-politica-estados-unidos-historia-.jpg",
-    "url": "https://corgol.com@is.gd/ObqtMl?.m3u8"
   },
   {
     "titulo": "CINECANAL",
@@ -111,7 +83,7 @@
     "titulo": "HBO +",
     "categoria": "TV",
     "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
-    "url": "http://corgol.com@45.228.234.30:16000/play/a00a"
+    "url": "http://corgol.com@45.228.234.30:16000/play/a00a/index.m3u8"
   },
   {
     "titulo": "HBO POP",
@@ -119,12 +91,7 @@
     "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
     "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/117?mode=0"
   },
-  {
-    "titulo": "HISTORIAS DE ULTRATUMBA",
-    "categoria": "TV",
-    "foto": "https://entrenoslibroscine.wordpress.com/wp-content/uploads/2018/09/historias-de-ultratumba_poster-ok.jpeg?w=306&h=431",
-    "url": "https://corgol.com@is.gd/EH9OVX?.m3u8"
-  },
+  
   {
     "titulo": "Naruto 24/7",
     "categoria": "TV",
@@ -1120,6 +1087,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
