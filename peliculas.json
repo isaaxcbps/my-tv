@@ -1,16 +1,9 @@
-[
-   {
-    "titulo": "NOCHE AMARILLA QUITO 2026",
-    "categoria": "PPV",
-    "foto": "https://www.ole.com.ar/2026/02/13/y6qg68M3l_400x400__1.jpg",
-    "url": "https://edge-rest-api.dallas.api.streamlatam.com/hls/C3Rgp2-EDI0dwJ7ECQ9eQR-CDcyaAVgDCIxYARzFDoudwBhECI2YAl0Fi9mJVMw/60715/0/chunklist.m3u8"
-  },
-  
+[ 
   {
     "titulo": "A&E",
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
-    "url": "http://200.229.147.142:8000/play/a01x/index.m3u8"
+    "url": "http://181.205.205.173:8888/play/a0hg/index.m3u8"
   },
  
   {
@@ -35,7 +28,7 @@
     "titulo": "CARTOON NETWORK",
     "categoria": "TV",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/250px-Cartoon_Network_2010_logo.svg.png",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/50?mode=0"
+    "url": "http://38.199.4.105:9999/play/a02m/index.m3u8"
   },
   
   {
@@ -60,13 +53,13 @@
     "titulo": "DISCOVERY CHANNEL",
     "categoria": "TV",
     "foto": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/60?mode=0"
+    "url": "http://latinapro.net:25461/YP9tF7K0Pj/EaFdET2CMh/156.m3u8"
   },
   {
     "titulo": "FX",
     "categoria": "TV",
     "foto": "",
-    "url": "http://200.229.147.142:8000/play/a020/index.m3u8"
+    "url": "http://canal-pro.xyz:8080/966119620tv/55ce67/125"
   },
   {
     "titulo": "DISCOVERY TURBO",
@@ -80,23 +73,18 @@
     "foto": "",
     "url": "http://200.229.147.142:8000/play/a01o/index.m3u8"
   },
+  
   {
-    "titulo": "HISTORY CHANNEL 2",
+    "titulo": "HBO ",
     "categoria": "TV",
     "foto": "",
-    "url": "http://200.229.147.142:8000/play/a02e/index.m3u8"
-  },
-  {
-    "titulo": "HBO FAMILY",
-    "categoria": "TV",
-    "foto": "",
-    "url": "http://200.229.147.142:8000/play/a06q/index.m3u8"
+    "url": "http://45.228.234.30:16000/play/a008/index.m3u8"
   },
   {
     "titulo": "SPACE",
     "categoria": "TV",
     "foto": "",
-    "url": "http://200.229.147.142:8000/play/a04p/index.m3u8"
+    "url": "http://canal-pro.xyz:8080/966119620tv/55ce67/202"
   },
   {
     "titulo": "HBO EXTREM",
@@ -108,13 +96,13 @@
     "titulo": "HBO 2",
     "categoria": "TV",
     "foto": "",
-    "url": "http://200.229.147.142:8000/play/a00r/index.m3u8"
+    "url": "http://canal-pro.xyz:8080/966119620tv/55ce67/131"
   },
   {
     "titulo": "SONY HD ",
     "categoria": "TV",
     "foto": "",
-    "url": "http://200.229.147.142:8000/play/a03f/index.m3u8"
+    "url": "http://181.114.57.246:4000/play/wQWF578wnjn2Lnrz/index.m3u8"
   },
   {
     "titulo": "ECDF",
@@ -138,7 +126,7 @@
     "titulo": "ESPN PREMIUM",
     "categoria": "TV",
     "foto": "https://pbs.twimg.com/media/FPSjpzVXEAwulgr.jpg",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/54387?mode=0"
+    "url": "http://181.114.57.246:4000/play/G5zcc3HYpdc5AjMs/index.m3u8"
   },
   {
     "titulo": "HBO +",
@@ -146,13 +134,7 @@
     "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
     "url": "http://200.229.147.142:8000/play/a00s/index.m3u8"
   },
-  {
-    "titulo": "HBO POP",
-    "categoria": "TV",
-    "foto": "https://i0.wp.com/folou.co/wp-content/uploads/2025/09/befunky_2025-8-5_11-15-29.jpg?fit=1200%2C675&ssl=1",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/117?mode=0"
-  },
-  
+   
   {
     "titulo": "Naruto 24/7",
     "categoria": "TV",
@@ -169,7 +151,7 @@
     "titulo": "NICKELODEON",
     "categoria": "TV",
     "foto": "https://1000marcas.net/wp-content/uploads/2020/03/logo-Nickelodeon.png",
-    "url": "http://corgol.com@cdn1host.online:2999/xman2b/d5lxdEfHnB/48?mode=0"
+    "url": "http://tv14s.xyz:8080/live/07301982/23101897/47349.m3u8"
   },
   {
     "titulo": "ONE PIECE 24/7",
@@ -1148,6 +1130,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
