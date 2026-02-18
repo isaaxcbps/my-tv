@@ -1,5 +1,11 @@
 [ 
   {
+    "titulo": "BARCELOS SC VS ARGENTINOS JUNIORS",
+    "categoria": "PPV",
+    "foto": "https://www.ole.com.ar/2026/02/17/l0KGf8MMA_720x0__1.jpg",
+    "url": "https://wp9xqedt.fubohd.com/espn/mono.m3u8?token=498400b1d5b93ba9350bfc365b67a7c73f40186c-b2-1771476070-1771458070"
+  },
+  {
     "titulo": "A&E",
     "categoria": "TV",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr-HEzPT6Im-07iGS_JQGyMITM5DvbzcMrA&s",
@@ -1130,6 +1136,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
