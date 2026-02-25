@@ -225,20 +225,21 @@
                             alert("Error: Esta serie no tiene ID configurado.");
                         }
                     } else {
-                        // SI ES PELÍCULA/TV: DECIDIMOS QUÉ REPRODUCTOR USAR
+                        // SI ES TV, PELÍCULA, RADIO O PPV: DECIDIMOS QUÉ REPRODUCTOR USAR
                         
-                        // Criterios para usar el "Tanque" (Proxy Python):
-                        // 1. Empieza con http: (Inseguro)
-                    
-                        const esDificil = item.url.startsWith('http:')
-
-                        if (esDificil) {
+                        // 1. NUEVA REGLA: ¿Es una página web pura (.php o .html)?
+                        if (item.url.includes('.php') || item.url.includes('.html')) {
+                            console.log("Página web detectada. Abriendo directamente.");
+                            window.open(item.url, '_blank'); // Abre en pestaña nueva
+                        } 
+                        // 2. ¿Es un enlace HTTP difícil (Proxy Python)?
+                        else if (item.url.startsWith('http:')) {
                             console.log("Detectado enlace difícil. Usando Modo Proxy.");
-                            // Enviamos al reproductor que usa Python
                             window.location.href = `reproductorhttp.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
-                        } else {
+                        } 
+                        // 3. Es un enlace HTTPS seguro (Modo Directo)
+                        else {
                             console.log("Detectado enlace seguro. Usando Modo Directo.");
-                            // Enviamos al reproductor rápido normal
                             window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                         }
                     }
