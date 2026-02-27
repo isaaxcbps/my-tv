@@ -1,29 +1,5 @@
 [ 
-   {
-    "titulo": "Guaraní vs Juventud",
-    "categoria": "PPV",
-    "foto": "https://media.tycsports.com/files/2026/02/24/926484/guarani-vs-juventud-en-vivo-como-llegan-al-partido_640x640.webp",
-    "url": "https://la14hd.com/vivo/canales.php?stream=espn2mx"
-  },
-   {
-    "titulo": " River Plate vs Banfield",
-    "categoria": "PPV",
-    "foto": "https://a.espncdn.com/photo/2023/0221/r1134505_720x405_16-9.jpg",
-    "url": "https://la14hd.com/vivo/canales.php?stream=espn3"
-  },
-   {
-    "titulo": "Flamengo vs Lanús | Fina",
-    "categoria": "PPV",
-    "foto": "https://www.ole.com.ar/2026/02/25/dm4TuD3il_400x400__1.jpg",
-    "url": "https://la14hd.com/vivo/canales.php?stream=espn2"
-  },
-    {
-    "titulo": "Deportes Tolima vs Deportivo Táchira",
-    "categoria": "PPV",
-    "foto": "https://www.365scores.com/es/news/wp-content/uploads/2026/02/Tolima-vs-Tachira-Libertadores-TV.jpg",
-    "url": "https://la14hd.com/vivo/canales.php?stream=espn"
-  },
-     
+       
   {
     "titulo": "A&E",
     "categoria": "TV",
@@ -1155,6 +1131,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
