@@ -1,5 +1,10 @@
 [ 
-       
+  {
+    "titulo": "UFC Fight Night: Brandon Moreno vs Lone'er Kavanagh ",
+    "categoria": "PPV",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4KVN89__4fFhaYA9Ub57LQ1UrvXcFRVaeQ&s",
+    "url": "https://streamx10.cloud/global2.php?channel=paramount1"
+  },     
   {
     "titulo": "A&E",
     "categoria": "TV",
@@ -1131,6 +1136,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
