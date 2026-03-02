@@ -1,16 +1,5 @@
 [ 
-  {
-    "titulo": "UFC Fight Night: Brandon Moreno vs Lone'er Kavanagh ",
-    "categoria": "PPV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4KVN89__4fFhaYA9Ub57LQ1UrvXcFRVaeQ&s",
-    "url": "https://streamx10.cloud/global2.php?channel=paramount1"
-  },     
-  {
-    "titulo": "UFC Fight Night: Brandon Moreno vs Lone'er Kavanagh OPC2",
-    "categoria": "PPV",
-    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4KVN89__4fFhaYA9Ub57LQ1UrvXcFRVaeQ&s",
-    "url": "https://streamx10.cloud/global1.php?channel=paramount2"
-  }, 
+   
   {
     "titulo": "A&E",
     "categoria": "TV",
@@ -293,6 +282,12 @@
     "categoria": "RADIO",
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_uN7978o3U8L2576L19B99S3M5p2S7W3U4w&s",
     "url": "https://stream.pcradio.ru/Linkin_Park-hi"
+  },
+  {
+    "titulo": "EQUIPO  DEMOLICION",
+    "categoria": "PELICULA",
+    "foto": "https://www.estilodigital.com.co/wp-content/uploads/2026/01/Equipo-Demolicion.jpg",
+    "url": "https://archive.org/download/index-v1-a1_202603/index-v1-a1.mp4"
   },
   {
     "titulo": "100 METERS (2025)",
@@ -1142,6 +1137,7 @@
     "url": "https://gold.streamguys1.com/softrock.mp3"
   }
 ]
+
 
 
 
