@@ -186,8 +186,13 @@
             });
         }
 
+        // --- MAGIA DEL ENMASCARAMIENTO ---
         function abrirLink(url) {
-            window.open(url, '_blank');
+            // 1. Guardamos la URL real en la memoria temporal del navegador
+            sessionStorage.setItem('urlPartido', url);
+            
+            // 2. Abrimos la pantalla negra (tu "marco" enmascarado)
+            window.open('en-vivo.html', '_blank');
         }
 
         buscador.addEventListener('input', renderizar);
