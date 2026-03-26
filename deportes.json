@@ -1,8 +1,29 @@
 [
     {
+        "hora": "11:00",
+        "titulo": "Primera División: Racing vs Progreso ",
+        "url": "https://streamx339.cloud/global1.php?channel=disney1",
+        "categoria": "PPV",
+        "estado": "en vivo"
+    },
+    {
         "hora": "12:00",
         "titulo": "Mundial 2026 - Eliminatorias: Turquía vs Rumania",
         "url": "https://streamx339.cloud/global1.php?channel=espn",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "Mundial 2026 - Eliminatorias: Turquía vs Rumania opc2",
+        "url": "https://streamx339.cloud/global1.php?channel=espn",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "Mundial 2026 - Eliminatorias: Turquía vs Rumania opc3",
+        "url": "https://streamx339.cloud/global1.php?channel=espn2ar",
         "categoria": "PPV",
         "estado": "pronto"
     }
