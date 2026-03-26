@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles de Serie</title>
+    <title>Detalles de Serie - NIU PLAY</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #E50914; --dark: #141414; --gray: #333; --text: #fff; }
@@ -23,6 +23,12 @@
             position: absolute; top: 20px; left: 20px; z-index: 100;
             background: rgba(0,0,0,0.6); color: white; text-decoration: none;
             padding: 8px 15px; border-radius: 30px; font-weight: bold; border: 1px solid #555;
+            transition: all 0.2s ease;
+        }
+        .volver:hover {
+            background: var(--primary);
+            border-color: transparent;
+            transform: scale(1.05);
         }
 
         /* INFORMACIÓN DE LA SERIE */
@@ -68,22 +74,41 @@
         const idSerie = params.get('id');
         const contenido = document.getElementById('contenido-dinamico');
 
-        // 1. CARGAR EL JSON DE SERIES
-        // OJO: Si usas el mismo peliculas.json para todo, cambia el nombre aquí
-        fetch('series.json') 
-            .then(res => res.json())
-            .then(data => {
-                // Buscar la serie por ID
-                const serie = data.find(item => item.id === idSerie);
-                
-                if (!serie) {
-                    contenido.innerHTML = "<h2 style='text-align:center; margin-top:50px;'>Serie no encontrada</h2>";
-                    return;
-                }
+        // --- CEREBRO DE REPRODUCCIÓN ---
+        // Analiza el link del capítulo y decide a dónde mandarte
+        window.abrirCapitulo = function(url, titulo) {
+            if (url.includes('vimeus.com')) {
+                window.location.href = `reproductor_web.html?video=${encodeURIComponent(url)}&titulo=${encodeURIComponent(titulo)}`;
+            } else if (url.includes('.php') || url.includes('.html')) {
+                window.open(url, '_blank');
+            } else if (url.startsWith('http:')) {
+                window.location.href = `reproductorhttp.html?video=${encodeURIComponent(url)}&titulo=${encodeURIComponent(titulo)}`;
+            } else {
+                window.location.href = `reproductor.html?video=${encodeURIComponent(url)}&titulo=${encodeURIComponent(titulo)}`;
+            }
+        };
 
-                renderizarSerie(serie);
-            })
-            .catch(err => console.error("Error:", err));
+        // 1. CARGAMOS TODOS LOS JSONS POSIBLES
+        Promise.all([
+            fetch('series.json').then(res => res.json()).catch(() => []), 
+            fetch('series_estructuradas.json').then(res => res.json()).catch(() => []), // Las nuevas de Vimeus
+            fetch('animes_estructuradas.json').then(res => res.json()).catch(() => [])  // Los animes de Vimeus
+        ])
+        .then(resultados => {
+            // Unimos todos los archivos en un solo catálogo
+            const data = resultados.flat();
+            
+            // Buscar la serie por ID
+            const serie = data.find(item => item.id === idSerie);
+            
+            if (!serie) {
+                contenido.innerHTML = "<h2 style='text-align:center; margin-top:50px;'>Serie no encontrada</h2>";
+                return;
+            }
+
+            renderizarSerie(serie);
+        })
+        .catch(err => console.error("Error:", err));
 
         function renderizarSerie(serie) {
             let htmlTemporadas = '';
@@ -94,12 +119,11 @@
                     let htmlCapitulos = '';
                     
                     temp.capitulos.forEach(cap => {
-                        // Al hacer click, vamos al REPRODUCTOR que ya tienes
-                        // Le pasamos el link del video y el nombre compuesto (Serie - Cap)
-                        const linkVideo = `reproductor.html?video=${encodeURIComponent(cap.url)}&titulo=${encodeURIComponent(serie.titulo + ' - ' + cap.nombre)}`;
+                        // Limpiamos comillas simples del título para que no rompan el evento onclick
+                        const tituloLimpio = (serie.titulo + ' - ' + cap.nombre).replace(/'/g, "\\'");
                         
                         htmlCapitulos += `
-                            <div class="capitulo-item" onclick="window.location.href='${linkVideo}'">
+                            <div class="capitulo-item" onclick="abrirCapitulo('${cap.url}', '${tituloLimpio}')">
                                 <span class="play-icon">▶</span>
                                 <span class="cap-titulo">${cap.nombre}</span>
                             </div>
