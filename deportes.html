@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes EN VIVO - NIU PLAY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- VARIABLES Y BASE DEL PROYECTO --- */
+        :root { 
+            --primary: #E50914; /* Rojo Netflix */
+            --dark: #141414;    /* Fondo Oscuro */
+            --gray: #333;       /* Gris medio */
+            --light: #fff;      /* Texto blanco */
+        }
+        
+        body { background-color: var(--dark); color: var(--light); font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
+
+        /* --- CABECERA --- */
+        header {
+            padding: 20px; position: sticky; top: 0; z-index: 100;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%);
+            backdrop-filter: blur(8px); box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        h1 { margin: 0; color: var(--primary); font-size: 28px; letter-spacing: 1px; font-weight: 700; cursor: pointer; text-shadow: 0 2px 4px black; }
+        
+        #buscador {
+            background: var(--gray); border: 1px solid #444; color: white;
+            padding: 10px 15px; border-radius: 50px; width: 40%; max-width: 300px;
+            transition: all 0.3s ease;
+        }
+        #buscador:focus { width: 50%; outline: none; border-color: var(--primary); background: #444; }
+
+        /* --- MENÚ PESTAÑAS --- */
+        .tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
+        .tabs::-webkit-scrollbar { display: none; }
+        .tab-btn {
+            background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+            color: #ddd; padding: 8px 18px; border-radius: 20px; cursor: pointer; font-size: 14px; transition: all 0.2s;
+        }
+        .tab-btn:hover { background: rgba(255,255,255,0.3); transform: scale(1.05); }
+        .tab-btn.activo { background: var(--light); color: var(--dark); font-weight: 600; border-color: var(--light); }
+
+        /* --- AGENDA DEPORTIVA --- */
+        .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .agenda-lista { display: flex; flex-direction: column; gap: 15px; padding-bottom: 50px; }
+        
+        .evento-fila {
+            background: #111; border: 1px solid #222; border-radius: 6px;
+            padding: 15px 20px; display: flex; justify-content: space-between; align-items: center;
+            transition: all 0.2s;
+        }
+        .evento-fila:hover { border-color: #444; background: #1a1a1a; }
+        
+        .evento-info { font-size: 15px; font-weight: 500; color: #eee; flex-grow: 1; }
+        .evento-hora { color: #aaa; margin-right: 8px; font-weight: 600; }
+
+        .evento-acciones { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+        
+        .input-url {
+            background: #000; color: #666; border: 1px solid #222; border-radius: 4px;
+            padding: 8px 12px; font-size: 12px; width: 300px; pointer-events: none;
+            font-family: monospace;
+        }
+
+        /* --- BOTONES ADAPTADOS AL TEMA --- */
+        .btn-accion {
+            color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; 
+            font-size: 13px; font-weight: 600; transition: all 0.2s; display: flex; align-items: center; gap: 5px;
+        }
+        
+        /* Botón Abrir: Rojo principal */
+        .btn-abrir { background: var(--primary); } 
+        .btn-abrir:hover { background: #b20710; transform: scale(1.05); }
+        
+        /* Botón Copiar: Gris oscuro, estilo secundario */
+        .btn-copiar { background: var(--gray); border: 1px solid #444; } 
+        .btn-copiar:hover { background: #444; border-color: #666; }
+
+        .badge-estado {
+            padding: 8px 15px; border-radius: 4px; font-size: 12px; font-weight: bold;
+            color: white; min-width: 80px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 5px;
+        }
+        /* Estados */
+        .estado-vivo { background: var(--primary); box-shadow: 0 0 10px rgba(229,9,20,0.3); }
+        .estado-pronto { background: #222; border: 1px solid #444; color: #aaa; }
+        
+        /* Animación para el punto de "En vivo" */
+        .punto-parpadeo {
+            width: 8px; height: 8px; background-color: white; border-radius: 50%;
+            display: inline-block; animation: parpadeo 1.5s infinite;
+        }
+        @keyframes parpadeo { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+
+        @media (max-width: 800px) {
+            .evento-fila { flex-direction: column; align-items: flex-start; gap: 15px; }
+            .evento-acciones { width: 100%; justify-content: flex-start; }
+            .input-url { width: 100%; max-width: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1 onclick="window.location.href='index.html'">NIU PLAY</h1>
+            <input type="text" id="buscador" placeholder="Buscar evento...">
+        </div>
+        
+        <div class="tabs">
+            <button class="tab-btn" onclick="window.location.href='index.html'">Todo</button>
+            <button class="tab-btn" onclick="window.location.href='index.html'">Películas</button>
+            <button class="tab-btn" onclick="window.location.href='index.html'">Series</button>
+            <button class="tab-btn activo">Deportes</button>
+        </div>
+    </header>
+
+    <div class="contenedor-principal">
+        <div class="agenda-lista" id="contenedor-eventos"></div>
+        <div id="sin-resultados" style="display:none; text-align:center; margin-top:50px; color:#777;">
+            <p>☹️ No encontramos eventos deportivos con ese nombre.</p>
+        </div>
+    </div>
+
+    <script>
+        const contenedor = document.getElementById('contenedor-eventos');
+        const buscador = document.getElementById('buscador');
+        let eventosDB = [];
+
+        fetch('deportes.json')
+            .then(res => res.json())
+            .then(data => {
+                eventosDB = data;
+                renderizar();
+            })
+            .catch(err => {
+                console.error("Error cargando deportes:", err);
+                contenedor.innerHTML = '<h3 style="text-align:center; color: #E50914;">Error cargando la agenda deportiva.</h3>';
+            });
+
+        function renderizar() {
+            contenedor.innerHTML = '';
+            const textoBusqueda = buscador.value.toLowerCase();
+
+            const filtrados = eventosDB.filter(item => 
+                item.titulo.toLowerCase().includes(textoBusqueda) || 
+                (item.hora && item.hora.includes(textoBusqueda))
+            );
+
+            document.getElementById('sin-resultados').style.display = filtrados.length === 0 ? 'block' : 'none';
+
+            filtrados.forEach(item => {
+                const fila = document.createElement('div');
+                fila.className = 'evento-fila';
+
+                const esVivo = item.estado === 'vivo';
+                const claseEstado = esVivo ? 'estado-vivo' : 'estado-pronto';
+                const textoEstado = esVivo ? '<span class="punto-parpadeo"></span> En vivo' : '🕒 Pronto';
+                const hora = item.hora || 'Por definir';
+
+                fila.innerHTML = `
+                    <div class="evento-info">
+                        <span class="evento-hora">${hora}</span> - 
+                        <span class="evento-titulo">${item.titulo}</span>
+                    </div>
+                    <div class="evento-acciones">
+                        <input type="text" class="input-url" value="${item.url}" readonly>
+                        
+                        <button class="btn-accion btn-abrir" onclick="abrirLink('${item.url}')" title="Abrir transmisión">
+                            ▶ Abrir
+                        </button>
+                        
+                        <button class="btn-accion btn-copiar" onclick="copiarAlPortapapeles('${item.url}')">
+                            Copiar
+                        </button>
+                        
+                        <div class="badge-estado ${claseEstado}">
+                            ${textoEstado}
+                        </div>
+                    </div>
+                `;
+                contenedor.appendChild(fila);
+            });
+        }
+
+        function abrirLink(url) {
+            window.open(url, '_blank');
+        }
+
+        function copiarAlPortapapeles(texto) {
+            navigator.clipboard.writeText(texto).then(() => {
+                alert("¡Enlace copiado al portapapeles!");
+            }).catch(err => {
+                console.error('Error al copiar: ', err);
+                alert("No se pudo copiar el enlace.");
+            });
+        }
+
+        buscador.addEventListener('input', renderizar);
+    </script>
+</body>
+</html>
