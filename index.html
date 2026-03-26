@@ -102,11 +102,10 @@
         }
 
         /* --- MAGIA PARA TV Y MOUSE --- */
-        /* Esto activa el brillo cuando pasas el mouse O cuando llegas con las flechas del control */
         .tarjeta:hover, .tarjeta:focus { 
             transform: scale(1.1); 
             z-index: 10; 
-            box-shadow: 0 0 25px rgba(229,9,20,0.6); /* Resplandor Rojo */
+            box-shadow: 0 0 25px rgba(229,9,20,0.6); 
             border-color: white; 
             outline: none;
         }
@@ -118,7 +117,7 @@
             background: linear-gradient(to top, rgba(0,0,0,1), transparent);
             padding: 10px; font-size: 13px; text-align: center;
             font-weight: 600; text-shadow: 0 1px 3px black;
-            opacity: 1; /* Siempre visible para leer fácil */
+            opacity: 1; 
         }
 
         .badge {
@@ -148,7 +147,7 @@
         <div class="tabs">
             <button class="tab-btn activo" onclick="cambiarCategoria('TODO')">Todo</button>
             <button class="tab-btn" onclick="cambiarCategoria('PELICULA')">Películas</button>
-            <button class="tab-btn" onclick="cambiarCategoria('SERIE')">Series</button>
+            <button class="tab-btn" onclick="cambiarCategoria('SERIE')">Series and Anime</button>
             <button class="tab-btn" onclick="cambiarCategoria('RADIO')">Radio</button>
             <button class="tab-btn" onclick="cambiarCategoria('PPV')">Deportes</button>
         </div>
@@ -171,14 +170,16 @@
 
         // 1. CARGA DE DATOS (Fusión de Archivos)
         Promise.all([
-            fetch('peliculas.json').then(res => res.json()).catch(err => []), // Carga Pelis
-            fetch('series.json').then(res => res.json()).catch(err => [])     // Carga Series
+            fetch('peliculas.json').then(res => res.json()).catch(err => []), 
+            fetch('series.json').then(res => res.json()).catch(err => []),     
+            fetch('deportes.json').then(res => res.json()).catch(err => []),
+            fetch('anime.json').then(res => res.json()).catch(err => []),
         ])
-        .then(([datosPeliculas, datosSeries]) => {
-            // Aquí mezclamos las dos listas en una sola
-            peliculasDB = [...datosPeliculas, ...datosSeries];
+        .then(([datosPeliculas, datosSeries, datosDeportes]) => {
+            // Aquí mezclamos las listas en una sola
+            peliculasDB = [...datosPeliculas, ...datosSeries, ...datosDeportes];
             
-            console.log("Datos cargados:", peliculasDB.length); // Para depurar
+            console.log("Datos cargados:", peliculasDB.length); 
             renderizar();
         })
         .catch(err => {
@@ -192,29 +193,20 @@
             const textoBusqueda = buscador.value.toLowerCase();
 
             const filtrados = peliculasDB.filter(item => {
-                // Filtro Categoría
                 const catItem = item.categoria ? item.categoria.toUpperCase() : 'OTROS';
-                // Lógica: Si es TODO muestra todo, si no, debe coincidir.
                 const pasaCategoria = (categoriaActual === 'TODO') || (catItem === categoriaActual);
-                
-                // Filtro Texto
                 const pasaTexto = item.titulo.toLowerCase().includes(textoBusqueda);
-
                 return pasaCategoria && pasaTexto;
             });
 
-            // Mensaje vacío
             document.getElementById('sin-resultados').style.display = filtrados.length === 0 ? 'block' : 'none';
 
-            // Crear Tarjetas
             filtrados.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'tarjeta';
-                
-                // IMPORTANTE PARA TV: tabindex="0" permite seleccionarlo con el control
                 card.setAttribute('tabindex', '0'); 
                 
-                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE (EL CEREBRO DEL SISTEMA) ---
+                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE ---
                 const abrirContenido = () => {
                     if (item.categoria === 'SERIE') {
                         // SI ES SERIE: Va a la página de temporadas (detalles.html)
@@ -224,19 +216,24 @@
                             alert("Error: Esta serie no tiene ID configurado.");
                         }
                     } else {
-                        // SI ES TV, PELÍCULA, RADIO O PPV: DECIDIMOS QUÉ REPRODUCTOR USAR
+                        // SI ES PELÍCULA, TV O PPV:
                         
-                        // 1. NUEVA REGLA: ¿Es una página web pura (.php o .html)?
-                        if (item.url.includes('.php') || item.url.includes('.html')) {
+                        // 1. REGLA VIMEUS (Modo Netflix)
+                        if (item.url.includes('vimeus.com')) {
+                            console.log("Película de Vimeus detectada. Abriendo en Iframe.");
+                            window.location.href = `reproductor_web.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
+                        }
+                        // 2. REGLA PÁGINA WEB PURA (.php o .html)
+                        else if (item.url.includes('.php') || item.url.includes('.html')) {
                             console.log("Página web detectada. Abriendo directamente.");
-                            window.open(item.url, '_blank'); // Abre en pestaña nueva
+                            window.open(item.url, '_blank'); 
                         } 
-                        // 2. ¿Es un enlace HTTP difícil (Proxy Python)?
+                        // 3. ENLACE HTTP DIFÍCIL (Proxy Python)
                         else if (item.url.startsWith('http:')) {
                             console.log("Detectado enlace difícil. Usando Modo Proxy.");
                             window.location.href = `reproductorhttp.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                         } 
-                        // 3. Es un enlace HTTPS seguro (Modo Directo)
+                        // 4. ENLACE HTTPS DIRECTO
                         else {
                             console.log("Detectado enlace seguro. Usando Modo Directo.");
                             window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
@@ -244,17 +241,11 @@
                     }
                 };
 
-                // Evento Click (Mouse / Dedo)
                 card.onclick = abrirContenido;
-
-                // Evento Teclado (Para control remoto FireStick/TV Box)
                 card.onkeydown = (e) => {
-                    if (e.key === 'Enter') {
-                        abrirContenido();
-                    }
+                    if (e.key === 'Enter') abrirContenido();
                 };
 
-                // Imagen de respaldo
                 const img = item.foto || 'https://via.placeholder.com/200x300?text=NIU';
                 
                 card.innerHTML = `
@@ -269,11 +260,8 @@
         // 3. CAMBIAR CATEGORÍA
         function cambiarCategoria(nuevaCat) {
             categoriaActual = nuevaCat;
-            
-            // Actualizar botones (Estética)
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('activo');
-                // Lógica flexible para que coincida aunque el nombre sea largo
                 if(btn.innerText.toUpperCase().includes(nuevaCat) || 
                    (nuevaCat === 'TODO' && btn.innerText === 'Todo')) {
                     btn.classList.add('activo');
@@ -282,7 +270,6 @@
             renderizar();
         }
 
-        // 4. BUSCADOR EN TIEMPO REAL
         buscador.addEventListener('input', renderizar);
 
     </script>
