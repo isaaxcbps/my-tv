@@ -172,9 +172,10 @@
         Promise.all([
             fetch('peliculas.json').then(res => res.json()).catch(err => []), 
             fetch('series.json').then(res => res.json()).catch(err => []),     
-            fetch('deportes.json').then(res => res.json()).catch(err => []),
+            
             fetch('anime.json').then(res => res.json()).catch(err => []),
-            fetch('series_estructuradas.json').then(res => res.json()).catch(err => [])
+            fetch('series_estructuradas.json').then(res => res.json()).catch(err => []),
+            fetch('deportes.json').then(res => res.json()).catch(err => [])
         ])
         .then(resultados => {
             // El comando flat() une todos los archivos descargados en una sola lista gigante
