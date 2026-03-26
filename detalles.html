@@ -92,7 +92,7 @@
         Promise.all([
             fetch('series.json').then(res => res.json()).catch(() => []), 
             fetch('series_estructuradas.json').then(res => res.json()).catch(() => []), // Las nuevas de Vimeus
-            fetch('animes_estructuradas.json').then(res => res.json()).catch(() => [])  // Los animes de Vimeus
+            fetch('animes.json').then(res => res.json()).catch(() => [])  // Los animes de Vimeus
         ])
         .then(resultados => {
             // Unimos todos los archivos en un solo catálogo
