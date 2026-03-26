@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transmisión EN VIVO - NIU PLAY</title>
+    <style>
+        body, html {
+            margin: 0; padding: 0; height: 100%; background-color: #000; overflow: hidden;
+        }
+        iframe {
+            width: 100%; height: 100%; border: none;
+        }
+        /* Un pequeño texto de carga mientras conecta */
+        #cargando {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: white; font-family: sans-serif; z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="cargando">Conectando a la señal en vivo...</div>
+    
+    <iframe id="pantallaPartido" allowfullscreen allow="autoplay"></iframe>
+
+    <script>
+        // 1. Buscamos el link secreto en la memoria del navegador
+        const linkSecreto = sessionStorage.getItem('urlPartido');
+
+        if (linkSecreto) {
+            // 2. Se lo inyectamos al iframe
+            document.getElementById('pantallaPartido').src = linkSecreto;
+            
+            // 3. Borramos la evidencia de la memoria (¡Hack de seguridad!)
+            sessionStorage.removeItem('urlPartido');
+        } else {
+            // Si alguien intenta entrar a esta página directamente sin dar clic en tu menú
+            document.getElementById('cargando').innerText = "❌ Error: Transmisión no autorizada.";
+        }
+    </script>
+</body>
+</html>
