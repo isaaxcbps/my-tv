@@ -26,5 +26,33 @@
         "url": "https://streamx339.cloud/global1.php?channel=espn2ar",
         "categoria": "PPV",
         "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "UEFA Nations League: Gibraltar vs Letonia ",
+        "url": "https://streamx339.cloud/global1.php?channel=disney3",
+        "categoria": "PPV",
+        "estado": "en vivo"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "UEFA Nations League: Malta vs Luxemburgo",
+        "url": "https://streamx339.cloud/global1.php?channel=disney4",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "Amistoso Internacional: Chipre vs Bielorrusia",
+        "url": "https://streamx339.cloud/global1.php?channel=disney5",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "Amistoso Internacional: Georgia vs Israel ",
+        "url": "https://streamx339.cloud/global1.php?channel=disney6",
+        "categoria": "PPV",
+        "estado": "pronto"
     }
 ]
