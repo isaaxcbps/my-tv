@@ -61,7 +61,7 @@
         
         .input-url {
             background: #000; color: #666; border: 1px solid #222; border-radius: 4px;
-            padding: 8px 12px; font-size: 12px; width: 300px; pointer-events: none;
+            padding: 8px 12px; font-size: 12px; width: 350px; pointer-events: none;
             font-family: monospace;
         }
 
@@ -74,10 +74,6 @@
         /* Botón Abrir: Rojo principal */
         .btn-abrir { background: var(--primary); } 
         .btn-abrir:hover { background: #b20710; transform: scale(1.05); }
-        
-        /* Botón Copiar: Gris oscuro, estilo secundario */
-        .btn-copiar { background: var(--gray); border: 1px solid #444; } 
-        .btn-copiar:hover { background: #444; border-color: #666; }
 
         .badge-estado {
             padding: 8px 15px; border-radius: 4px; font-size: 12px; font-weight: bold;
@@ -160,20 +156,25 @@
                 const textoEstado = esVivo ? '<span class="punto-parpadeo"></span> En vivo' : '🕒 Pronto';
                 const hora = item.hora || 'Por definir';
 
+                // Lógica de Enmascaramiento: Convertimos el título en una URL falsa y bonita
+                const slugTitulo = item.titulo.toLowerCase()
+                                        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Quita tildes
+                                        .replace(/[^a-z0-9\s-]/g, '') // Quita caracteres raros
+                                        .replace(/\s+/g, '-'); // Cambia espacios por guiones
+                
+                const urlCosmetica = `https://niuplay.tv/live/${slugTitulo}`;
+
                 fila.innerHTML = `
                     <div class="evento-info">
                         <span class="evento-hora">${hora}</span> - 
                         <span class="evento-titulo">${item.titulo}</span>
                     </div>
                     <div class="evento-acciones">
-                        <input type="text" class="input-url" value="${item.url}" readonly>
+                        
+                        <input type="text" class="input-url" value="${urlCosmetica}" readonly>
                         
                         <button class="btn-accion btn-abrir" onclick="abrirLink('${item.url}')" title="Abrir transmisión">
                             ▶ Abrir
-                        </button>
-                        
-                        <button class="btn-accion btn-copiar" onclick="copiarAlPortapapeles('${item.url}')">
-                            Copiar
                         </button>
                         
                         <div class="badge-estado ${claseEstado}">
@@ -187,15 +188,6 @@
 
         function abrirLink(url) {
             window.open(url, '_blank');
-        }
-
-        function copiarAlPortapapeles(texto) {
-            navigator.clipboard.writeText(texto).then(() => {
-                alert("¡Enlace copiado al portapapeles!");
-            }).catch(err => {
-                console.error('Error al copiar: ', err);
-                alert("No se pudo copiar el enlace.");
-            });
         }
 
         buscador.addEventListener('input', renderizar);
