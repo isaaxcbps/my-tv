@@ -1,122 +1,23 @@
 [
-    {
-        "hora": "14:00",
-        "titulo": "Primera División: Danubio vs Defensor Sporting",
-        "url": "https://streamx339.cloud/global1.php?channel=disney7",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Italia vs Irlanda del Norte | Playoffs",
-        "url": "https://la14hd.com/vivo/canales.php?stream=espn2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Italia vs Irlanda del Norte | Playoffs  opc2",
-        "url": "https://streamx339.cloud/global1.php?channel=disney9",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Italia vs Irlanda del Norte | Playoffs  opc2",
-        "url": "https://streamx339.cloud/global1.php?channel=disney8",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Polonia vs Albania | Playoffs ",
-        "url": "https://streamx339.cloud/global1.php?channel=disney9",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": " Mundial 2026 - Eliminatorias de la UEFA: Dinamarca vs Macedonia del Norte | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=disney10",
-        "categoria": "PPV",
-        "estado": "en vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": " Mundial 2026 - Eliminatorias de la UEFA: República Checa vs República de Irlanda | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=disney11",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Eslovaquia vs Kosovo | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=disney12",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Ucrania vs Suecia | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=disney13",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Mundial 2026 - Eliminatorias de la UEFA: Gales vs Bosnia-Herzegovina | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=espn3",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Brasil vs Francia ",
-        "url": "https://la14hd.com/vivo/canales.php?stream=espndeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Brasil vs Francia opc2",
-        "url": "https://streamx339.cloud/global1.php?channel=espn",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Brasil vs Francia opc3",
-        "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Brasil vs Francia opc4",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-
+    
     {
         "hora": "17:00",
         "titulo": " Mundial 2026 - Eliminatoria Interconfederal: Bolivia vs Surinam | Playoffs",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+        "url": "https://streamx339.cloud/global1.php?channel=dsports",
         "categoria": "PPV",
         "estado": "pronto"
     },
     {
         "hora": "17:00",
         "titulo": "Mundial 2026 - Eliminatoria Interconfederal: Bolivia vs Surinam | Playoffs opc2",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+        "url": "https://streamx339.cloud/global1.php?channel=winsports",
         "categoria": "PPV",
         "estado": "pronto"
     },
     {
         "hora": "17:00",
         "titulo": "Mundial 2026 - Eliminatoria Interconfederal: Bolivia vs Surinam | Playoffs opc3",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+        "url": "https://la14hd.com/vivo/canales.php?stream=dsports",
         "categoria": "PPV",
         "estado": "pronto"
     }
