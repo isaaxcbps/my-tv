@@ -176,12 +176,13 @@
             fetch('anime.json').then(res => res.json()).catch(err => []),
             fetch('series_estructuradas.json').then(res => res.json()).catch(err => [])
         ])
-        .then(([datosPeliculas, datosSeries, datosDeportes]) => {
-            // Aquí mezclamos las listas en una sola
-            peliculasDB = [...datosPeliculas, ...datosSeries, ...datosDeportes];
+        .then(resultados => {
+            // El comando flat() une todos los archivos descargados en una sola lista gigante
+            peliculasDB = resultados.flat();
             
-            console.log("Datos cargados:", peliculasDB.length); 
+            console.log("Catálogo total cargado:", peliculasDB.length, "títulos."); 
             renderizar();
+
         })
         .catch(err => {
             console.error("Error cargando archivos:", err);
