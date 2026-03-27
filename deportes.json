@@ -1,99 +1,72 @@
 [
-    {
-        "hora": "12:00",
-        "titulo": "Amistoso Internacional: Austria vs Ghana",
-        "url": "https://streamx339.cloud/global1.php?channel=disney2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "Amistoso Internacional: Montenegro vs Andorra",
-        "url": "https://streamx339.cloud/global1.php?channel=disney3",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "12:30",
-        "titulo": "Amistoso Internacional: Jordania vs Costa Rica",
-        "url": "https://streamx339.cloud/global1.php?channel=teletica",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:00",
-        "titulo": "Amistoso Internacional: Grecia vs Paraguay",
-        "url": "https://streamx339.cloud/global1.php?channel=disney4",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:30",
-        "titulo": "Amistoso Internacional: Argelia vs Guatemala",
-        "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Inglaterra vs Uruguay",
-        "url": "https://streamx339.cloud/global1.php?channel=disney5",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Países Bajos vs Noruega",
-        "url": "https://streamx339.cloud/global1.php?channel=disneyplus",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Países Bajos vs Noruega",
-        "url": "https://streamx339.cloud/global1.php?channel=espn",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:45",
-        "titulo": "Amistoso Internacional: Suiza vs Alemania",
-        "url": "https://streamx339.cloud/global1.php?channel=disney2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "Amistoso Internacional: España vs Serbia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney3",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "Amistoso Internacional: España vs Serbia",
-        "url": "https://streamx339.cloud/global1.php?channel=espn2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "Copa Argentina: Independiente vs Atenas",
-        "url": "https://streamx339.cloud/global1.php?channel=tycsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "15:15",
-        "titulo": "Amistoso Internacional: Marruecos vs Ecuador",
-        "url": "https://streamx339.cloud/global1.php?channel=clarosports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
+    
     {
         "hora": "16:00",
         "titulo": "Liga BetPlay: Rionegro Águilas vs Alianza",
         "url": "https://streamx339.cloud/global1.php?channel=winplus",
+        "categoria": "PPV",
+        "estado": "vivo"
+    },
+    {
+        "hora": "16:30",
+        "titulo": "Copa de Primera: Nacional Asunción vs Sportivo Luqueño",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+        "categoria": "PPV",
+        "estado": "vivo"
+    },
+    {
+        "hora": "18:15",
+        "titulo": "Amistoso Internacional: Argentina vs Mauritania",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
+        "categoria": "PPV",
+        "estado": "vivo"
+    },
+    {
+        "hora": "18:15",
+        "titulo": "Amistoso Internacional: Argentina vs Mauritania",
+        "url": "https://streamx339.cloud/global1.php?channel=telefe",
+        "categoria": "PPV",
+        "estado": "vivo"
+    },
+    {
+        "hora": "18:30",
+        "titulo": "Copa de Primera: Sportivo Ameliano vs Libertad",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "20:10",
+        "titulo": "Liga BetPlay: Atlético Bucaramanga vs Santa Fe",
+        "url": "https://streamx339.cloud/global1.php?channel=winplus",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "20:10",
+        "titulo": "Liga BetPlay: Atlético Bucaramanga vs Santa Fe",
+        "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "20:15",
+        "titulo": "Copa Argentina: Belgrano vs Atlético Rafaela",
+        "url": "https://streamx339.cloud/global1.php?channel=tyc",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "20:15",
+        "titulo": "Copa Argentina: Belgrano vs Atlético Rafaela",
+        "url": "https://streamx339.cloud/global1.php?channel=tycint",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "21:30",
+        "titulo": "F1 | GP de Japón: Entrenamientos #3",
+        "url": "https://streamx339.cloud/global1.php?channel=disney1",
         "categoria": "PPV",
         "estado": "pronto"
     }
