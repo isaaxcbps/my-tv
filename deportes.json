@@ -1,45 +1,24 @@
 [
     {
-        "hora": "10:15",
-        "titulo": "LaLiga 2: Real Valladolid vs Burgos",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "10:15",
-        "titulo": "LaLiga 2: Granada vs Huesca",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "Amistoso Internacional: Senegal vs Perú",
-        "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
         "hora": "12:00",
         "titulo": "Amistoso Internacional: Hungría vs Eslovenia",
         "url": "https://streamx339.cloud/global1.php?channel=disney2",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "12:00",
         "titulo": "Amistoso Internacional: Escocia vs Japón",
         "url": "https://streamx339.cloud/global1.php?channel=disney3",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "12:30",
         "titulo": "LaLiga 2: Málaga vs Leganés",
         "url": "https://streamx339.cloud/global1.php?channel=hyper1",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "14:00",
