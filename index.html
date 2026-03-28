@@ -89,7 +89,7 @@
             /* Grid Responsive Automático */
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
             gap: 20px; 
-            padding-bottom: 50px;
+            padding-bottom: 30px; /* Ajustado para el botón */
         }
 
         /* --- 5. TARJETAS (POSTERS) --- */
@@ -128,6 +128,17 @@
             text-transform: uppercase;
         }
 
+        /* --- 6. BOTÓN CARGAR MÁS --- */
+        .btn-cargar-mas {
+            display: block; margin: 20px auto 50px auto; padding: 12px 30px;
+            background-color: var(--primary); color: white; border: none;
+            border-radius: 30px; font-size: 16px; font-weight: 600; cursor: pointer;
+            transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(229,9,20,0.4);
+        }
+        .btn-cargar-mas:hover {
+            background-color: #b20710; transform: scale(1.05);
+        }
+
         /* Ajustes Móvil */
         @media (max-width: 600px) {
             .galeria { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; }
@@ -156,6 +167,10 @@
     <div class="contenedor-principal">
         <div class="galeria" id="contenedor-peliculas">
             </div>
+            
+        <button id="btn-cargar-mas" class="btn-cargar-mas" style="display: none;" onclick="cargarMas()">
+            ⬇ Cargar más contenido
+        </button>
         
         <div id="sin-resultados" style="display:none; text-align:center; margin-top:50px; color:#777;">
             <p>☹️ No encontramos contenido en esta sección.</p>
@@ -165,14 +180,19 @@
     <script>
         const contenedor = document.getElementById('contenedor-peliculas');
         const buscador = document.getElementById('buscador');
+        const btnCargarMas = document.getElementById('btn-cargar-mas'); // NUEVO
+        
         let peliculasDB = [];
         let categoriaActual = 'TODO';
+        
+        // --- VARIABLES DE PAGINACIÓN ---
+        let paginaActual = 1;
+        const itemsPorPagina = 24; 
 
         // 1. CARGA DE DATOS (Fusión de Archivos)
         Promise.all([
             fetch('peliculas.json').then(res => res.json()).catch(err => []), 
             fetch('series.json').then(res => res.json()).catch(err => []),     
-            
             fetch('anime.json').then(res => res.json()).catch(err => []),
             fetch('series_estructuradas.json').then(res => res.json()).catch(err => []),
             fetch('deportes.json').then(res => res.json()).catch(err => [])
@@ -182,19 +202,24 @@
             peliculasDB = resultados.flat();
             
             console.log("Catálogo total cargado:", peliculasDB.length, "títulos."); 
-            renderizar();
-
+            renderizar(true); // REINICIAMOS PAGINACIÓN AL CARGAR LA PRIMERA VEZ
         })
         .catch(err => {
             console.error("Error cargando archivos:", err);
             contenedor.innerHTML = '<h3 style="text-align:center; margin-top:20px;">Error cargando datos. Revisa la consola (F12).</h3>';
         });
 
-        // 2. RENDERIZADO (PINTAR PANTALLA)
-        function renderizar() {
-            contenedor.innerHTML = '';
+        // 2. RENDERIZADO INTELIGENTE (PINTAR PANTALLA POR PARTES)
+        function renderizar(reiniciarPagina = false) {
+            // Si nos piden reiniciar (ej. cambiar de pestaña), vaciamos el contenedor y volvemos a la pág 1
+            if (reiniciarPagina) {
+                paginaActual = 1;
+                contenedor.innerHTML = '';
+            }
+
             const textoBusqueda = buscador.value.toLowerCase();
 
+            // Filtramos la base de datos completa primero
             const filtrados = peliculasDB.filter(item => {
                 const catItem = item.categoria ? item.categoria.toUpperCase() : 'OTROS';
                 const pasaCategoria = (categoriaActual === 'TODO') || (catItem === categoriaActual);
@@ -204,7 +229,12 @@
 
             document.getElementById('sin-resultados').style.display = filtrados.length === 0 ? 'block' : 'none';
 
-            filtrados.forEach(item => {
+            // --- LÓGICA DE PAGINACIÓN ---
+            const inicio = (paginaActual - 1) * itemsPorPagina;
+            const fin = paginaActual * itemsPorPagina;
+            const loteAMostrar = filtrados.slice(inicio, fin); // Extraemos solo 24 pósters
+
+            loteAMostrar.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'tarjeta';
                 card.setAttribute('tabindex', '0'); 
@@ -212,15 +242,12 @@
                 // --- LÓGICA DE NAVEGACIÓN INTELIGENTE ---
                 const abrirContenido = () => {
                     if (item.categoria === 'SERIE') {
-                        // SI ES SERIE: Va a la página de temporadas (detalles.html)
                         if(item.id) {
                             window.location.href = `detalles.html?id=${item.id}`;
                         } else {
                             alert("Error: Esta serie no tiene ID configurado.");
                         }
                     } else {
-                        // SI ES PELÍCULA, TV O PPV:
-                        
                         // 1. REGLA VIMEUS (Modo Netflix)
                         if (item.url.includes('vimeus.com')) {
                             console.log("Película de Vimeus detectada. Abriendo en Iframe.");
@@ -258,9 +285,22 @@
                 `;
                 contenedor.appendChild(card);
             });
+
+            // ¿Mostrar u ocultar el botón "Cargar más"?
+            if (fin >= filtrados.length) {
+                btnCargarMas.style.display = 'none'; // Ya no hay más resultados ocultos
+            } else {
+                btnCargarMas.style.display = 'block'; // Todavía quedan resultados por ver
+            }
         }
 
-        // 3. CAMBIAR CATEGORÍA
+        // 3. ACCIÓN DEL BOTÓN CARGAR MÁS
+        function cargarMas() {
+            paginaActual++;
+            renderizar(false); // Le pasamos 'false' para que NO borre lo que ya está, solo lo agregue abajo.
+        }
+
+        // 4. CAMBIAR CATEGORÍA
         function cambiarCategoria(nuevaCat) {
             categoriaActual = nuevaCat;
             document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -270,10 +310,13 @@
                     btn.classList.add('activo');
                 }
             });
-            renderizar();
+            renderizar(true); // Al cambiar de pestaña, volvemos a la página 1
         }
 
-        buscador.addEventListener('input', renderizar);
+        // 5. BUSCADOR
+        buscador.addEventListener('input', () => {
+            renderizar(true); // Al escribir en el buscador, volvemos a la página 1
+        });
 
     </script>
 </body>
