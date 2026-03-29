@@ -1,178 +1,107 @@
 [
     {
-        "hora": "12:30",
-        "titulo": "LaLiga 2: Málaga vs Leganés",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper1",
+        "hora": "11:00",
+        "titulo": "Primera División: Juventud vs Boston River",
+        "url": "https://streamx339.cloud/global1.php?channel=disneyplus",
         "categoria": "PPV",
         "estado": "vivo"
+    },
+    {
+        "hora": "11:30",
+        "titulo": "LaLiga 2: Real Zaragoza vs Racing Santander",
+        "url": "https://streamx339.cloud/global1.php?channel=hyper1",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "12:00",
+        "titulo": "MotoGP: Gran Premio de Estados Unidos - Carrera",
+        "url": "https://streamx339.cloud/global1.php?channel=disney2",
+        "categoria": "PPV",
+        "estado": "pronto"
     },
     {
         "hora": "14:00",
-        "titulo": "Primera División: Wanderers vs Cerro",
-        "url": "https://streamx339.cloud/global1.php?channel=disney4",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=caracol",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
-        "hora": "14:30",
-        "titulo": "Amistoso Internacional: EE. UU. vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=disney5",
+        "hora": "14:00",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=rcn",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
-        "hora": "14:30",
-        "titulo": "Amistoso Internacional: EE. UU. vs Bélgica opc2",
-        "url": "https://streamx339.cloud/global1.php?channel=max1",
+        "hora": "14:00",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=teletica",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
-        "hora": "14:30",
-        "titulo": "Amistoso Internacional: EE. UU. vs Bélgica opc3",
-        "url": "https://streamx339.cloud/global1.php?channel=espnmx",
+        "hora": "14:00",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=clarosports",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
-        "hora": "15:00",
-        "titulo": "LaLiga 2: Sporting Gijón vs Deportivo La Coruña",
+        "hora": "14:00",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=sporttvbr1",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "14:00",
+        "titulo": "Amistoso Internacional: Colombia vs Francia",
+        "url": "https://streamx339.cloud/global1.php?channel=sporttvbr2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "14:00",
+        "titulo": "LaLiga 2: Almería vs Real Sociedad II",
         "url": "https://streamx339.cloud/global1.php?channel=hyper1",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
-        "hora": "15:00",
-        "titulo": "LaLiga 2: Albacete vs CD Castellon",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper2",
+        "hora": "14:00",
+        "titulo": "Primera División: Defensor Sporting vs Albion",
+        "url": "https://streamx339.cloud/global1.php?channel=disney4",
         "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "UFC Fight Night: Israel Adesanya vs Joe Pyfer",
-        "url": "https://streamx339.cloud/global1.php?channel=paramount1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "UFC Fight Night: Israel Adesanya vs Joe Pyfer (Español)",
-        "url": "https://streamtpnew.com/global1.php?stream=paramount1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "15:00",
-        "titulo": "UFC Fight Night: Israel Adesanya vs Joe Pyfer (English)",
-        "url": "https://streamtpnew.com/global1.php?stream=paramount2",
-        "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
         "hora": "16:00",
-        "titulo": "Liga BetPlay: Cúcuta Deportivo vs Boyacá Chicó",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus",
+        "titulo": "Copa Argentina: Huracán vs Olimpo",
+        "url": "https://streamx339.cloud/global1.php?channel=tycsports",
         "categoria": "PPV",
-        "estado": "vivo"
+        "estado": "pronto"
     },
     {
         "hora": "16:00",
-        "titulo": "Liga BetPlay: Cúcuta Deportivo vs Boyacá Chicó",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "16:30",
-        "titulo": "Copa de la Liga: Unión La Calera vs La Serena",
-        "url": "https://streamtpnew.com/global1.php?stream=max2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "16:30",
-        "titulo": "Copa de Primera: Olimpia vs 2 de Mayo",
-        "url": "https://streamtpnew.com/global1.php?stream=fanatiz1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "17:30",
-        "titulo": "Primera División: Torque vs Nacional",
-        "url": "https://streamtpnew.com/global1.php?stream=disney6",
+        "titulo": "Copa Argentina: Huracán vs Olimpo",
+        "url": "https://streamx339.cloud/global1.php?channel=tycint",
         "categoria": "PPV",
         "estado": "pronto"
     },
     {
-        "hora": "18:10",
-        "titulo": "Liga BetPlay: Deportes Tolima vs Jaguares de Córdoba",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus",
+        "hora": "16:10",
+        "titulo": "Liga BetPlay: Inter Bogotá vs Junior",
+        "url": "https://streamx339.cloud/global1.php?channel=winplus",
         "categoria": "PPV",
         "estado": "pronto"
     },
     {
-        "hora": "18:10",
-        "titulo": "Liga BetPlay: Deportes Tolima vs Jaguares de Córdoba",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:30",
-        "titulo": "Copa de Primera: Cerro Porteño vs Sportivo San Lorenzo",
-        "url": "https://streamtpnew.com/global1.php?stream=fanatiz2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:15",
-        "titulo": "Copa Argentina: Racing Club vs San Martín Formosa",
-        "url": "https://streamtpnew.com/global1.php?stream=tycsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Portugal",
-        "url": "https://streamtpnew.com/global1.php?stream=canal5mx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Portugal",
-        "url": "https://streamtpnew.com/global1.php?stream=tudn_usa",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Portugal",
-        "url": "https://streamtpnew.com/global1.php?stream=fox_deportes_usa",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Portugal",
-        "url": "https://streamtpnew.com/global1.php?stream=sporttvbr1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:20",
-        "titulo": "Liga BetPlay: Deportivo Cali vs Deportivo Pereira",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:20",
-        "titulo": "Liga BetPlay: Deportivo Cali vs Deportivo Pereira",
-        "url": "https://streamtpnew.com/global1.php?stream=winplus2",
+        "hora": "16:10",
+        "titulo": "Liga BetPlay: Inter Bogotá vs Junior",
+        "url": "https://streamx339.cloud/global1.php?channel=winplus2",
         "categoria": "PPV",
         "estado": "pronto"
     }
-
 ]
