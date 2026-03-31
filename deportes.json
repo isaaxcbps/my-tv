@@ -1,172 +1,89 @@
 
 [
-    {
-        "hora": "11:00",
-        "titulo": "Amistoso Internacional: Montenegro vs Eslovenia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "Amistoso Internacional: San Marino vs Andorra",
-        "url": "https://streamx339.cloud/global1.php?channel=disney2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "Amistoso Internacional: Noruega vs Suiza",
-        "url": "https://streamx339.cloud/global1.php?channel=disney3",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "Amistoso Internacional: Noruega vs Suiza",
-        "url": "https://streamx339.cloud/global1.php?channel=espn2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "UEFA Nations League: Luxemburgo vs Malta",
-        "url": "https://streamx339.cloud/global1.php?channel=disney4",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "UEFA Nations League: Letonia vs Gibraltar",
-        "url": "https://streamx339.cloud/global1.php?channel=disney5",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "11:00",
-        "titulo": "UEFA Nations League: Letonia vs Gibraltar",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "Amistoso Internacional: Hungría vs Grecia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney6",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "Amistoso Internacional: Hungría vs Grecia",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv3",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "Liga Profesional: Aldosivi vs Argentinos Juniors",
-        "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "Liga Profesional: Aldosivi vs Argentinos Juniors",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "12:00",
-        "titulo": "LaLiga 2: Mirandés vs Albacete",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
+   
     {
         "hora": "13:00",
         "titulo": "LaLiga 2: Deportivo La Coruña vs Córdoba",
         "url": "https://streamx339.cloud/global1.php?channel=hyper2",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:00",
         "titulo": "Amistoso Internacional: Perú vs Honduras",
         "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:00",
         "titulo": "Amistoso Internacional: Marruecos vs Paraguay",
         "url": "https://streamx339.cloud/global1.php?channel=eventos3",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:30",
         "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
         "url": "https://streamx339.cloud/global1.php?channel=disney7",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:30",
         "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
         "url": "https://streamx339.cloud/global1.php?channel=espn5",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:30",
         "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
         "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
         "url": "https://streamx339.cloud/global1.php?channel=disney8",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
         "url": "https://streamx339.cloud/global1.php?channel=espn",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
         "url": "https://streamx339.cloud/global1.php?channel=sportv1",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
         "url": "https://streamx339.cloud/global1.php?channel=disney9",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
         "url": "https://streamx339.cloud/global1.php?channel=espn2",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Mundial 2026 - Repechaje UEFA: Kosovo vs Turquía",
         "url": "https://streamx339.cloud/global1.php?channel=disney10",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
@@ -180,63 +97,63 @@
         "titulo": "Mundial 2026 - Repechaje UEFA: República Checa vs Dinamarca",
         "url": "https://streamx339.cloud/global1.php?channel=disney11",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Amistoso Internacional: Inglaterra vs Japón",
         "url": "https://streamx339.cloud/global1.php?channel=disney12",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Amistoso Internacional: Inglaterra vs Japón",
         "url": "https://streamx339.cloud/global1.php?channel=sportv2",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Amistoso Internacional: Austria vs Corea del Sur",
         "url": "https://streamx339.cloud/global1.php?channel=disney13",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "13:45",
         "titulo": "Amistoso Internacional: Países Bajos vs Ecuador",
         "url": "https://streamx339.cloud/global1.php?channel=disney14",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "14:00",
         "titulo": "Amistoso Internacional: España vs Egipto",
         "url": "https://streamx339.cloud/global1.php?channel=disney15",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "14:00",
         "titulo": "Amistoso Internacional: España vs Egipto",
         "url": "https://streamx339.cloud/global1.php?channel=sportv3",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "14:30",
         "titulo": "Amistoso Internacional: Argelia vs Uruguay",
         "url": "https://streamx339.cloud/global1.php?channel=eventos4",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "14:30",
         "titulo": "LaLiga 2: Real Valladolid vs Cádiz",
         "url": "https://streamx339.cloud/global1.php?channel=hyper1",
         "categoria": "PPV",
-        "estado": "pronto"
+        "estado": "vivo"
     },
     {
         "hora": "16:00",
