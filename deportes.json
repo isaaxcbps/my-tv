@@ -217,6 +217,106 @@
         "url": "https://streamx339.cloud/global1.php?channel=disney19",
         "categoria": "PPV",
         "estado": "pronto"
+    },
+   
+    {
+        "hora": "18:00",
+        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
+        "url": "https://streamx339.cloud/global1.php?channel=disney1",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:00",
+        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
+        "url": "https://streamx339.cloud/global1.php?channel=max2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:00",
+        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
+        "url": "https://streamx339.cloud/global1.php?channel=universo",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:00",
+        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
+        "url": "https://streamx339.cloud/global1.php?channel=telemundo",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:15",
+        "titulo": "Amistoso Internacional: Argentina vs Zambia",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:15",
+        "titulo": "Amistoso Internacional: Argentina vs Zambia",
+        "url": "https://streamx339.cloud/global1.php?channel=telefe",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:30",
+        "titulo": "Amistoso Internacional: Canadá vs Túnez",
+        "url": "https://streamx339.cloud/global1.php?channel=fox2usa",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:30",
+        "titulo": "Copa de la Liga: Everton vs Deportes Limache",
+        "url": "https://streamx339.cloud/global1.php?channel=max3",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:30",
+        "titulo": "Copa de Primera: Sportivo San Lorenzo vs Sportivo Ameliano",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "18:30",
+        "titulo": "Copa de Primera: Sportivo Luqueño vs Cerro Porteño",
+        "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "19:00",
+        "titulo": "Amistoso Internacional: Brasil vs Croacia",
+        "url": "https://streamx339.cloud/global1.php?channel=disney2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "19:00",
+        "titulo": "Amistoso Internacional: Brasil vs Croacia",
+        "url": "https://streamx339.cloud/global1.php?channel=espn",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "19:00",
+        "titulo": "Amistoso Internacional: Brasil vs Croacia",
+        "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "19:00",
+        "titulo": "Amistoso Internacional: Brasil vs Croacia",
+        "url": "https://streamx339.cloud/global1.php?channel=espnmx",
+        "categoria": "PPV",
+        "estado": "pronto"
     }
+
 
 ]
