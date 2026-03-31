@@ -97,5 +97,111 @@
         "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
         "categoria": "PPV",
         "estado": "pronto"
+    },
+    {
+        "hora": "13:00",
+        "titulo": "Amistoso Internacional: Marruecos vs Paraguay",
+        "url": "https://streamx339.cloud/global1.php?channel=eventos3",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:30",
+        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
+        "url": "https://streamx339.cloud/global1.php?channel=disney7",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:30",
+        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
+        "url": "https://streamx339.cloud/global1.php?channel=espn5",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:30",
+        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
+        "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
+        "url": "https://streamx339.cloud/global1.php?channel=disney8",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
+        "url": "https://streamx339.cloud/global1.php?channel=espn",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
+        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
+        "url": "https://streamx339.cloud/global1.php?channel=disney9",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
+        "url": "https://streamx339.cloud/global1.php?channel=espn2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Kosovo vs Turquía",
+        "url": "https://streamx339.cloud/global1.php?channel=disney10",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: Kosovo vs Turquía",
+        "url": "https://streamx339.cloud/global1.php?channel=fox2usa",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Mundial 2026 - Repechaje UEFA: República Checa vs Dinamarca",
+        "url": "https://streamx339.cloud/global1.php?channel=disney11",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Amistoso Internacional: Inglaterra vs Japón",
+        "url": "https://streamx339.cloud/global1.php?channel=disney12",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Amistoso Internacional: Inglaterra vs Japón",
+        "url": "https://streamx339.cloud/global1.php?channel=sportv2",
+        "categoria": "PPV",
+        "estado": "pronto"
+    },
+    {
+        "hora": "13:45",
+        "titulo": "Amistoso Internacional: Austria vs Corea del Sur",
+        "url": "https://streamx339.cloud/global1.php?channel=disney13",
+        "categoria": "PPV",
+        "estado": "pronto"
     }
+
 ]
