@@ -1,420 +1,107 @@
-
 [
-   
-    {
-        "hora": "13:00",
-        "titulo": "LaLiga 2: Deportivo La Coruña vs Córdoba",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:00",
-        "titulo": "Amistoso Internacional: Perú vs Honduras",
-        "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:00",
-        "titulo": "Amistoso Internacional: Marruecos vs Paraguay",
-        "url": "https://streamx339.cloud/global1.php?channel=eventos3",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:30",
-        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
-        "url": "https://streamx339.cloud/global1.php?channel=disney7",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:30",
-        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
-        "url": "https://streamx339.cloud/global1.php?channel=espn5",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:30",
-        "titulo": "Amistoso Internacional: Escocia vs Costa de Marfil",
-        "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney8",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
-        "url": "https://streamx339.cloud/global1.php?channel=espn",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Bosnia-Herzegovina vs Italia",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney9",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Suecia vs Polonia",
-        "url": "https://streamx339.cloud/global1.php?channel=espn2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Kosovo vs Turquía",
-        "url": "https://streamx339.cloud/global1.php?channel=disney10",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: Kosovo vs Turquía",
-        "url": "https://streamx339.cloud/global1.php?channel=fox2usa",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Mundial 2026 - Repechaje UEFA: República Checa vs Dinamarca",
-        "url": "https://streamx339.cloud/global1.php?channel=disney11",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Amistoso Internacional: Inglaterra vs Japón",
-        "url": "https://streamx339.cloud/global1.php?channel=disney12",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Amistoso Internacional: Inglaterra vs Japón",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv2",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Amistoso Internacional: Austria vs Corea del Sur",
-        "url": "https://streamx339.cloud/global1.php?channel=disney13",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "13:45",
-        "titulo": "Amistoso Internacional: Países Bajos vs Ecuador",
-        "url": "https://streamx339.cloud/global1.php?channel=disney14",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:00",
-        "titulo": "Amistoso Internacional: España vs Egipto",
-        "url": "https://streamx339.cloud/global1.php?channel=disney15",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:00",
-        "titulo": "Amistoso Internacional: España vs Egipto",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv3",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:30",
-        "titulo": "Amistoso Internacional: Argelia vs Uruguay",
-        "url": "https://streamx339.cloud/global1.php?channel=eventos4",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "14:30",
-        "titulo": "LaLiga 2: Real Valladolid vs Cádiz",
-        "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-        "categoria": "PPV",
-        "estado": "vivo"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=dsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=winsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=telemundo_ahora",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=tudnmx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: RD del Congo vs Jamaica",
-        "url": "https://streamx339.cloud/global1.php?channel=cazetv1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:00",
-        "titulo": "Copa de la Liga: Audax Italiano vs Universidad Chile",
-        "url": "https://streamx339.cloud/global1.php?channel=max1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "16:30",
-        "titulo": "Copa de Primera: 2 de Mayo vs Nacional Asunción",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "17:00",
-        "titulo": "Primera División: Defensor Sporting vs Albion",
-        "url": "https://streamx339.cloud/global1.php?channel=disney19",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-   
-    {
-        "hora": "18:00",
-        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
-        "url": "https://streamx339.cloud/global1.php?channel=disney1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:00",
-        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
-        "url": "https://streamx339.cloud/global1.php?channel=max2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:00",
-        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
-        "url": "https://streamx339.cloud/global1.php?channel=universo",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:00",
-        "titulo": "Amistoso Internacional: EE. UU. vs Portugal",
-        "url": "https://streamx339.cloud/global1.php?channel=telemundo",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:15",
-        "titulo": "Amistoso Internacional: Argentina vs Zambia",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:15",
-        "titulo": "Amistoso Internacional: Argentina vs Zambia",
-        "url": "https://streamx339.cloud/global1.php?channel=telefe",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:30",
-        "titulo": "Amistoso Internacional: Canadá vs Túnez",
-        "url": "https://streamx339.cloud/global1.php?channel=fox2usa",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:30",
-        "titulo": "Copa de la Liga: Everton vs Deportes Limache",
-        "url": "https://streamx339.cloud/global1.php?channel=max3",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:30",
-        "titulo": "Copa de Primera: Sportivo San Lorenzo vs Sportivo Ameliano",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "18:30",
-        "titulo": "Copa de Primera: Sportivo Luqueño vs Cerro Porteño",
-        "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:00",
-        "titulo": "Amistoso Internacional: Brasil vs Croacia",
-        "url": "https://streamx339.cloud/global1.php?channel=disney2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:00",
-        "titulo": "Amistoso Internacional: Brasil vs Croacia",
-        "url": "https://streamx339.cloud/global1.php?channel=espn",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:00",
-        "titulo": "Amistoso Internacional: Brasil vs Croacia",
-        "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:00",
-        "titulo": "Amistoso Internacional: Brasil vs Croacia",
-        "url": "https://streamx339.cloud/global1.php?channel=espnmx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "19:00",
-        "titulo": "Amistoso Internacional: Brasil vs Croacia",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=azteca7",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=canal5mx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=tudnus",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=tudnmx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Amistoso Internacional: México vs Bélgica",
-        "url": "https://streamx339.cloud/global1.php?channel=foxdeportes",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Liga BetPlay: Deportes Tolima vs Rionegro Águilas",
-        "url": "https://streamx339.cloud/global1.php?channel=winplus",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "20:00",
-        "titulo": "Liga BetPlay: Deportes Tolima vs Rionegro Águilas",
-        "url": "https://streamx339.cloud/global1.php?channel=winplus2",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=dsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=winsports",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=telemundo_ahora",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=tudnmx",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=sportv1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    },
-    {
-        "hora": "22:00",
-        "titulo": "Mundial 2026 - Repechaje Interconfederal: Iraq vs Bolivia",
-        "url": "https://streamx339.cloud/global1.php?channel=cazetv1",
-        "categoria": "PPV",
-        "estado": "pronto"
-    }
-
-
+  {
+    "hora": "16:00",
+    "titulo": "Copa de la Liga: Colo-Colo vs Huachipato",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "16:10",
+    "titulo": "Liga BetPlay: Alianza vs Deportivo Pasto",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "Copa de Primera: Rubio Ñú vs Guaraní",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Argentina: Defensa y Justicia vs Chaco For Ever",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Brasileirão: Botafogo vs Mirassol",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Brasileirão: Internacional vs São Paulo",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Brasileirão: Cruzeiro vs Vitória",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Brasileirão: Bahia vs Athletico-PR",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Liga Profesional: Lanús vs Platense",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Brasileirão: Coritiba vs Vasco da Gama",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Liga BetPlay: Santa Fe vs Llaneros",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Copa de Primera: Sportivo Trinidense vs Olimpia",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:15",
+    "titulo": "Copa Argentina: Instituto vs Atlanta",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: Fluminense vs Corinthians",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:30",
+    "titulo": "Liga BetPlay: Atlético Nacional vs Cúcuta Deportivo",
+    "url": "https://streamx339.cloud/global1.php?channel=canaleditado",
+    "categoria": "PPV",
+    "estado": "pronto"
+  }
 ]
