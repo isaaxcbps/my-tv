@@ -1,100 +1,137 @@
 [
-  {
-    "hora": "13:00",
-    "titulo": "Liga Profesional: Barracas Central vs Sarmiento",
-    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:00",
-    "titulo": "Liga Profesional: Barracas Central vs Sarmiento",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:00",
-    "titulo": "LaLiga 2: CD Castellón vs Almería",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper2",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:00",
-    "titulo": "LaLiga 2: Real Sociedad II vs Eibar",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper3",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Liga BetPlay: Boyacá Chicó vs Deportivo Pereira",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Liga BetPlay: Boyacá Chicó vs Deportivo Pereira",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Women's Champions League: OL Lyonnes vs Wolfsburg",
-    "url": "https://streamx339.cloud/global1.php?channel=espn",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Women's Champions League: OL Lyonnes vs Wolfsburg",
-    "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:30",
-    "titulo": "LaLiga 2: Leganés vs Real Zaragoza",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
+ 
   {
     "hora": "15:30",
     "titulo": "Liga Profesional: Tigre vs Independiente Rivadavia",
     "url": "https://streamx339.cloud/global1.php?channel=fntar",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "15:30",
     "titulo": "Liga Profesional: Tigre vs Independiente Rivadavia",
     "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "15:30",
     "titulo": "Liga Profesional: Tigre vs Independiente Rivadavia",
     "url": "https://streamx339.cloud/global1.php?channel=tycint",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "16:00",
     "titulo": "Liga de Primera: Universidad Católica vs Palestino",
     "url": "https://streamx339.cloud/global1.php?channel=max1",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "16:10",
     "titulo": "Liga BetPlay: América de Cali vs Atlético Bucaramanga",
     "url": "https://streamx339.cloud/global1.php?channel=winplus",
     "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Brasileirão: Chapecoense vs Atlético Mineiro",
+    "url": "https://streamx339.cloud/global1.php?channel=winsports",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Brasileirão: Chapecoense vs Atlético Mineiro",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Brasileirão: Chapecoense vs Atlético Mineiro",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:20",
+    "titulo": "Liga BetPlay: Jaguares de Córdoba vs Millonarios",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:20",
+    "titulo": "Liga BetPlay: Jaguares de Córdoba vs Millonarios",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Liga Profesional: Talleres Córdoba vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=disney1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Liga Profesional: Talleres Córdoba vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Liga Profesional: Talleres Córdoba vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Liga Profesional: Talleres Córdoba vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: Palmeiras vs Grêmio",
+    "url": "https://streamx339.cloud/global1.php?channel=winsports",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: Palmeiras vs Grêmio",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: Palmeiras vs Grêmio",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: RB Bragantino vs Flamengo",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Brasileirão: RB Bragantino vs Flamengo",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
+    "categoria": "PPV",
     "estado": "pronto"
   }
+
 ]
