@@ -1,32 +1,5 @@
 [
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: PSG vs Toulouse",
-    "url": "https://streamx339.cloud/global1.php?channel=disney1",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: PSG vs Toulouse",
-    "url": "https://streamx339.cloud/global1.php?channel=espn",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: PSG vs Toulouse",
-    "url": "https://streamx339.cloud/global1.php?channel=espn2ar",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: PSG vs Toulouse",
-    "url": "https://streamx339.cloud/global1.php?channel=foxone2",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
+ 
   {
     "hora": "14:00",
     "titulo": "LaLiga: Rayo Vallecano vs Elche",
