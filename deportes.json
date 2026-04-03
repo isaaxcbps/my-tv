@@ -96,5 +96,105 @@
     "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
     "categoria": "PPV",
     "estado": "vivo"
+  },
+  
+  {
+    "hora": "17:30",
+    "titulo": "Liga Profesional: San Lorenzo vs Estudiantes LP",
+    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Liga Profesional: San Lorenzo vs Estudiantes LP",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Liga Profesional: San Lorenzo vs Estudiantes LP",
+    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Liga de Primera: O'Higgins vs Audax Italiano",
+    "url": "https://streamx339.cloud/global1.php?channel=max2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:15",
+    "titulo": "Liga 1: Cienciano vs ADT",
+    "url": "https://streamx339.cloud/global1.php?channel=liga1max",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:15",
+    "titulo": "Liga 1: Cienciano vs ADT",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz6",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:20",
+    "titulo": "Liga BetPlay: Fortaleza CEIF vs Inter Bogotá",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:20",
+    "titulo": "Liga BetPlay: Fortaleza CEIF vs Inter Bogotá",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Primera División: Nacional vs Central Español",
+    "url": "https://streamx339.cloud/global1.php?channel=disney1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:00",
+    "titulo": "Liga MX: Puebla vs Juárez",
+    "url": "https://streamx339.cloud/global1.php?channel=tudnus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:00",
+    "titulo": "Liga MX: Puebla vs Juárez",
+    "url": "https://streamx339.cloud/global1.php?channel=foxone1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:00",
+    "titulo": "Liga MX: Puebla vs Juárez",
+    "url": "https://streamx339.cloud/global1.php?channel=azteca7",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:30",
+    "titulo": "Liga BetPlay: Junior vs Deportivo Cali",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:30",
+    "titulo": "Liga BetPlay: Junior vs Deportivo Cali",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "PPV",
+    "estado": "pronto"
   }
+
 ]
