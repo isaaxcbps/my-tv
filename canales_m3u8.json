@@ -1,0 +1,431 @@
+[
+  {
+    "id": 1,
+    "nombre": "3ABN",
+    "logo": "https://3abn.org/img/3abn-ogg.png",
+    "url": "http://200.69.92.222:8000/play/a04w/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 2,
+    "nombre": "A&E",
+    "logo": "https://play-lh.googleusercontent.com/R8Bgl60N7sIT4-o7oIm3SnZRrddAlCyciIu3CncQU_jHZWrDq2TfsFP7_BGNEKPgqZw=w600-h300-pc0xffffff-pd",
+    "url": "http://200.69.92.222:8000/play/a014/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 3,
+    "nombre": "AXN",
+    "logo": "https://yt3.googleusercontent.com/a70_uxHhHZQ_vwFfMALDjfnXuZiusm-6rxz6sH8jSl4uPLeU1NSFfHReTq3otUEl7dFrfTdRyg=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a01v/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id":4 ,
+    "nombre": "Animal Planet",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsw9axLeQ5zieHsRvvR7niCVbDaTBBXzUuQ&s",
+    "url": "http://200.69.92.222:8000/play/a04l/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":5 ,
+    "nombre": "BabyFirst",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_xG-4O-jkEmPfWi8AAFlASMSu6qN_sl6ew&s",
+    "url": "http://200.69.92.222:8000/play/a00k/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":6 ,
+    "nombre": "CNN ESPAÑOL",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Logotipo_de_CNN_en_Espa%C3%B1ol_%281997-2010%29.png",
+    "url": "http://200.69.92.222:8000/play/a00q/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":7 ,
+    "nombre": "Canal Estrellas",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Canal_2_%28Las_Estrellas_2017%29.svg",
+    "url": "http://200.69.92.222:8000/play/a017/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":8 ,
+    "nombre": "Canal Otanche",
+    "logo": "",
+    "url": "http://200.69.92.222:8000/play/a02k/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":9 ,
+    "nombre": "Canal RCN",
+    "logo": "https://yt3.googleusercontent.com/T8ZARdsnMhuH8TIljdOXbE17hxA1N1Hb2c5fWQSX7h8cfOpIdvBJgvrdkU4VZJNC5lBWqkD12I0=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a01j/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":10 ,
+    "nombre": "Canal Uno",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Canal1Colombia2024.svg",
+    "url": "http://200.69.92.222:8000/play/a01h/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":11 ,
+    "nombre": "Capital",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2020_Canal_Capital_logo.svg/1280px-2020_Canal_Capital_logo.svg.png",
+    "url": "http://200.69.92.222:8000/play/a01s/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":12 ,
+    "nombre": "Cartoon Network",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a00d/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":13 ,
+    "nombre": "CINECANAL",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cinecanal_1995.png",
+    "url": "http://200.69.92.222:8000/play/a006/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":14 ,
+    "nombre": "CINEMAX",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2iiBs5y6iILfy6Z5TveXNQnrLGOtxeGi6Q&s",
+    "url": "http://200.69.92.222:8000/play/a01t/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":15 ,
+    "nombre": "City TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Citytv_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a01r/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id":16 ,
+    "nombre": "Discovery Channel",
+    "logo": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
+    "url": "http://200.69.92.222:8000/play/a04k/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 17,
+    "nombre": "Discovery ID",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40uBOm6KmhbgFJp_-vkejqFYbMobsXCU08w&s",
+    "url": "http://200.69.92.222:8000/play/a01c/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 18,
+    "nombre": "Discovery Kids",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Discovery_kids_logo.png",
+    "url": "http://200.69.92.222:8000/play/a00t/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 19,
+    "nombre": "Discovery Turbo",
+    "logo": "https://yt3.googleusercontent.com/eDHY0vlnfXo54zY9mzT19nGFu3-3KBPv6dghDLj0WyMVxGSgD8UozY75YY85mV8DPQnm0QSrV6I=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a024/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 20,
+    "nombre": "Disney Channel",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a00v/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 21,
+    "nombre": "Disney Jr",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png",
+    "url": "http://200.69.92.222:8000/play/a027/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 22,
+    "nombre": "E Entertainment",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSblkD0MJs0Kgtyk3Jk1JtVtGhAujhftLp8CA&s",
+    "url": "http://200.69.92.222:8000/play/a02j/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 23,
+    "nombre": "ESPN 2 HD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkr2RzuQwTckHKkKyRG6lJD-RyjurAfRqxQ&s",
+    "url": "http://200.69.92.222:8000/play/a04e/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 24,
+    "nombre": "ESPN 3",
+    "logo": "https://e7.pngegg.com/pngimages/20/364/png-clipart-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-thumbnail.png",
+    "url": "http://200.69.92.222:8000/play/a025/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 25,
+    "nombre": "ESPN 4",
+    "logo": "https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/61a4c896fc740bb1476f0225_LOGO_ESPN4%5B2%5D.png",
+    "url": "http://200.69.92.222:8000/play/a03s/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 26,
+    "nombre": "ESPN 5",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png",
+    "url": "http://200.69.92.222:8000/play/a01f/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 27,
+    "nombre": "ESPN 6",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png",
+    "url": "http://200.69.92.222:8000/play/a03t/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 28,
+    "nombre": "ESPN",
+    "logo": "https://m.media-amazon.com/images/I/41lChb5Q+KL.png",
+    "url": "http://200.69.92.222:8000/play/a01n/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 29,
+    "nombre": "EWTN",
+    "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
+    "url": "http://200.69.92.222:8000/play/a04t/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 30,
+    "nombre": "FX",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a01x/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 31,
+    "nombre": "History Channel",
+    "logo": "https://yt3.googleusercontent.com/WRT3nzkXXvD7CYXS2p_6pEZpPL9g2gJfOAFE-f0PTMawVdXJhaXvoIXpVOeb6qAlSENwfzVvMnQ=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a04h/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 32,
+    "nombre": "Home and Health",
+    "logo": "https://yt3.googleusercontent.com/R33Z3-eEVSYxQKLcBN09yc7oKwk2SSfSIH1GDzzNaD-Fgfx4y5vYR_DF5X1KDVvDE71vJHD6Eg=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a01e/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 33,
+    "nombre": "Love Nature",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWnS4GhPhppLXBEGFZbvz2tTCoywpP9Zqt7w&s",
+    "url": "http://200.69.92.222:8000/play/a03d/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 34,
+    "nombre": "MTV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/MTV_2021_%28brand_version%29.svg",
+    "url": "http://200.69.92.222:8000/play/a008/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 35,
+    "nombre": "National Geographic",
+    "logo": "https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600",
+    "url": "http://200.69.92.222:8000/play/a04m/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 36,
+    "nombre": "Nickelodeon",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
+    "url": "http://200.69.92.222:8000/play/a003/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 37,
+    "nombre": "RCN Novelas",
+    "logo": "https://es.wikipedia.org/wiki/Archivo:RCN_Novelas_logo_2019.png",
+    "url": "http://200.69.92.222:8000/play/a01b/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 38,
+    "nombre": "STAR CHANNEL",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-HfSxorCeBTQY7tZP4Sih0J19BtsybFARw&s",
+    "url": "http://200.69.92.222:8000/play/a00b/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 39,
+    "nombre": "Sony",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png",
+    "url": "http://200.69.92.222:8000/play/a01u/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 40,
+    "nombre": "Space",
+    "logo": "https://cdn.mitvstatic.com/channels/cc5e7deb-89a9-4b94-b942-68a7ae0b935d_m.jpg",
+    "url": "http://200.69.92.222:8000/play/a02p/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 41,
+    "nombre": "TCM",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHoOjTNGUtO_K42lAgwKX0erpkLz2QBRnlAg&s",
+    "url": "http://200.69.92.222:8000/play/a00c/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 42,
+    "nombre": "TLC",
+    "logo": "https://pbs.twimg.com/profile_images/1372582266568904709/0OvSVtae_400x400.jpg",
+    "url": "http://200.69.92.222:8000/play/a016/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 43,
+    "nombre": "TNT",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzIc39ztdkEcHh08IgGcyjfRz3EOO7HyMCYg&s",
+    "url": "http://200.69.92.222:8000/play/a00e/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 44,
+    "nombre": "TNT Novelas",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/250px-Logo_TNT_Novelas.png",
+    "url": "http://200.69.92.222:8000/play/a01d/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 45,
+    "nombre": "Universal",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Universal_Pictures_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a007/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 46,
+    "nombre": "Warner",
+    "logo": "https://cdn.mitvstatic.com/channels/5987c5e2-c512-4b15-9225-006e0d6d7737_m.jpg",
+    "url": "http://200.69.92.222:8000/play/a02m/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 47,
+    "nombre": "WIN SPORTS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Win_Sports_nuevo_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a02l/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 48,
+    "nombre": "ECUAVISA",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a00v/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 49,
+    "nombre": "MPHD",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a00b/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 50,
+    "nombre": "RETRO PLUS",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a00t/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 51,
+    "nombre": "RETRO PLUS 2",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a00n/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 52,
+    "nombre": "RETRO PLUS MOVIES",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a00d/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 53,
+    "nombre": "RTU",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a010/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 54,
+    "nombre": "TVC",
+    "logo": "",
+    "url": "http://181.119.97.124:8080/play/a014/index.m3u8",
+    "tipo":"m3u8"
+
+  }
+]

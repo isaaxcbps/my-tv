@@ -1,0 +1,44 @@
+[
+  {
+    "id": 101,
+    "nombre": "ECDF",
+    "logo": "https://tu-github.com/logos/premiere3.png",
+    "url": "https://la14hd.com/vivo/canales.php?stream=ecdf_ligapro",
+    "tipo": "web"
+  },
+  {
+    "id": 102,
+    "nombre": "DIRECTV SPORTS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg",
+    "url": "https://la14hd.com/vivo/canales.php?stream=dsports",
+    "tipo": "web"
+  },
+  {
+    "id": 103,
+    "nombre": "DIRECTV SPORTS 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg",
+    "url": "https://la14hd.com/vivo/canales.php?stream=dsports2",
+    "tipo": "web"
+  },
+  {
+    "id": 104,
+    "nombre": "ESPN 7",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ESPN_7_logo.svg/960px-ESPN_7_logo.svg.png",
+    "url": "https://la14hd.com/vivo/canales.php?stream=espn7",
+    "tipo": "web"
+  },
+  {
+    "id": 105,
+    "nombre": "FOX SPORTS AR",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1280px-FOX_Sports_logo.svg.png",
+    "url": "https://la14hd.com/vivo/canales.php?stream=foxsports",
+    "tipo": "web"
+  },
+  {
+    "id": 106,
+    "nombre": "FOX SPORTS 2 AR",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Fox_sports_2_usa.jpg",
+    "url": "https://la14hd.com/vivo/canales.php?stream=foxsports2",
+    "tipo": "web"
+  }
+]
