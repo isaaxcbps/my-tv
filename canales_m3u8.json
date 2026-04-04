@@ -149,6 +149,22 @@
 
   },
   {
+    "id": 55,
+    "nombre": "Discovery Science",
+    "logo": "https://cdn.mitvstatic.com/channels/co_discovery-science_m.png",
+    "url": "http://181.13.252.102:8000/play/a02k/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 56,
+    "nombre": "Discovery World",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1280px-World_Discovery_HD_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a031/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
     "id": 20,
     "nombre": "Disney Channel",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
@@ -427,5 +443,61 @@
     "url": "http://181.119.97.124:8080/play/a014/index.m3u8",
     "tipo":"m3u8"
 
-  }
+  },
+  {
+    "id": 57,
+    "nombre": "HBO FAMILY",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png",
+    "url": "http://181.13.252.102:8000/play/a06r/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 58,
+    "nombre": "HBO MUNDI",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1280px-HBO_Mundi.svg.png",
+    "url": "http://181.13.252.102:8000/play/a02a/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 59,
+    "nombre": "HBO PLUS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
+    "url": "http://181.13.252.102:8000/play/a06p/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 60,
+    "nombre": "HTV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Htv_logo.svg/1280px-Htv_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a02o/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 61,
+    "nombre": "HISTORY 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png",
+    "url": "http://181.13.252.102:8000/play/a0ab/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 62,
+    "nombre": "PAKAPAKA",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Pakapaka_canal_logo.svg/330px-Pakapaka_canal_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a01n/index.m3u8",
+    "tipo":"m3u8"
+  },
+  {
+    "id": 63,
+    "nombre": "USA NETWORK",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/USA_Network_2025_logo.svg/1280px-USA_Network_2025_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a023/index.m3u8",
+    "tipo":"m3u8"
+  },
+  
+  
 ]
