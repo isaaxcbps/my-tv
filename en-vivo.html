@@ -25,14 +25,18 @@
     <iframe id="pantallaPartido" allowfullscreen allow="autoplay"></iframe>
 
     <script>
-        // 1. Buscamos el link secreto en la memoria del navegador
-        const linkSecreto = sessionStorage.getItem('urlPartido');
+        // 1. Buscamos primero si la app de Android nos manda el link por parámetros de URL
+        const parametros = new URLSearchParams(window.location.search);
+        const linkDesdeAndroid = parametros.get('urlPartido');
+        
+        // 2. Si no viene de Android, lo buscamos en la memoria (para tu proyecto web)
+        const linkSecreto = linkDesdeAndroid || sessionStorage.getItem('urlPartido');
 
         if (linkSecreto) {
-            // 2. Se lo inyectamos al iframe
+            // 3. Se lo inyectamos al iframe
             document.getElementById('pantallaPartido').src = linkSecreto;
             
-            // 3. Borramos la evidencia de la memoria (¡Hack de seguridad!)
+            // 4. Borramos la evidencia de la memoria (¡Hack de seguridad!)
             sessionStorage.removeItem('urlPartido');
         } else {
             // Si alguien intenta entrar a esta página directamente sin dar clic en tu menú
