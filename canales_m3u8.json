@@ -390,7 +390,7 @@
   },
   {
     "id": 48,
-    "nombre": "ECUAVISA",
+    "nombre": "LIGA PRO EC",
     "logo": "",
     "url": "http://181.119.97.124:8080/play/a00v/index.m3u8",
     "tipo":"m3u8"
@@ -518,7 +518,7 @@
     "id": 66,
     "nombre": "UFC",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
-    "url": "https://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
+    "url": "http://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
     "tipo":"m3u8"
 
   },
@@ -526,7 +526,7 @@
     "id": 67,
     "nombre": "RED BULL TV",
     "logo": "https://cdn.freebiesupply.com/logos/large/2x/red-bull-tv-logo-svg-vector.svg",
-    "url": "https://jmp2.uk/stvp-ES3800001V1",
+    "url": "http://jmp2.uk/stvp-ES3800001V1",
     "tipo":"m3u8"
 
   }
