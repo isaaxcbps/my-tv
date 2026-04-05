@@ -88,7 +88,7 @@
     "id":12 ,
     "nombre": "Cartoon Network",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
-    "url": "http://200.69.92.222:8000/play/a00d/index.m3u8",
+    "url": "http://38.49.128.38:8000/play/a0c0",
     "tipo":"m3u8"
 
   },
@@ -461,6 +461,22 @@
 
   },
   {
+    "id": 64,
+    "nombre": "HBO",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
+    "url": "http://200.229.147.142:8000/play/a00q/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+   {
+    "id": 65,
+    "nombre": "HBO2",
+    "logo": "",
+    "url": "http://200.229.147.142:8000/play/a00r/index.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
     "id": 59,
     "nombre": "HBO PLUS",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
@@ -497,5 +513,21 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/USA_Network_2025_logo.svg/1280px-USA_Network_2025_logo.svg.png",
     "url": "http://181.13.252.102:8000/play/a023/index.m3u8",
     "tipo":"m3u8"
-  }  
+  },
+  {
+    "id": 66,
+    "nombre": "UFC",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
+    "url": "https://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
+    "id": 67,
+    "nombre": "RED BULL TV",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/red-bull-tv-logo-svg-vector.svg",
+    "url": "https://jmp2.uk/stvp-ES3800001V1",
+    "tipo":"m3u8"
+
+  }
 ]
