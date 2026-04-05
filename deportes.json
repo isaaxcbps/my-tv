@@ -96,5 +96,104 @@
     "url": "https://streamx339.cloud/global1.php?channel=foxone1",
     "categoria": "PPV",
     "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "LaLiga: Deportivo Alavés vs Osasuna",
+    "url": "https://streamx339.cloud/global1.php?channel=espnplus3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "LaLiga: Deportivo Alavés vs Osasuna",
+    "url": "https://streamx339.cloud/global1.php?channel=espnplus4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "LaLiga 2: Real Zaragoza vs Mirandés",
+    "url": "https://streamx339.cloud/global1.php?channel=hyper1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Brasileirão: Chapecoense vs Vitória",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Brasileirão: Chapecoense vs Vitória",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:30",
+    "titulo": "Liga de Primera: Deportes Concepción vs Colo-Colo",
+    "url": "https://streamx339.cloud/global1.php?channel=max1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Liga 1: Juan Pablo II College vs UTC Cajamarca",
+    "url": "https://streamx339.cloud/global1.php?channel=liga1max",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Liga 1: Juan Pablo II College vs UTC Cajamarca",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Brasileirão: Flamengo vs Santos",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Brasileirão: Flamengo vs Santos",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Brasileirão: Atlético Mineiro vs Athletico-PR",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Brasileirão: Atlético Mineiro vs Athletico-PR",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz6",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:00",
+    "titulo": "Liga Profesional: River Plate vs Belgrano",
+    "url": "https://streamx339.cloud/global1.php?channel=disney19",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:00",
+    "titulo": "Liga Profesional: River Plate vs Belgrano",
+    "url": "https://streamx339.cloud/global1.php?channel=tntar",
+    "categoria": "PPV",
+    "estado": "pronto"
   }
+
 ]
