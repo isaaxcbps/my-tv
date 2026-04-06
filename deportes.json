@@ -103,5 +103,82 @@
     "url": "https://streamx339.cloud/global1.php?channel=liga1max",
     "categoria": "PPV",
     "estado": "pronto"
+  },
+  {
+    "hora": "16:15",
+    "titulo": "Primeira Liga: Benfica vs Vitória Guimarães",
+    "url": "https://streamx339.cloud/global1.php?channel=disney13",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:15",
+    "titulo": "Primeira Liga: Benfica vs Vitória Guimarães",
+    "url": "https://streamx339.cloud/global1.php?channel=goltv",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "LaLiga: Real Sociedad vs Valencia",
+    "url": "https://streamx339.cloud/global1.php?channel=disney11",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "LaLiga: Real Sociedad vs Valencia",
+    "url": "https://streamx339.cloud/global1.php?channel=espnplus1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "LaLiga: Real Sociedad vs Valencia",
+    "url": "https://streamx339.cloud/global1.php?channel=espnplus2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Liga BetPlay: Alianza vs Independiente Medellín",
+    "url": "https://streamx339.cloud/global1.php?channel=win",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Liga Profesional: Instituto vs Argentinos Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:30",
+    "titulo": "Liga Profesional: Instituto vs Argentinos Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Liga 1: Universitario vs Cienciano",
+    "url": "https://streamx339.cloud/global1.php?channel=liga1max",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Liga 1: Universitario vs Cienciano",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "Liga BetPlay: Jaguares vs Deportivo Pasto",
+    "url": "https://streamx339.cloud/global1.php?channel=win",
+    "categoria": "PPV",
+    "estado": "pronto"
   }
 ]
