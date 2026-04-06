@@ -105,80 +105,89 @@
     "estado": "pronto"
   },
   {
-    "hora": "16:15",
-    "titulo": "Primeira Liga: Benfica vs Vitória Guimarães",
-    "url": "https://streamx339.cloud/global1.php?channel=disney13",
-    "categoria": "PPV",
+    "hora": "15:30",
+    "titulo": "Liga BetPlay: Deportivo Pereira vs Alianza",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "Deportes",
     "estado": "pronto"
   },
   {
-    "hora": "16:15",
-    "titulo": "Primeira Liga: Benfica vs Vitória Guimarães",
-    "url": "https://streamx339.cloud/global1.php?channel=goltv",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:30",
-    "titulo": "LaLiga: Real Sociedad vs Valencia",
-    "url": "https://streamx339.cloud/global1.php?channel=disney11",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:30",
-    "titulo": "LaLiga: Real Sociedad vs Valencia",
-    "url": "https://streamx339.cloud/global1.php?channel=espnplus1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:30",
-    "titulo": "LaLiga: Real Sociedad vs Valencia",
-    "url": "https://streamx339.cloud/global1.php?channel=espnplus2",
-    "categoria": "PPV",
+    "hora": "15:30",
+    "titulo": "Liga BetPlay: Deportivo Pereira vs Alianza",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "Deportes",
     "estado": "pronto"
   },
   {
     "hora": "17:00",
-    "titulo": "Liga BetPlay: Alianza vs Independiente Medellín",
-    "url": "https://streamx339.cloud/global1.php?channel=win",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:30",
-    "titulo": "Liga Profesional: Instituto vs Argentinos Juniors",
+    "titulo": "Liga Profesional: Argentinos Juniors vs Banfield",
     "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
-    "categoria": "PPV",
+    "categoria": "Deportes",
     "estado": "pronto"
   },
   {
-    "hora": "17:30",
-    "titulo": "Liga Profesional: Instituto vs Argentinos Juniors",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "18:00",
-    "titulo": "Liga 1: Universitario vs Cienciano",
-    "url": "https://streamx339.cloud/global1.php?channel=liga1max",
-    "categoria": "PPV",
+    "hora": "17:00",
+    "titulo": "Liga Profesional: Argentinos Juniors vs Banfield",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
+    "categoria": "Deportes",
     "estado": "pronto"
   },
   {
     "hora": "18:00",
-    "titulo": "Liga 1: Universitario vs Cienciano",
+    "titulo": "Copa de Primera: Sportivo Trinidense vs Rubio Ñú",
     "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Liga de Primera: Huachipato vs Univ. Concepción",
+    "url": "https://streamx339.cloud/global1.php?channel=max1",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Liga Pro EC: Libertad vs Mushuc Runa",
+    "url": "https://tvtvhd.com/tv/canal.php?stream=even3",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "18:00",
-    "titulo": "Liga BetPlay: Jaguares vs Deportivo Pasto",
-    "url": "https://streamx339.cloud/global1.php?channel=win",
-    "categoria": "PPV",
+    "hora": "19:15",
+    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
+    "url": "https://streamx339.cloud/global1.php?channel=tntar",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:15",
+    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:15",
+    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
+    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+ 
+  {
+    "hora": "20:10",
+    "titulo": "Liga BetPlay: Atlético Nacional vs Jaguares de Córdoba",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "20:10",
+    "titulo": "Liga BetPlay: Atlético Nacional vs Jaguares de Córdoba",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "Deportes",
     "estado": "pronto"
   }
+
 ]
