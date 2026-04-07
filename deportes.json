@@ -1,193 +1,142 @@
 [
   {
-    "hora": "11:30",
-    "titulo": "Championship: Swansea City vs Middlesbrough",
-    "url": "https://streamx339.cloud/global1.php?channel=disney7",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "11:30",
-    "titulo": "Championship: Swansea City vs Middlesbrough",
-    "url": "https://streamx339.cloud/global1.php?channel=espn5",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "12:00",
-    "titulo": "LaLiga 2: CD Castellón vs Granada",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper2",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:30",
-    "titulo": "LaLiga 2: Sporting Gijón vs Real Sociedad II",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Serie A: Napoli vs Milan",
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OCP1",
     "url": "https://streamx339.cloud/global1.php?channel=disney1",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "13:45",
-    "titulo": "Serie A: Napoli vs Milan",
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=max1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OPC3",
     "url": "https://streamx339.cloud/global1.php?channel=espn",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "13:45",
-    "titulo": "Serie A: Napoli vs Milan",
-    "url": "https://streamx339.cloud/global1.php?channel=espn2ar",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Serie A: Napoli vs Milan",
-    "url": "https://streamx339.cloud/global1.php?channel=espn2mx",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
     "hora": "14:00",
-    "titulo": "LaLiga: Girona vs Villarreal",
-    "url": "https://streamx339.cloud/global1.php?channel=dsports2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "LaLiga: Girona vs Villarreal",
-    "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "LaLiga: Girona vs Villarreal",
-    "url": "https://streamx339.cloud/global1.php?channel=espnplus1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "LaLiga: Girona vs Villarreal",
-    "url": "https://streamx339.cloud/global1.php?channel=espnplus2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Championship: Hull City vs Coventry City",
+    "titulo": "UEFA Champions League: Sporting CP vs Arsenal",
     "url": "https://streamx339.cloud/global1.php?channel=disney2",
+    "categoria": "Deportes",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Sporting CP vs Arsenal OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=max2",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
     "hora": "14:00",
-    "titulo": "Championship: Hull City vs Coventry City",
+    "titulo": "UEFA Champions League: Sporting CP vs Arsenal OPC3",
+    "url": "https://streamx339.cloud/global1.php?channel=espn2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Copa Argentina: Estudiantes Río Cuarto vs San Martín Tucumán",
+    "url": "https://streamx339.cloud/global1.php?channel=tyc",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Copa Argentina: Estudiantes Río Cuarto vs San Martín Tucumán OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:00",
+    "titulo": "Liga BetPlay: Rionegro Águilas vs Atlético Bucaramanga",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:00",
+    "titulo": "Liga BetPlay: Rionegro Águilas vs Atlético Bucaramanga OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "Copa Argentina: Vélez Sarsfield vs Deportivo Armenio",
+    "url": "https://streamx339.cloud/global1.php?channel=tyc",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:30",
+    "titulo": "Copa Argentina: Vélez Sarsfield vs Deportivo Armenio OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Independiente Rivadavia vs Bolívar",
+    "url": "https://streamx339.cloud/global1.php?channel=disney3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Independiente Rivadavia vs Bolívar OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=espn5",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "15:00",
-    "titulo": "Liga 1: FC Cajamarca vs Los Chankas",
-    "url": "https://streamx339.cloud/global1.php?channel=liga1max",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Independiente Rivadavia vs Bolívar OPC3",
+    "url": "https://streamx339.cloud/global1.php?channel=fox1ar",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "15:30",
-    "titulo": "Liga BetPlay: Deportivo Pereira vs Alianza",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "15:30",
-    "titulo": "Liga BetPlay: Deportivo Pereira vs Alianza",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
     "hora": "17:00",
-    "titulo": "Liga Profesional: Argentinos Juniors vs Banfield",
-    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:00",
-    "titulo": "Liga Profesional: Argentinos Juniors vs Banfield",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz2",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "18:00",
-    "titulo": "Copa de Primera: Sportivo Trinidense vs Rubio Ñú",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz3",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "19:00",
-    "titulo": "Liga de Primera: Huachipato vs Univ. Concepción",
-    "url": "https://streamx339.cloud/global1.php?channel=max1",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "19:00",
-    "titulo": "Liga Pro EC: Libertad vs Mushuc Runa",
-    "url": "https://tvtvhd.com/tv/canal.php?stream=even3",
+    "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense",
+    "url": "https://streamx339.cloud/global1.php?channel=disney4",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "19:15",
-    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
-    "url": "https://streamx339.cloud/global1.php?channel=tntar",
-    "categoria": "Deportes",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=espn7",
+    "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "19:15",
-    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
-    "categoria": "Deportes",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense OPC3",
+    "url": "https://streamx339.cloud/global1.php?channel=fox2ar",
+    "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "19:15",
-    "titulo": "Liga Profesional: Instituto vs Defensa y Justicia",
-    "url": "https://streamx339.cloud/global1.php?channel=tycint",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
- 
-  {
-    "hora": "20:10",
-    "titulo": "Liga BetPlay: Atlético Nacional vs Jaguares de Córdoba",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus",
-    "categoria": "Deportes",
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Independiente Petrolero vs Racing Club",
+    "url": "https://streamx339.cloud/global1.php?channel=disney5",
+    "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "20:10",
-    "titulo": "Liga BetPlay: Atlético Nacional vs Jaguares de Córdoba",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
-    "categoria": "Deportes",
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Independiente Petrolero vs Racing Club OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=espn2",
+    "categoria": "PPV",
     "estado": "pronto"
   }
-
 ]
