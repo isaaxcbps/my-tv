@@ -237,6 +237,14 @@
 
   },
   {
+    "id": 68,
+    "nombre": "ECUAVISA",
+    "logo": "https://i.imgur.com/Hl5wowk.png",
+    "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa/.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
     "id": 29,
     "nombre": "EWTN",
     "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
