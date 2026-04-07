@@ -245,6 +245,14 @@
 
   },
   {
+    "id": 68,
+    "nombre": "TELEAMAZONAS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/512px-Teleamazonas_Logo.png",
+    "url": "http://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/playlist.m3u8",
+    "tipo":"m3u8"
+
+  },
+  {
     "id": 29,
     "nombre": "EWTN",
     "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
