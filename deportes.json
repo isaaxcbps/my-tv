@@ -1,87 +1,32 @@
 [
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OCP1",
-    "url": "https://streamx339.cloud/global1.php?channel=disney1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OPC2",
-    "url": "https://streamx339.cloud/global1.php?channel=max1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Real Madrid vs Bayern München OPC3",
-    "url": "https://streamx339.cloud/global1.php?channel=espn",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Sporting CP vs Arsenal",
-    "url": "https://streamx339.cloud/global1.php?channel=disney2",
-    "categoria": "Deportes",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Sporting CP vs Arsenal OPC2",
-    "url": "https://streamx339.cloud/global1.php?channel=max2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Sporting CP vs Arsenal OPC3",
-    "url": "https://streamx339.cloud/global1.php?channel=espn2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Copa Argentina: Estudiantes Río Cuarto vs San Martín Tucumán",
-    "url": "https://streamx339.cloud/global1.php?channel=tyc",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Copa Argentina: Estudiantes Río Cuarto vs San Martín Tucumán OPC2",
-    "url": "https://streamx339.cloud/global1.php?channel=tycint",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
+ 
   {
     "hora": "16:00",
     "titulo": "Liga BetPlay: Rionegro Águilas vs Atlético Bucaramanga",
     "url": "https://streamx339.cloud/global1.php?channel=winplus",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "16:00",
     "titulo": "Liga BetPlay: Rionegro Águilas vs Atlético Bucaramanga OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=winplus2",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "16:30",
     "titulo": "Copa Argentina: Vélez Sarsfield vs Deportivo Armenio",
     "url": "https://streamx339.cloud/global1.php?channel=tyc",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "16:30",
     "titulo": "Copa Argentina: Vélez Sarsfield vs Deportivo Armenio OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=tycint",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
@@ -95,47 +40,243 @@
     "titulo": "Copa Libertadores: Independiente Rivadavia vs Bolívar OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=espn5",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Libertadores: Independiente Rivadavia vs Bolívar OPC3",
     "url": "https://streamx339.cloud/global1.php?channel=fox1ar",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense",
     "url": "https://streamx339.cloud/global1.php?channel=disney4",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=espn7",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Libertadores: Deportivo La Guaira vs Fluminense OPC3",
     "url": "https://streamx339.cloud/global1.php?channel=fox2ar",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Sudamericana: Independiente Petrolero vs Racing Club",
     "url": "https://streamx339.cloud/global1.php?channel=disney5",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "17:00",
     "titulo": "Copa Sudamericana: Independiente Petrolero vs Racing Club OPC2",
     "url": "https://streamx339.cloud/global1.php?channel=espn2",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Barracas Central vs Vasco da Gama",
+    "url": "https://streamx339.cloud/global1.php?channel=dsports",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Barracas Central vs Vasco da Gama OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Liga MX: Querétaro vs Juárez",
+    "url": "https://streamx339.cloud/global1.php?channel=foxone1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Always Ready vs LDU Quito",
+    "url": "https://streamx339.cloud/global1.php?channel=disney6",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Always Ready vs LDU Quito",
+    "url": "https://streamx339.cloud/global1.php?channel=espn7",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Always Ready vs LDU Quito OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=fox3ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Always Ready vs LDU Quito OPC3",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Barcelona SC vs Cruzeiro",
+    "url": "https://streamx339.cloud/global1.php?channel=disney7",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Barcelona SC vs Cruzeiro OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=espn2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Barcelona SC vs Cruzeiro OPC3",
+    "url": "https://streamx339.cloud/global1.php?channel=fox2ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Barcelona SC vs Cruzeiro OPC4",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz6",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Sudamericana: O'Higgins vs Millonarios",
+    "url": "https://streamx339.cloud/global1.php?channel=disney8",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Sudamericana: O'Higgins vs Millonarios",
+    "url": "https://streamx339.cloud/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Sudamericana: O'Higgins vs Millonarios OPC2",
+    "url": "https://streamx339.cloud/global1.php?channel=espn2ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Libertadores: Universidad Católica vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=disney10",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Libertadores: Universidad Católica vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espn5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Libertadores: Universidad Católica vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=fox1ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Libertadores: Universidad Católica vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz8",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Libertadores: Universidad Católica vs Boca Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espn4mx",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Boston River vs São Paulo",
+    "url": "https://streamx339.cloud/global1.php?channel=dsports",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Boston River vs São Paulo",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz9",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Deportes Tolima vs Universitario",
+    "url": "https://streamx339.cloud/global1.php?channel=disney1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Deportes Tolima vs Universitario",
+    "url": "https://streamx339.cloud/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Deportes Tolima vs Universitario",
+    "url": "https://streamx339.cloud/global1.php?channel=fox3ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Deportes Tolima vs Universitario",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz10",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Sudamericana: Alianza Atlético vs Tigre",
+    "url": "https://streamx339.cloud/global1.php?channel=dsports2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Sudamericana: Alianza Atlético vs Tigre",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "CONCACAF Champions Cup: Los Angeles FC vs Cruz Azul",
+    "url": "https://streamx339.cloud/global1.php?channel=disney2",
     "categoria": "PPV",
     "estado": "pronto"
   }
