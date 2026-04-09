@@ -20,7 +20,7 @@
             color: var(--light); 
             font-family: 'Poppins', sans-serif; 
             margin: 0; padding: 0;
-            overflow-x: hidden; /* Evita scroll lateral */
+            overflow-x: hidden; 
         }
 
         /* --- 2. CABECERA (HEADER) --- */
@@ -52,7 +52,7 @@
 
         /* --- 3. PESTAÑAS (MENÚ) --- */
         .tabs {
-            display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px;
+            display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px;
             scrollbar-width: none; 
         }
         .tabs::-webkit-scrollbar { display: none; }
@@ -69,7 +69,6 @@
             transition: all 0.2s;
         }
 
-        /* Efecto Hover y FOCUS (Para TV) en menú */
         .tab-btn:hover, .tab-btn:focus { 
             background: rgba(255,255,255,0.3); 
             transform: scale(1.05);
@@ -81,27 +80,54 @@
             font-weight: 600; border-color: var(--light);
         }
 
+        /* --- NUEVO: FILTROS AVANZADOS (AÑO Y GÉNERO) --- */
+        .filtros-avanzados {
+            display: flex; gap: 15px; margin-top: 5px;
+        }
+
+        .filtro-select {
+            background: rgba(255,255,255,0.05);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 13px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .filtro-select:focus, .filtro-select:hover {
+            border-color: var(--primary);
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* Para que las opciones dentro del select se vean legibles en fondo oscuro */
+        .filtro-select option {
+            background-color: var(--dark);
+            color: white;
+        }
+
         /* --- 4. GRILLA DE PELÍCULAS --- */
         .contenedor-principal { padding: 20px; max-width: 1400px; margin: 0 auto; }
         
         .galeria { 
             display: grid; 
-            /* Grid Responsive Automático */
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
             gap: 20px; 
-            padding-bottom: 30px; /* Ajustado para el botón */
+            padding-bottom: 30px;
         }
 
         /* --- 5. TARJETAS (POSTERS) --- */
         .tarjeta { 
             position: relative; border-radius: 8px; overflow: hidden; 
             cursor: pointer; transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
-            aspect-ratio: 2/3; /* Formato Poster Vertical */
+            aspect-ratio: 2/3; 
             background: #222;
-            border: 2px solid transparent; /* Preparado para el focus */
+            border: 2px solid transparent;
         }
 
-        /* --- MAGIA PARA TV Y MOUSE --- */
         .tarjeta:hover, .tarjeta:focus { 
             transform: scale(1.1); 
             z-index: 10; 
@@ -144,6 +170,8 @@
             .galeria { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; }
             h1 { font-size: 22px; }
             #buscador { width: 150px; }
+            .filtros-avanzados { flex-direction: column; gap: 8px; }
+            .filtro-select { width: 100%; }
         }
     </style>
 </head>
@@ -162,6 +190,15 @@
             <button class="tab-btn" onclick="cambiarCategoria('RADIO')">Radio</button>
             <button class="tab-btn" onclick="window.location.href='deportes.html'">Deportes</button>
         </div>
+
+        <div class="filtros-avanzados">
+            <select id="filtro-genero" class="filtro-select">
+                <option value="TODOS">Todos los Géneros</option>
+            </select>
+            <select id="filtro-anio" class="filtro-select">
+                <option value="TODOS">Todos los Años</option>
+            </select>
+        </div>
     </header>
 
     <div class="contenedor-principal">
@@ -173,14 +210,18 @@
         </button>
         
         <div id="sin-resultados" style="display:none; text-align:center; margin-top:50px; color:#777;">
-            <p>☹️ No encontramos contenido en esta sección.</p>
+            <p>☹️ No encontramos contenido con esos filtros.</p>
         </div>
     </div>
 
     <script>
         const contenedor = document.getElementById('contenedor-peliculas');
         const buscador = document.getElementById('buscador');
-        const btnCargarMas = document.getElementById('btn-cargar-mas'); // NUEVO
+        const btnCargarMas = document.getElementById('btn-cargar-mas'); 
+        
+        // Elementos de Filtro
+        const filtroGenero = document.getElementById('filtro-genero');
+        const filtroAnio = document.getElementById('filtro-anio');
         
         let peliculasDB = [];
         let categoriaActual = 'TODO';
@@ -189,7 +230,7 @@
         let paginaActual = 1;
         const itemsPorPagina = 24; 
 
-        // 1. CARGA DE DATOS (Fusión de Archivos)
+        // 1. CARGA DE DATOS
         Promise.all([
             fetch('peliculas.json').then(res => res.json()).catch(err => []), 
             fetch('series.json').then(res => res.json()).catch(err => []),     
@@ -198,48 +239,92 @@
             fetch('deportes.json').then(res => res.json()).catch(err => [])
         ])
         .then(resultados => {
-            // El comando flat() une todos los archivos descargados en una sola lista gigante
             peliculasDB = resultados.flat();
-            
             console.log("Catálogo total cargado:", peliculasDB.length, "títulos."); 
-            renderizar(true); // REINICIAMOS PAGINACIÓN AL CARGAR LA PRIMERA VEZ
+            
+            // Ejecutar el motor de filtros dinámicos
+            poblarFiltrosDinamicos();
+            
+            renderizar(true); 
         })
         .catch(err => {
             console.error("Error cargando archivos:", err);
             contenedor.innerHTML = '<h3 style="text-align:center; margin-top:20px;">Error cargando datos. Revisa la consola (F12).</h3>';
         });
 
-        // 2. RENDERIZADO INTELIGENTE (PINTAR PANTALLA POR PARTES)
+        // --- NUEVA FUNCIÓN: EXTRACTOR AUTOMÁTICO DE AÑOS Y GÉNEROS ---
+        function poblarFiltrosDinamicos() {
+            let generosUnicos = new Set();
+            let aniosUnicos = new Set();
+
+            peliculasDB.forEach(item => {
+                // Sacar años válidos
+                if (item.anio && item.anio !== "Desconocido") {
+                    aniosUnicos.add(item.anio);
+                }
+                // Sacar géneros válidos (separando si vienen como "Acción / Comedia")
+                if (item.genero && item.genero !== "Desconocido") {
+                    let listaGeneros = item.genero.split('/');
+                    listaGeneros.forEach(g => {
+                        let genLimpio = g.trim();
+                        if(genLimpio !== "") generosUnicos.add(genLimpio);
+                    });
+                }
+            });
+
+            // Ordenar alfabéticamente (Géneros) y de más nuevo a más viejo (Años)
+            let generosOrdenados = Array.from(generosUnicos).sort();
+            let aniosOrdenados = Array.from(aniosUnicos).sort((a, b) => b - a);
+
+            // Inyectar en el HTML
+            generosOrdenados.forEach(g => {
+                filtroGenero.innerHTML += `<option value="${g}">${g}</option>`;
+            });
+            aniosOrdenados.forEach(a => {
+                filtroAnio.innerHTML += `<option value="${a}">${a}</option>`;
+            });
+        }
+
+        // 2. RENDERIZADO INTELIGENTE Y FILTRADO COMBINADO
         function renderizar(reiniciarPagina = false) {
-            // Si nos piden reiniciar (ej. cambiar de pestaña), vaciamos el contenedor y volvemos a la pág 1
             if (reiniciarPagina) {
                 paginaActual = 1;
                 contenedor.innerHTML = '';
             }
 
             const textoBusqueda = buscador.value.toLowerCase();
+            const valGenero = filtroGenero.value;
+            const valAnio = filtroAnio.value;
 
-            // Filtramos la base de datos completa primero
             const filtrados = peliculasDB.filter(item => {
+                // Filtro 1: Categoría (Pestañas)
                 const catItem = item.categoria ? item.categoria.toUpperCase() : 'OTROS';
                 const pasaCategoria = (categoriaActual === 'TODO') || (catItem === categoriaActual);
+                
+                // Filtro 2: Buscador de texto
                 const pasaTexto = item.titulo.toLowerCase().includes(textoBusqueda);
-                return pasaCategoria && pasaTexto;
+                
+                // Filtro 3: Año
+                const pasaAnio = (valAnio === 'TODOS') || (item.anio === valAnio);
+                
+                // Filtro 4: Género (usamos .includes() por si la película tiene varios géneros)
+                const pasaGenero = (valGenero === 'TODOS') || (item.genero && item.genero.includes(valGenero));
+
+                return pasaCategoria && pasaTexto && pasaAnio && pasaGenero;
             });
 
             document.getElementById('sin-resultados').style.display = filtrados.length === 0 ? 'block' : 'none';
 
-            // --- LÓGICA DE PAGINACIÓN ---
+            // Paginación
             const inicio = (paginaActual - 1) * itemsPorPagina;
             const fin = paginaActual * itemsPorPagina;
-            const loteAMostrar = filtrados.slice(inicio, fin); // Extraemos solo 24 pósters
+            const loteAMostrar = filtrados.slice(inicio, fin); 
 
             loteAMostrar.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'tarjeta';
                 card.setAttribute('tabindex', '0'); 
                 
-                // --- LÓGICA DE NAVEGACIÓN INTELIGENTE ---
                 const abrirContenido = () => {
                     if (item.categoria === 'SERIE') {
                         if(item.id) {
@@ -248,24 +333,16 @@
                             alert("Error: Esta serie no tiene ID configurado.");
                         }
                     } else {
-                        // 1. REGLA VIMEUS (Modo Netflix)
                         if (item.url.includes('vimeus.com')) {
-                            console.log("Película de Vimeus detectada. Abriendo en Iframe.");
                             window.location.href = `reproductor_web.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                         }
-                        // 2. REGLA PÁGINA WEB PURA (.php o .html)
                         else if (item.url.includes('.php') || item.url.includes('.html')) {
-                            console.log("Página web detectada. Abriendo directamente.");
                             window.open(item.url, '_blank'); 
                         } 
-                        // 3. ENLACE HTTP DIFÍCIL (Proxy Python)
                         else if (item.url.startsWith('http:')) {
-                            console.log("Detectado enlace difícil. Usando Modo Proxy.");
                             window.location.href = `reproductorhttp.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                         } 
-                        // 4. ENLACE HTTPS DIRECTO
                         else {
-                            console.log("Detectado enlace seguro. Usando Modo Directo.");
                             window.location.href = `reproductor.html?video=${encodeURIComponent(item.url)}&titulo=${encodeURIComponent(item.titulo)}`;
                         }
                     }
@@ -286,18 +363,17 @@
                 contenedor.appendChild(card);
             });
 
-            // ¿Mostrar u ocultar el botón "Cargar más"?
             if (fin >= filtrados.length) {
-                btnCargarMas.style.display = 'none'; // Ya no hay más resultados ocultos
+                btnCargarMas.style.display = 'none'; 
             } else {
-                btnCargarMas.style.display = 'block'; // Todavía quedan resultados por ver
+                btnCargarMas.style.display = 'block'; 
             }
         }
 
         // 3. ACCIÓN DEL BOTÓN CARGAR MÁS
         function cargarMas() {
             paginaActual++;
-            renderizar(false); // Le pasamos 'false' para que NO borre lo que ya está, solo lo agregue abajo.
+            renderizar(false); 
         }
 
         // 4. CAMBIAR CATEGORÍA
@@ -310,13 +386,13 @@
                     btn.classList.add('activo');
                 }
             });
-            renderizar(true); // Al cambiar de pestaña, volvemos a la página 1
+            renderizar(true); 
         }
 
-        // 5. BUSCADOR
-        buscador.addEventListener('input', () => {
-            renderizar(true); // Al escribir en el buscador, volvemos a la página 1
-        });
+        // 5. EVENTOS DE BÚSQUEDA Y FILTROS
+        buscador.addEventListener('input', () => renderizar(true));
+        filtroGenero.addEventListener('change', () => renderizar(true));
+        filtroAnio.addEventListener('change', () => renderizar(true));
 
     </script>
 </body>
