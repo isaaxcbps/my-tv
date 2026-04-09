@@ -232,7 +232,7 @@
 
         // 1. CARGA DE DATOS
         Promise.all([
-            fetch('peliculas.json').then(res => res.json()).catch(err => []), 
+            fetch('peliculas_con_posters.json').then(res => res.json()).catch(err => []), 
             fetch('series.json').then(res => res.json()).catch(err => []),     
             fetch('anime.json').then(res => res.json()).catch(err => []),
             fetch('series_estructuradas.json').then(res => res.json()).catch(err => []),
