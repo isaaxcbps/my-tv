@@ -155,5 +155,54 @@
             `;
         }
     </script>
+    <script>
+        // 1. Bloquear el Clic Derecho (Menú contextual)
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        // 2. Bloquear atajos de teclado clásicos de los curiosos
+        document.onkeydown = function(e) {
+            // Bloquea F12
+            if (e.keyCode === 123) {
+                return false;
+            }
+            // Bloquea Ctrl+Shift+I (Herramientas de desarrollador)
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+                return false;
+            }
+            // Bloquea Ctrl+Shift+J (Consola)
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+                return false;
+            }
+            // Bloquea Ctrl+U (Ver código fuente)
+            if (e.ctrlKey && e.keyCode === 85) {
+                return false;
+            }
+            // Bloquea Ctrl+S (Guardar página)
+            if (e.ctrlKey && e.keyCode === 83) {
+                return false;
+            }
+        };
+
+        // 3. Trampa activa contra la Consola de Desarrollador (DevTools)
+        // Si alguien logra abrirla de alguna forma, el navegador se trabará en un bucle infinito
+        setInterval(function() {
+            const inicio = new Date().getTime();
+            debugger; // Detiene la ejecución si tienen las DevTools abiertas
+            const fin = new Date().getTime();
+            
+            // Si el código tardó en pasar el "debugger", significa que la consola estaba abierta
+            if (fin - inicio > 100) {
+                document.body.innerHTML = "<h1 style='color:red; text-align:center; margin-top:20%;'>Acceso Denegado. Se ha detectado manipulación del código.</h1>";
+                // Opcional: Redirigirlos a Google
+                // window.location.href = "https://www.google.com";
+            }
+        }, 1000);
+
+        // 4. Evitar que arrastren o copien elementos (como los posters)
+        document.ondragstart = function() { return false; };
+        document.onselectstart = function() { return false; };
+    </script>
 </body>
 </html>
