@@ -62,5 +62,83 @@
     "url": "https://streamx339.cloud/global1.php?channel=tyc",
     "categoria": "PPV",
     "estado": "pronto"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Macará vs América de Cali",
+    "url": "https://streamx339.cloud/global1.php?channel=dsports",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Macará vs América de Cali",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz6",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Carabobo vs RB Bragantino",
+    "url": "https://streamx339.cloud/global1.php?channel=disney2",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Carabobo vs RB Bragantino",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz7",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "19:30",
+    "titulo": "Copa Sudamericana: Carabobo vs RB Bragantino",
+    "url": "https://streamx339.cloud/global1.php?channel=espn2",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Santa Fe vs Peñarol",
+    "url": "https://streamx339.cloud/global1.php?channel=disney3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Santa Fe vs Peñarol",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz8",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Santa Fe vs Peñarol",
+    "url": "https://streamx339.cloud/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Santa Fe vs Peñarol",
+    "url": "https://streamx339.cloud/global1.php?channel=fox2ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "Copa Libertadores: Santa Fe vs Peñarol",
+    "url": "https://streamx339.cloud/global1.php?channel=espn4mx",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "21:00",
+    "titulo": "NBA: Lakers vs Warriors",
+    "url": "https://streamx339.cloud/global1.php?channel=amazon2",
+    "categoria": "PPV",
+    "estado": "pronto"
   }
+
 ]
