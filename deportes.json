@@ -1,6 +1,4 @@
-[
-  
- 
+[ 
   {
     "hora": "18:10",
     "titulo": "MLB: Arizona Diamondbacks vs New York Mets",
@@ -27,7 +25,7 @@
     "titulo": "Copa Libertadores: Platense vs Corinthians",
     "url": "https://streamx339.cloud/global1.php?channel=disney1",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "vivo"
   },
   {
     "hora": "19:00",
@@ -113,5 +111,4 @@
     "categoria": "PPV",
     "estado": "pronto"
   }
-
 ]
