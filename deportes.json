@@ -1,3 +1,93 @@
 [
-  
+  {
+    "hora": "12:00",
+    "titulo": "Ligue 1: Paris vs Monaco",
+    "url": "https://streamx339.cloud/global1.php?channel=disney2",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "12:00",
+    "titulo": "Ligue 1: Paris vs Monaco",
+    "url": "https://streamx339.cloud/global1.php?channel=foxone1",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "13:45",
+    "titulo": "Serie A: Roma vs Pisa",
+    "url": "https://streamx339.cloud/global1.php?channel=disney3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "LaLiga: Real Madrid vs Girona",
+    "url": "https://streamx339.cloud/global1.php?channel=disney4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Premier League: West Ham United vs Wolverhampton",
+    "url": "https://streamx339.cloud/global1.php?channel=disney5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:05",
+    "titulo": "Ligue 1: Olympique Marseille vs Metz",
+    "url": "https://streamx339.cloud/global1.php?channel=disney7",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "15:30",
+    "titulo": "Liga BetPlay: Deportivo Pereira vs Once Caldas",
+    "url": "https://streamx339.cloud/global1.php?channel=winplus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "16:15",
+    "titulo": "Copa de Primera: 2 de Mayo vs Sportivo Ameliano",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:40",
+    "titulo": "MLB: Arizona Diamondbacks vs Philadelphia Phillies",
+    "url": "https://streamx339.cloud/global1.php?channel=disney2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:00",
+    "titulo": "NBA: Cavaliers vs Hawks",
+    "url": "https://streamx339.cloud/global1.php?channel=amazon1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Copa de Primera: Sportivo San Lorenzo vs Guaraní",
+    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Liga Profesional: Belgrano vs Aldosivi",
+    "url": "https://streamx339.cloud/global1.php?channel=tntar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Liga Profesional: Belgrano vs Aldosivi",
+    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "categoria": "PPV",
+    "estado": "pronto"
+  }
 ]
