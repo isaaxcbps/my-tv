@@ -40,5 +40,12 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Fox_sports_2_usa.jpg",
     "url": "https://la14hd.com/vivo/canales.php?stream=foxsports2",
     "tipo": "web"
-  }
+  },
+   {
+    "id": 107,
+    "nombre": "TELEAMAZONAS OPC2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/1280px-Teleamazonas_Logo.png",
+    "url": "https://teleamazonas-live.cdn.vustreams.com/live/b545dc57-91af-4f6b-bac7-8d9337166407/live.isml/playlist.m3u8",
+    "tipo": "m3u8"
+  },
 ]
