@@ -70,6 +70,13 @@
     "tipo": "m3u8"
   },
   {
+    "id": 78,
+    "nombre": "ECUAVISA OPC2",
+    "logo": "https://i.imgur.com/Hl5wowk.png",
+    "url": "https://jireh-3-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/ecuavisa/livestream2/chunks_dvr.m3u8?dpssid=b2190462605569da86dddf8a2&sid=ba5t1l1xb2209332085269da86dec2d59&ndvc=0",
+    "tipo": "m3u8"
+  },
+  {
     "id": 69,
     "nombre": "TELEAMAZONAS",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/512px-Teleamazonas_Logo.png",
@@ -80,7 +87,7 @@
     "id": 76,
     "nombre": "TELEAMAZONAS OPC2",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/1280px-Teleamazonas_Logo.png",
-    "url": "https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/fd4ab346-b4e3-4628-abf0-b5a1bc192428.m3u8",
+    "url": "https://teleamazonas-live.cdn.vustreams.com/live/b545dc57-91af-4f6b-bac7-8d9337166407/live.isml/playlist.m3u8",
     "tipo": "m3u8"
   },
   {
