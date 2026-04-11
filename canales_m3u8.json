@@ -304,7 +304,7 @@
     "id": 24,
     "nombre": "ESPN 3",
     "logo": "https://e7.pngegg.com/pngimages/20/364/png-clipart-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-thumbnail.png",
-    "url": "http://200.69.92.222:8000/play/a025/index.m3u8",
+    "url": "http://181.119.97.124:8080/play/a003/index.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -318,14 +318,14 @@
     "id": 26,
     "nombre": "ESPN 5",
     "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png",
-    "url": "http://200.69.92.222:8000/play/a01f/index.m3u8",
+    "url": "http://200.69.92.222:8000/play/a050/index.m3u8",
     "tipo": "m3u8"
   },
   {
     "id": 27,
     "nombre": "ESPN 6",
     "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png",
-    "url": "http://200.69.92.222:8000/play/a03t/index.m3u8",
+    "url": "http://200.69.92.222:8000/play/a04y/index.m3u8",
     "tipo": "m3u8"
   },
   {
