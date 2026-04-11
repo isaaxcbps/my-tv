@@ -1,92 +1,120 @@
 [
   {
-    "hora": "12:00",
-    "titulo": "Ligue 1: Paris vs Monaco",
-    "url": "https://streamx339.cloud/global1.php?channel=disney2",
+    "hora": "11:30",
+    "titulo": "LaLiga: Barcelona vs Espanyol",
+    "url": "https://streamx339.cloud/global2.php?channel=espnplus1",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "11:30",
+    "titulo": "LaLiga 2: Málaga vs Las Palmas",
+    "url": "https://streamx339.cloud/global2.php?channel=hyper1",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "11:30",
+    "titulo": "Premier League: Liverpool vs Fulham",
+    "url": "https://streamx339.cloud/global2.php?channel=disney15",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "11:30",
+    "titulo": "Bundesliga: St. Pauli vs Bayern München",
+    "url": "https://streamx339.cloud/global2.php?channel=disney16",
+    "categoria": "PPV",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "11:45",
+    "titulo": "Eredivisie: Sparta Rotterdam vs PSV",
+    "url": "https://streamx339.cloud/global2.php?channel=disney17",
     "categoria": "PPV",
     "estado": "en vivo"
   },
   {
     "hora": "12:00",
-    "titulo": "Ligue 1: Paris vs Monaco",
-    "url": "https://streamx339.cloud/global1.php?channel=foxone1",
+    "titulo": "Ligue 1: Auxerre vs Nantes",
+    "url": "https://streamx339.cloud/global2.php?channel=disney18",
     "categoria": "PPV",
     "estado": "en vivo"
   },
   {
-    "hora": "13:45",
-    "titulo": "Serie A: Roma vs Pisa",
-    "url": "https://streamx339.cloud/global1.php?channel=disney3",
+    "hora": "12:00",
+    "titulo": "Super Lig: Kayserispor vs Fenerbahçe",
+    "url": "https://streamx339.cloud/global2.php?channel=disney19",
     "categoria": "PPV",
-    "estado": "pronto"
+    "estado": "en vivo"
   },
   {
-    "hora": "14:00",
-    "titulo": "LaLiga: Real Madrid vs Girona",
-    "url": "https://streamx339.cloud/global1.php?channel=disney4",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Premier League: West Ham United vs Wolverhampton",
-    "url": "https://streamx339.cloud/global1.php?channel=disney5",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:05",
-    "titulo": "Ligue 1: Olympique Marseille vs Metz",
-    "url": "https://streamx339.cloud/global1.php?channel=disney7",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "15:30",
-    "titulo": "Liga BetPlay: Deportivo Pereira vs Once Caldas",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:15",
-    "titulo": "Copa de Primera: 2 de Mayo vs Sportivo Ameliano",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz4",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:40",
-    "titulo": "MLB: Arizona Diamondbacks vs Philadelphia Phillies",
-    "url": "https://streamx339.cloud/global1.php?channel=disney2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "18:00",
-    "titulo": "NBA: Cavaliers vs Hawks",
-    "url": "https://streamx339.cloud/global1.php?channel=amazon1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "18:30",
-    "titulo": "Copa de Primera: Sportivo San Lorenzo vs Guaraní",
-    "url": "https://streamx339.cloud/global1.php?channel=fanatiz5",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "19:00",
-    "titulo": "Liga Profesional: Belgrano vs Aldosivi",
+    "hora": "13:00",
+    "titulo": "Liga Profesional: Deportivo Riestra vs Instituto",
     "url": "https://streamx339.cloud/global1.php?channel=tntar",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "19:00",
-    "titulo": "Liga Profesional: Belgrano vs Aldosivi",
-    "url": "https://streamx339.cloud/global1.php?channel=tycint",
+    "hora": "13:00",
+    "titulo": "Liga Profesional: Al Akhdoud vs Al Nassr",
+    "url": "https://streamx339.cloud/global1.php?channel=foxone3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "13:30",
+    "titulo": "Liga Profesional: Independiente Rivadavia vs Argentinos Juniors",
+    "url": "https://streamx339.cloud/global1.php?channel=espnpremium",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "13:30",
+    "titulo": "MLS: Austin vs LA Galaxy",
+    "url": "https://streamx339.cloud/global1.php?channel=mls2",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "13:45",
+    "titulo": "Serie A: Atalanta vs Juventus",
+    "url": "https://streamx339.cloud/global1.php?channel=disney1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "LaLiga: Sevilla vs Atlético Madrid",
+    "url": "https://streamx339.cloud/global1.php?channel=espndeportes",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "Eredivisie: Heracles vs Ajax",
+    "url": "https://streamx339.cloud/global1.php?channel=disney3",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:05",
+    "titulo": "Ligue 1: Rennes vs Angers SCO",
+    "url": "https://streamx339.cloud/global1.php?channel=disney4",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:30",
+    "titulo": "Brasileirão: Remo vs Vasco da Gama",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:30",
+    "titulo": "Brasileirão: Vitória vs São Paulo",
+    "url": "https://streamx339.cloud/global1.php?channel=premiere3",
     "categoria": "PPV",
     "estado": "pronto"
   }
