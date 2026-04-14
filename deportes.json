@@ -1,100 +1,108 @@
 [
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Atlético Madrid vs Barcelona",
-    "url": "https://streamtpnew.com/global1.php?stream=max1",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cerro Porteño vs Junior",
+    "url": "https://streamx550.com/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Estudiantes LP vs Cusco",
+    "url": "https://streamx550.com/global1.php?channel=fox1ar",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Estudiantes LP vs Cusco",
+    "url": "https://streamx550.com/global1.php?channel=espn2mx",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Grêmio vs Deportivo Riestra",
+    "url": "https://streamx550.com/global1.php?channel=dsports",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: Grêmio vs Deportivo Riestra",
+    "url": "https://streamx550.com/global1.php?channel=fanatiz6",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: São Paulo vs O'Higgins",
+    "url": "https://streamx550.com/global1.php?channel=fanatiz7",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Sudamericana: São Paulo vs O'Higgins",
+    "url": "https://streamx550.com/global1.php?channel=dsports2",
+    "categoria": "PPV",
+    "estado": "vivo"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "NBA Play-In: Heat vs Hornets",
+    "url": "https://streamx550.com/global1.php?channel=amazon1",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Atlético Madrid vs Barcelona",
-    "url": "https://streamx550.com/global1.php?channel=max1",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Boca Juniors vs Barcelona SC",
+    "url": "https://streamx550.com/global1.php?channel=disney7",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Atlético Madrid vs Barcelona",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Boca Juniors vs Barcelona SC",
+    "url": "https://streamx550.com/global1.php?channel=fanatiz8",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Boca Juniors vs Barcelona SC",
     "url": "https://streamx550.com/global1.php?channel=espn",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Atlético Madrid vs Barcelona",
-    "url": "https://streamx550.com/global1.php?channel=tudnus",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Boca Juniors vs Barcelona SC",
+    "url": "https://streamx550.com/global1.php?channel=fox1ar",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Atlético Madrid vs Barcelona",
-    "url": "https://streamtpnew.com/global1.php?stream=disney2",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Boca Juniors vs Barcelona SC",
+    "url": "https://streamx550.com/global1.php?channel=espn2mx",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Liverpool vs PSG",
-    "url": "https://streamx550.com/global1.php?channel=disney3",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Bolívar vs Deportivo La Guaira",
+    "url": "https://streamx550.com/global1.php?channel=disney8",
     "categoria": "PPV",
     "estado": "pronto"
   },
   {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Liverpool vs PSG",
-    "url": "https://streamx550.com/global1.php?channel=max2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Liverpool vs PSG",
-    "url": "https://streamx550.com/global1.php?channel=espn2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Liverpool vs PSG",
-    "url": "https://streamx550.com/global1.php?channel=fox2ar",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "UEFA Champions League: Liverpool vs PSG",
-    "url": "https://streamx550.com/global1.php?channel=paramount2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "15:15",
-    "titulo": "Liga 1: ADT vs Alianza Lima",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:00",
-    "titulo": "Copa Libertadores: Cerro Porteño vs Junior",
-    "url": "https://streamx550.com/global1.php?channel=disney4",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:00",
-    "titulo": "Copa Libertadores: Cerro Porteño vs Junior",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz3",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "17:00",
-    "titulo": "Copa Libertadores: Cerro Porteño vs Junior",
-    "url": "https://streamx550.com/global1.php?channel=espn",
+    "hora": "19:00",
+    "titulo": "Copa Libertadores: Bolívar vs Deportivo La Guaira",
+    "url": "https://streamx550.com/global1.php?channel=fanatiz9",
     "categoria": "PPV",
     "estado": "pronto"
   }
+  
 ]
