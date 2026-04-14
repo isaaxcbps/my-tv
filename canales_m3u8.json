@@ -346,7 +346,7 @@
     "id": 23,
     "nombre": "ESPN 2 HD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkr2RzuQwTckHKkKyRG6lJD-RyjurAfRqxQ&s",
-    "url": "http://45.181.122.46:8090/play/a01v",
+    "url": "http://200.69.92.222:8000/play/a04z/index.m3u8",
     "tipo": "m3u8"
   },
   {
