@@ -105,6 +105,48 @@
     "tipo": "m3u8"
   },
   {
+    "id": 77,
+    "nombre": "AMC",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg",
+    "url": "http://200.229.147.142:8000/play/a01y/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 78,
+    "nombre": "MEGACINE TV",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/2893-800x450-FFFFFF.jpg",
+    "url": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 79,
+    "nombre": "FREETV ACCION",
+    "logo": "https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/freetv_accion_1080x1080_02092024.jpg",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinelatam-ono/playlist.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 80,
+    "nombre": "GRJNGO",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/76964e60-8756-4551-8748-dbd7852bd0bd/Grjngo-Westernfilme_logo_light_-_Toni_Newesil__1_.png",
+    "url": "https://amogonetworx-grjngo-2-eu.plex.wurl.tv/2000.m3u8",
+    "tipo": "m3u8"
+  },
+   {
+    "id": 81,
+    "nombre": "DHE",
+    "logo": "https://logowik.com/content/uploads/images/canal-dhe5540.logowik.com.webp",
+    "url": "http://200.229.147.142:8000/play/a023/index.m3u8",
+    "tipo": "m3u8"
+  },
+   {
+    "id": 82,
+    "nombre": "GOLDEN",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_Golden_TV.svg",
+    "url": "http://200.229.147.142:8000/play/a02n/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 2,
     "nombre": "A&E",
     "logo": "https://play-lh.googleusercontent.com/R8Bgl60N7sIT4-o7oIm3SnZRrddAlCyciIu3CncQU_jHZWrDq2TfsFP7_BGNEKPgqZw=w600-h300-pc0xffffff-pd",
@@ -347,6 +389,13 @@
     "nombre": "UFC",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
     "url": "http://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 83,
+    "nombre": "UFC OPC2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
+    "url": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
     "tipo": "m3u8"
   },
   {
