@@ -150,7 +150,7 @@
     "id": 88,
     "nombre": "DISTRITO COMEDIA",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png",
-    "url": "http://38.49.128.38:8000/play/a0ou",
+    "url": "http://38.49.128.38:8000/play/a0ou/index.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -339,7 +339,7 @@
     "id": 87,
     "nombre": "USA NETWORK OPC2",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/USA_Network_2025_logo.svg/1280px-USA_Network_2025_logo.svg.png",
-    "url": "http://38.49.128.38:8000/play/a0b1",
+    "url": "http://38.49.128.38:8000/play/a0b1/index.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -437,7 +437,7 @@
     "id": 89,
     "nombre": "Cartoon Network OPC2",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
-    "url": "http://38.49.128.38:8000/play/a0c0",
+    "url": "http://38.49.128.38:8000/play/a0c0/index.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -472,7 +472,7 @@
     "id": 86,
     "nombre": "Nickelodeon OPC2",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
-    "url": "http://45.181.122.46:8090/play/a00m",
+    "url": "http://45.181.122.46:8090/play/a00m/index.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -723,7 +723,7 @@
   {
     "id": 103,
     "nombre": "PLUTO TV ANIME 24H",
-    "logo": "",
+    "logo": "https://images.pluto.tv/channels/5dcde17bf6591d0009839e02/featuredImage.jpg",
     "url": "https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8",
     "tipo": "m3u8"
   },
