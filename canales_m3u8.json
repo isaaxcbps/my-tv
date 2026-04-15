@@ -119,10 +119,31 @@
     "tipo": "m3u8"
   },
   {
+    "id": 130,
+    "nombre": "AMC OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/42.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 131,
+    "nombre": "Atreseries",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Atreseries_logo.svg/512px-Atreseries_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/44.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 3,
     "nombre": "AXN",
     "logo": "https://yt3.googleusercontent.com/a70_uxHhHZQ_vwFfMALDjfnXuZiusm-6rxz6sH8jSl4uPLeU1NSFfHReTq3otUEl7dFrfTdRyg=s900-c-k-c0x00ffffff-no-rj",
     "url": "http://200.69.92.222:8000/play/a01v/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 112,
+    "nombre": "AXN OPC 2",
+    "logo": "https://yt3.googleusercontent.com/a70_uxHhHZQ_vwFfMALDjfnXuZiusm-6rxz6sH8jSl4uPLeU1NSFfHReTq3otUEl7dFrfTdRyg=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/10.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -133,10 +154,31 @@
     "tipo": "m3u8"
   },
   {
+    "id": 152,
+    "nombre": "Cinecanal Ingles",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cinecanal_1995.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/17.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 14,
     "nombre": "CINEMAX",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2iiBs5y6iILfy6Z5TveXNQnrLGOtxeGi6Q&s",
     "url": "http://200.69.92.222:8000/play/a01t/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 114,
+    "nombre": "Cine Familiar",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cinecanal_1995.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/14.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 113,
+    "nombre": "Cine Premium",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cinecanal_1995.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/16.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -147,10 +189,10 @@
     "tipo": "m3u8"
   },
   {
-    "id": 88,
-    "nombre": "DISTRITO COMEDIA",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png",
-    "url": "http://38.49.128.38:8000/play/a0ou/index.m3u8",
+    "id": 115,
+    "nombre": "DHE OPC 2",
+    "logo": "https://logowik.com/content/uploads/images/canal-dhe5540.logowik.com.webp",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/19.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -158,6 +200,13 @@
     "nombre": "E Entertainment",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSblkD0MJs0Kgtyk3Jk1JtVtGhAujhftLp8CA&s",
     "url": "http://200.69.92.222:8000/play/a02j/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 111,
+    "nombre": "Film&Arts",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Film_and_Arts.svg/512px-Film_and_Arts.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/29.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -196,6 +245,13 @@
     "tipo": "m3u8"
   },
   {
+    "id": 121,
+    "nombre": "HBO OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/32.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 57,
     "nombre": "HBO FAMILY",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png",
@@ -203,10 +259,24 @@
     "tipo": "m3u8"
   },
   {
+    "id": 120,
+    "nombre": "HBO FAMILY OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/31.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 58,
     "nombre": "HBO MUNDI",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1280px-HBO_Mundi.svg.png",
     "url": "http://181.13.252.102:8000/play/a02a/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 122,
+    "nombre": "HBO MUNDI OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1280px-HBO_Mundi.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/33.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -224,10 +294,31 @@
     "tipo": "m3u8"
   },
   {
+    "id": 125,
+    "nombre": "HBO PLUS OPC 3",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/36.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 123,
+    "nombre": "HBO SIGNATURE",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/HBO_Signature_logo.svg/512px-HBO_Signature_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/34.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 71,
     "nombre": "HBO XTREME",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
     "url": "http://200.229.147.142:8000/play/a00t/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 124,
+    "nombre": "HBO XTREME OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logohboplus2019.svg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/35.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -238,10 +329,10 @@
     "tipo": "m3u8"
   },
   {
-    "id": 78,
-    "nombre": "MEGACINE TV",
-    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/2893-800x450-FFFFFF.jpg",
-    "url": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
+    "id": 119,
+    "nombre": "HBO2 OPC 2",
+    "logo": "",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/30.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -287,10 +378,24 @@
     "tipo": "m3u8"
   },
   {
+    "id": 133,
+    "nombre": "Sony OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/49.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 40,
     "nombre": "Space",
     "logo": "https://cdn.mitvstatic.com/channels/cc5e7deb-89a9-4b94-b942-68a7ae0b935d_m.jpg",
     "url": "http://200.69.92.222:8000/play/a02p/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 134,
+    "nombre": "Space OPC 2",
+    "logo": "https://cdn.mitvstatic.com/channels/cc5e7deb-89a9-4b94-b942-68a7ae0b935d_m.jpg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/50.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -301,10 +406,31 @@
     "tipo": "m3u8"
   },
   {
+    "id": 135,
+    "nombre": "STAR CHANNEL OPC 2",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-HfSxorCeBTQY7tZP4Sih0J19BtsybFARw&s",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/51.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 136,
+    "nombre": "Studio Universal",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Studio_Universal_logo_2015.svg/512px-Studio_Universal_logo_2015.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/53.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 41,
     "nombre": "TCM",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHoOjTNGUtO_K42lAgwKX0erpkLz2QBRnlAg&s",
     "url": "http://200.69.92.222:8000/play/a00c/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 137,
+    "nombre": "Telemundo Internacional",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Telemundo_logo.svg/512px-Telemundo_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/54.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -315,6 +441,13 @@
     "tipo": "m3u8"
   },
   {
+    "id": 138,
+    "nombre": "TNT OPC 2",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzIc39ztdkEcHh08IgGcyjfRz3EOO7HyMCYg&s",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/56.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 44,
     "nombre": "TNT Novelas",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/250px-Logo_TNT_Novelas.png",
@@ -322,10 +455,45 @@
     "tipo": "m3u8"
   },
   {
+    "id": 139,
+    "nombre": "TNT Novelas OPC 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/250px-Logo_TNT_Novelas.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/57.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 45,
     "nombre": "Universal",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Universal_Pictures_logo.svg",
     "url": "http://200.69.92.222:8000/play/a007/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 140,
+    "nombre": "Universal Cinema",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Universal_Cinema_logo.svg/512px-Universal_Cinema_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/61.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 141,
+    "nombre": "Universal Comedy",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Universal_Pictures_logo.svg/512px-Universal_Pictures_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/62.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 142,
+    "nombre": "Universal Crime",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Universal_Pictures_logo.svg/512px-Universal_Pictures_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/63.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 143,
+    "nombre": "Universal Premiere",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Universal_Pictures_logo.svg/512px-Universal_Pictures_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/64.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -350,213 +518,10 @@
     "tipo": "m3u8"
   },
   {
-    "id": 28,
-    "nombre": "ESPN",
-    "logo": "https://m.media-amazon.com/images/I/41lChb5Q+KL.png",
-    "url": "http://200.69.92.222:8000/play/a01n/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 23,
-    "nombre": "ESPN 2 HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkr2RzuQwTckHKkKyRG6lJD-RyjurAfRqxQ&s",
-    "url": "http://200.69.92.222:8000/play/a04z/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 24,
-    "nombre": "ESPN 3",
-    "logo": "https://e7.pngegg.com/pngimages/20/364/png-clipart-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-thumbnail.png",
-    "url": "http://181.119.97.124:8080/play/a003/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 25,
-    "nombre": "ESPN 4",
-    "logo": "https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/61a4c896fc740bb1476f0225_LOGO_ESPN4%5B2%5D.png",
-    "url": "http://200.69.92.222:8000/play/a03s/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 26,
-    "nombre": "ESPN 5",
-    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png",
-    "url": "http://200.69.92.222:8000/play/a050/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 27,
-    "nombre": "ESPN 6",
-    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png",
-    "url": "http://200.69.92.222:8000/play/a04y/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 67,
-    "nombre": "RED BULL TV",
-    "logo": "https://cdn.freebiesupply.com/logos/large/2x/red-bull-tv-logo-svg-vector.svg",
-    "url": "http://jmp2.uk/stvp-ES3800001V1",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 66,
-    "nombre": "UFC",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
-    "url": "http://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 83,
-    "nombre": "UFC OPC2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
-    "url": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 47,
-    "nombre": "WIN SPORTS",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Win_Sports_nuevo_logo.svg",
-    "url": "http://200.69.92.222:8000/play/a02l/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 5,
-    "nombre": "BabyFirst",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_xG-4O-jkEmPfWi8AAFlASMSu6qN_sl6ew&s",
-    "url": "http://200.69.92.222:8000/play/a00k/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 12,
-    "nombre": "Cartoon Network",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
-    "url": "http://38.199.4.105:9999/play/a02m/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 89,
-    "nombre": "Cartoon Network OPC2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
-    "url": "http://38.49.128.38:8000/play/a0c0/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 18,
-    "nombre": "Discovery Kids",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Discovery_kids_logo.png",
-    "url": "http://200.69.92.222:8000/play/a00t/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 20,
-    "nombre": "Disney Channel",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
-    "url": "http://200.69.92.222:8000/play/a00v/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 21,
-    "nombre": "Disney Jr",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png",
-    "url": "http://200.69.92.222:8000/play/a027/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 36,
-    "nombre": "Nickelodeon",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
-    "url": "http://200.69.92.222:8000/play/a003/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 86,
-    "nombre": "Nickelodeon OPC2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
-    "url": "http://45.181.122.46:8090/play/a00m/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 62,
-    "nombre": "PAKAPAKA",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Pakapaka_canal_logo.svg/330px-Pakapaka_canal_logo.svg.png",
-    "url": "http://181.13.252.102:8000/play/a01n/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 4,
-    "nombre": "Animal Planet",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsw9axLeQ5zieHsRvvR7niCVbDaTBBXzUuQ&s",
-    "url": "http://200.69.92.222:8000/play/a04l/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 16,
-    "nombre": "Discovery Channel",
-    "logo": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
-    "url": "http://200.69.92.222:8000/play/a04k/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 17,
-    "nombre": "Discovery ID",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40uBOm6KmhbgFJp_-vkejqFYbMobsXCU08w&s",
-    "url": "http://200.69.92.222:8000/play/a01c/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 55,
-    "nombre": "Discovery Science",
-    "logo": "https://cdn.mitvstatic.com/channels/co_discovery-science_m.png",
-    "url": "http://181.13.252.102:8000/play/a02k/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 19,
-    "nombre": "Discovery Turbo",
-    "logo": "https://yt3.googleusercontent.com/eDHY0vlnfXo54zY9mzT19nGFu3-3KBPv6dghDLj0WyMVxGSgD8UozY75YY85mV8DPQnm0QSrV6I=s900-c-k-c0x00ffffff-no-rj",
-    "url": "http://200.69.92.222:8000/play/a024/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 56,
-    "nombre": "Discovery World",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1280px-World_Discovery_HD_logo.svg.png",
-    "url": "http://181.13.252.102:8000/play/a031/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 31,
-    "nombre": "History Channel",
-    "logo": "https://yt3.googleusercontent.com/WRT3nzkXXvD7CYXS2p_6pEZpPL9g2gJfOAFE-f0PTMawVdXJhaXvoIXpVOeb6qAlSENwfzVvMnQ=s900-c-k-c0x00ffffff-no-rj",
-    "url": "http://200.229.147.142:8000/play/a01o/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 61,
-    "nombre": "HISTORY 2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png",
-    "url": "http://181.13.252.102:8000/play/a0ab/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 32,
-    "nombre": "Home and Health",
-    "logo": "https://yt3.googleusercontent.com/R33Z3-eEVSYxQKLcBN09yc7oKwk2SSfSIH1GDzzNaD-Fgfx4y5vYR_DF5X1KDVvDE71vJHD6Eg=s900-c-k-c0x00ffffff-no-rj",
-    "url": "http://200.69.92.222:8000/play/a01e/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 33,
-    "nombre": "Love Nature",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWnS4GhPhppLXBEGFZbvz2tTCoywpP9Zqt7w&s",
-    "url": "http://200.69.92.222:8000/play/a03d/index.m3u8",
-    "tipo": "m3u8"
-  },
-  {
-    "id": 35,
-    "nombre": "National Geographic",
-    "logo": "https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600",
-    "url": "http://200.69.92.222:8000/play/a04m/index.m3u8",
+    "id": 144,
+    "nombre": "Warner OPC 2",
+    "logo": "https://cdn.mitvstatic.com/channels/5987c5e2-c512-4b15-9225-006e0d6d7737_m.jpg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/68.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -574,10 +539,45 @@
     "tipo": "m3u8"
   },
   {
+    "id": 117,
+    "nombre": "Cucinare",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Cucinare_logo.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/23.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 88,
+    "nombre": "DISTRITO COMEDIA",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png",
+    "url": "http://38.49.128.38:8000/play/a0ou/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 151,
+    "nombre": "DW Español",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/DW_logo.svg/512px-DW_logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/102.m3u8",
+    "tipo": "m3u8"
+  },
+  {
     "id": 29,
     "nombre": "EWTN",
     "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
     "url": "http://200.69.92.222:8000/play/a04t/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 32,
+    "nombre": "Home and Health",
+    "logo": "https://yt3.googleusercontent.com/R33Z3-eEVSYxQKLcBN09yc7oKwk2SSfSIH1GDzzNaD-Fgfx4y5vYR_DF5X1KDVvDE71vJHD6Eg=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a01e/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 127,
+    "nombre": "Home and Health OPC 2",
+    "logo": "https://yt3.googleusercontent.com/R33Z3-eEVSYxQKLcBN09yc7oKwk2SSfSIH1GDzzNaD-Fgfx4y5vYR_DF5X1KDVvDE71vJHD6Eg=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8",
     "tipo": "m3u8"
   },
   {
@@ -732,6 +732,307 @@
     "nombre": "SERIES ACCION 24H",
     "logo": "https://images.pluto.tv/channels/6479ff1c17f5e10008ad2797/featuredImage.jpg",
     "url": "https://jmp2.uk/plu-6479ff1c17f5e10008ad2797.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 28,
+    "nombre": "ESPN",
+    "logo": "https://m.media-amazon.com/images/I/41lChb5Q+KL.png",
+    "url": "http://200.69.92.222:8000/play/a01n/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 147,
+    "nombre": "ESPN OPC 2",
+    "logo": "https://m.media-amazon.com/images/I/41lChb5Q+KL.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/89.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 23,
+    "nombre": "ESPN 2 HD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkr2RzuQwTckHKkKyRG6lJD-RyjurAfRqxQ&s",
+    "url": "http://200.69.92.222:8000/play/a04z/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 146,
+    "nombre": "ESPN 2 HD OPC 2",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMkr2RzuQwTckHKkKyRG6lJD-RyjurAfRqxQ&s",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/88.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 24,
+    "nombre": "ESPN 3",
+    "logo": "https://e7.pngegg.com/pngimages/20/364/png-clipart-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-thumbnail.png",
+    "url": "http://181.119.97.124:8080/play/a003/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 148,
+    "nombre": "ESPN 3 OPC 2",
+    "logo": "https://e7.pngegg.com/pngimages/20/364/png-clipart-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-thumbnail.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/90.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 25,
+    "nombre": "ESPN 4",
+    "logo": "https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/61a4c896fc740bb1476f0225_LOGO_ESPN4%5B2%5D.png",
+    "url": "http://200.69.92.222:8000/play/a03s/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 149,
+    "nombre": "ESPN 4 OPC 2",
+    "logo": "https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/61a4c896fc740bb1476f0225_LOGO_ESPN4%5B2%5D.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/91.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 26,
+    "nombre": "ESPN 5",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png",
+    "url": "http://200.69.92.222:8000/play/a050/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 150,
+    "nombre": "ESPN 5 OPC 2",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/92.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 27,
+    "nombre": "ESPN 6",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png",
+    "url": "http://200.69.92.222:8000/play/a04y/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 118,
+    "nombre": "ESPN 6 OPC 2",
+    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/25.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 110,
+    "nombre": "ESPN 7",
+    "logo": "https://m.media-amazon.com/images/I/41lChb5Q+KL.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/26.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 67,
+    "nombre": "RED BULL TV",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/red-bull-tv-logo-svg-vector.svg",
+    "url": "http://jmp2.uk/stvp-ES3800001V1",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 145,
+    "nombre": "TNT Sports",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/TNT_Sports_Logo.svg/512px-TNT_Sports_Logo.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 66,
+    "nombre": "UFC",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
+    "url": "http://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 83,
+    "nombre": "UFC OPC2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",
+    "url": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 47,
+    "nombre": "WIN SPORTS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Win_Sports_nuevo_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a02l/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 5,
+    "nombre": "BabyFirst",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_xG-4O-jkEmPfWi8AAFlASMSu6qN_sl6ew&s",
+    "url": "http://200.69.92.222:8000/play/a00k/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 12,
+    "nombre": "Cartoon Network",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
+    "url": "http://38.199.4.105:9999/play/a02m/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 89,
+    "nombre": "Cartoon Network OPC2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
+    "url": "http://38.49.128.38:8000/play/a0c0/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 18,
+    "nombre": "Discovery Kids",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Discovery_kids_logo.png",
+    "url": "http://200.69.92.222:8000/play/a00t/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 20,
+    "nombre": "Disney Channel",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
+    "url": "http://200.69.92.222:8000/play/a00v/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 21,
+    "nombre": "Disney Jr",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png",
+    "url": "http://200.69.92.222:8000/play/a027/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 36,
+    "nombre": "Nickelodeon",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
+    "url": "http://200.69.92.222:8000/play/a003/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 86,
+    "nombre": "Nickelodeon OPC2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
+    "url": "http://45.181.122.46:8090/play/a00m/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 62,
+    "nombre": "PAKAPAKA",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Pakapaka_canal_logo.svg/330px-Pakapaka_canal_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a01n/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 4,
+    "nombre": "Animal Planet",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsw9axLeQ5zieHsRvvR7niCVbDaTBBXzUuQ&s",
+    "url": "http://200.69.92.222:8000/play/a04l/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 16,
+    "nombre": "Discovery Channel",
+    "logo": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
+    "url": "http://200.69.92.222:8000/play/a04k/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 109,
+    "nombre": "Discovery Channel OPC 2",
+    "logo": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/17.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 128,
+    "nombre": "Discovery Channel OPC 3",
+    "logo": "https://brandemia.org/sites/default/files/inline/images/discovery_logo_antes.jpg",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/40.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 17,
+    "nombre": "Discovery ID",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40uBOm6KmhbgFJp_-vkejqFYbMobsXCU08w&s",
+    "url": "http://200.69.92.222:8000/play/a01c/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 129,
+    "nombre": "Discovery ID OPC 2",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40uBOm6KmhbgFJp_-vkejqFYbMobsXCU08w&s",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 55,
+    "nombre": "Discovery Science",
+    "logo": "https://cdn.mitvstatic.com/channels/co_discovery-science_m.png",
+    "url": "http://181.13.252.102:8000/play/a02k/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 116,
+    "nombre": "Discovery Theater",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Discovery_Theater.svg/512px-Discovery_Theater.svg.png",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/21.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 19,
+    "nombre": "Discovery Turbo",
+    "logo": "https://yt3.googleusercontent.com/eDHY0vlnfXo54zY9mzT19nGFu3-3KBPv6dghDLj0WyMVxGSgD8UozY75YY85mV8DPQnm0QSrV6I=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.69.92.222:8000/play/a024/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 56,
+    "nombre": "Discovery World",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1280px-World_Discovery_HD_logo.svg.png",
+    "url": "http://181.13.252.102:8000/play/a031/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 31,
+    "nombre": "History Channel",
+    "logo": "https://yt3.googleusercontent.com/WRT3nzkXXvD7CYXS2p_6pEZpPL9g2gJfOAFE-f0PTMawVdXJhaXvoIXpVOeb6qAlSENwfzVvMnQ=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://200.229.147.142:8000/play/a01o/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 126,
+    "nombre": "History Channel OPC 2",
+    "logo": "https://yt3.googleusercontent.com/WRT3nzkXXvD7CYXS2p_6pEZpPL9g2gJfOAFE-f0PTMawVdXJhaXvoIXpVOeb6qAlSENwfzVvMnQ=s900-c-k-c0x00ffffff-no-rj",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 61,
+    "nombre": "HISTORY 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png",
+    "url": "http://181.13.252.102:8000/play/a0ab/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 33,
+    "nombre": "Love Nature",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWnS4GhPhppLXBEGFZbvz2tTCoywpP9Zqt7w&s",
+    "url": "http://200.69.92.222:8000/play/a03d/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 35,
+    "nombre": "National Geographic",
+    "logo": "https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600",
+    "url": "http://200.69.92.222:8000/play/a04m/index.m3u8",
+    "tipo": "m3u8"
+  },
+  {
+    "id": 132,
+    "nombre": "National Geographic OPC 2",
+    "logo": "https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/45.m3u8",
     "tipo": "m3u8"
   }
 ]
