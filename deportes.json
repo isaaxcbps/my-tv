@@ -1,100 +1,17 @@
 [
   {
-    "hora": "13:45",
-    "titulo": "Serie A: Inter vs Cagliari",
-    "url": "https://streamx550.com/global1.php?channel=disney5",
+    "hora": "19:00",
+    "titulo": " UFC: Gilberto Burns vs Mike Malott",
+    "url": "https://streamx550.com/global1.php?channel=paramount1",
     "categoria": "PPV",
     "estado": "vivo"
   },
   {
-    "hora": "13:45",
-    "titulo": "Serie A: Inter vs Cagliari",
-    "url": "https://streamx550.com/global1.php?channel=espn",
+    "hora": "19:00",
+    "titulo": " UFC: Gilberto Burns vs Mike Malott OPC2",
+    "url": "https://streamx550.com/global1.php?channel=paramount2",
     "categoria": "PPV",
     "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: Lens vs Toulouse",
-    "url": "https://streamx550.com/global1.php?channel=disney6",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: Lens vs Toulouse",
-    "url": "https://streamx550.com/global1.php?channel=espn3",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "13:45",
-    "titulo": "Ligue 1: Lens vs Toulouse",
-    "url": "https://streamx550.com/global1.php?channel=foxone1",
-    "categoria": "PPV",
-    "estado": "vivo"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "LaLiga 2: Las Palmas vs Leganés",
-    "url": "https://streamx339.cloud/global1.php?channel=hyper1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Championship: Blackburn Rovers vs Coventry City",
-    "url": "https://streamx550.com/global1.php?channel=disney7",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "14:00",
-    "titulo": "Championship: Blackburn Rovers vs Coventry City",
-    "url": "https://streamx550.com/global1.php?channel=espn5",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "15:00",
-    "titulo": "Liga 1: Los Chankas vs Atlético Grau",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz1",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "15:00",
-    "titulo": "Copa de Primera: Sportivo Trinidense vs Sportivo San Lorenzo",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:00",
-    "titulo": "Liga BetPlay: Boyacá Chicó vs Deportivo Cali",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz3",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:00",
-    "titulo": "Liga BetPlay: Boyacá Chicó vs Deportivo Cali",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:00",
-    "titulo": "Liga BetPlay: Boyacá Chicó vs Deportivo Cali",
-    "url": "https://streamx339.cloud/global1.php?channel=winplus2",
-    "categoria": "PPV",
-    "estado": "pronto"
-  },
-  {
-    "hora": "16:00",
-    "titulo": "Liga BetPlay: Jaguares de Córdoba vs Deportivo Pasto",
-    "url": "https://streamx550.com/global1.php?channel=fanatiz4",
-    "categoria": "PPV",
-    "estado": "pronto"
   }
+  
 ]
