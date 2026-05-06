@@ -1,24 +1,93 @@
 [
   {
-    "hora": "19:00",
-    "titulo": " UFC: Gilberto Burns vs Mike Malott",
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=disney1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=foxone1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=fox1ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=tudnus",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
+    "url": "https://streamx550.com/global1.php?channel=max1",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "14:00",
+    "titulo": "UEFA Champions League: Bayern München vs PSG",
     "url": "https://streamx550.com/global1.php?channel=paramount1",
     "categoria": "PPV",
-    "estado": "vivo"
+    "estado": "pronto"
   },
   {
-    "hora": "19:00",
-    "titulo": " UFC: Gilberto Burns vs Mike Malott OPC2",
-    "url": "https://streamx550.com/global1.php?channel=paramount2",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cusco vs Estudiantes LP",
+    "url": "https://streamx550.com/global1.php?channel=disney2",
     "categoria": "PPV",
-    "estado": "vivo"
+    "estado": "pronto"
   },
   {
-    "hora": "19:00",
-    "titulo": "BARCELONA SC VS MANTA",
-    "url": "https://www.capoplay.net/canal19.php",
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cusco vs Estudiantes LP",
+    "url": "https://streamx550.com/global1.php?channel=fanatiz1",
     "categoria": "PPV",
-    "estado": "vivo"
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cusco vs Estudiantes LP",
+    "url": "https://streamx550.com/global1.php?channel=fox1ar",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cusco vs Estudiantes LP",
+    "url": "https://streamx550.com/global1.php?channel=espn",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Cusco vs Estudiantes LP",
+    "url": "https://streamx550.com/global1.php?channel=espn2mx",
+    "categoria": "PPV",
+    "estado": "pronto"
+  },
+  {
+    "hora": "17:00",
+    "titulo": "Copa Libertadores: Deportivo La Guaira vs Bolívar",
+    "url": "https://streamx550.com/global1.php?channel=disney3",
+    "categoria": "PPV",
+    "estado": "pronto"
   }
- 
 ]
