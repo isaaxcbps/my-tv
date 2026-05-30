@@ -1,65 +1,38 @@
+JSON
 [
   {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/ott.php?id=la1spain",
-    "categoria": "Spanish",
+    "hora": "18:30",
+    "titulo": "Amistoso Internacional: Ecuador vs Arabia Saudita",
+    "url": "https://streamx741.com/global1.php?channel=fana",
+    "categoria": "",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "18:30",
+    "titulo": "Amistoso Internacional: Ecuador vs Arabia Saudita",
+    "url": "https://streamx741.com/ott.php?id=sportsdigital",
+    "categoria": "",
+    "estado": "en vivo"
+  },
+  {
+    "hora": "19:00",
+    "titulo": "Copa de Campeones de la Concacaf: Toluca vs Tigres UANL - Final",
+    "url": "https://streamx741.com/global1.php?channel=disn",
+    "categoria": "",
     "estado": "pronto"
   },
   {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/ott.php?id=tnt1uk",
-    "categoria": "English",
+    "hora": "19:00",
+    "titulo": "Copa de Campeones de la Concacaf: Toluca vs Tigres UANL - Final",
+    "url": "https://streamx741.com/global1.php?channel=foxo",
+    "categoria": "",
     "estado": "pronto"
   },
   {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=foxone1",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=max1",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=disney3",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=espn",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=fox1ar",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=tudnus",
-    "categoria": "Spanish",
-    "estado": "pronto"
-  },
-  {
-    "hora": "11:00",
-    "titulo": "UEFA Champions League: PSG vs Arsenal - Final",
-    "url": "https://streamx741.com/global1.php?channel=paramount1",
-    "categoria": "English",
+    "hora": "19:00",
+    "titulo": "Copa de Campeones de la Concacaf: Toluca vs Tigres UANL - Final",
+    "url": "https://streamx741.com/global1.php?channel=tudn",
+    "categoria": "",
     "estado": "pronto"
   }
 ]
